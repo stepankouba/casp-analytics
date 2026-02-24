@@ -6,7 +6,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const DATA_DIR = join(ROOT, 'data');
 const CACHE_DIR = join(__dirname, 'cache');
-const DIST_DIR = join(ROOT, 'dist', 'data');
+const DIST_DIR = join(ROOT, 'docs', 'data');
 
 // ── Service reference ──────────────────────────────────────────────────────
 const SERVICES_REFERENCE = {
@@ -168,7 +168,7 @@ function main() {
   writeFileSync(join(DIST_DIR, 'app.json'), jsonStr, 'utf-8');
 
   const sizeKB = Math.round(Buffer.byteLength(jsonStr) / 1024);
-  console.log(`\n💾 Written to dist/data/app.json (${sizeKB} KB)`);
+  console.log(`\n💾 Written to docs/data/app.json (${sizeKB} KB)`);
 }
 
 main();

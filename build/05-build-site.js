@@ -5,7 +5,7 @@ import { dirname, join } from 'node:path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const SRC_DIR = join(ROOT, 'src');
-const DIST_DIR = join(ROOT, 'dist');
+const DIST_DIR = join(ROOT, 'docs');
 
 function main() {
   // Ensure dist exists
@@ -31,7 +31,7 @@ function main() {
     }
   }
 
-  console.log(`\n✅ Static site built to dist/`);
+  console.log(`\n✅ Static site built to docs/`);
   console.log(`   Run "npm run dev" to start local server`);
 }
 
