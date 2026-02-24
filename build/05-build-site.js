@@ -1,0 +1,38 @@
+import { cpSync, mkdirSync, existsSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
+import { dirname, join } from 'node:path';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(__dirname, '..');
+const SRC_DIR = join(ROOT, 'src');
+const DIST_DIR = join(ROOT, 'dist');
+
+function main() {
+  // Ensure dist exists
+  mkdirSync(DIST_DIR, { recursive: true });
+
+  // Verify app.json exists
+  const appJson = join(DIST_DIR, 'data', 'app.json');
+  if (!existsSync(appJson)) {
+    console.error('❌ dist/data/app.json not found. Run npm run build:merge first.');
+    process.exit(1);
+  }
+
+  // Copy src files to dist
+  const files = ['index.html', 'app.js', 'charts.js', 'filters.js', 'styles.css'];
+  for (const file of files) {
+    const src = join(SRC_DIR, file);
+    const dst = join(DIST_DIR, file);
+    if (existsSync(src)) {
+      cpSync(src, dst);
+      console.log(`   📄 ${file}`);
+    } else {
+      console.warn(`   ⚠️  ${file} not found in src/`);
+    }
+  }
+
+  console.log(`\n✅ Static site built to dist/`);
+  console.log(`   Run "npm run dev" to start local server`);
+}
+
+main();

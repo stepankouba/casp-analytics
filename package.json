@@ -1,0 +1,29 @@
+{
+  "name": "mica-casp-analytics",
+  "version": "1.0.0",
+  "description": "MiCA CASP Analytics — Interactive analysis of EU crypto-regulation landscape",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:parse": "node build/01-parse-normalize.js",
+    "build:scrape": "node build/02-scrape-websites.js",
+    "build:classify": "node build/03-llm-classify.js",
+    "build:merge": "node build/04-merge-data.js",
+    "build:site": "node build/05-build-site.js",
+    "build:data": "npm run build:parse && npm run build:scrape && npm run build:classify && npm run build:merge",
+    "build": "npm run build:data && npm run build:site",
+    "dev": "npx serve dist",
+    "clean:cache": "rm -rf build/cache/*.json build/cache/*.log"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.74.0",
+    "cheerio": "^1.0.0",
+    "csv-parse": "^5.6.0",
+    "dotenv": "^17.3.1",
+    "p-limit": "^6.2.0",
+    "robots-parser": "^3.0.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}

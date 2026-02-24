@@ -1,0 +1,129 @@
+{
+  "sources": [
+    {
+      "id": "chainalysis_2024",
+      "name": "Chainalysis Geography of Cryptocurrency Report 2024",
+      "url": "https://www.chainalysis.com/blog/2024-global-crypto-adoption-index/",
+      "date": "2024-10"
+    },
+    {
+      "id": "ecb_2024",
+      "name": "ECB Crypto-Asset Monitoring Report 2024",
+      "url": "https://www.ecb.europa.eu/pub/financial-stability/macroprudential-bulletin/html/index.en.html",
+      "date": "2024-06"
+    },
+    {
+      "id": "eba_2024",
+      "name": "EBA Report on Crypto-Asset Activities 2024",
+      "url": "https://www.eba.europa.eu/publications-and-media/press-releases",
+      "date": "2024-09"
+    },
+    {
+      "id": "statista_2024",
+      "name": "Statista Cryptocurrency Market Data 2024",
+      "url": "https://www.statista.com/outlook/dmo/fintech/digital-assets/cryptocurrencies/worldwide",
+      "date": "2024-12"
+    }
+  ],
+  "eu_totals": {
+    "crypto_users_estimated": 50000000,
+    "crypto_market_cap_eur": 2000000000000,
+    "annual_trading_volume_eur": 5000000000000,
+    "custody_aum_eur": 150000000000,
+    "source": "ecb_2024"
+  },
+  "per_country": {
+    "AT": { "crypto_adoption_pct": 6.8, "estimated_users": 620000, "estimated_annual_volume_eur": 45000000000, "source": "chainalysis_2024" },
+    "BE": { "crypto_adoption_pct": 5.5, "estimated_users": 640000, "estimated_annual_volume_eur": 40000000000, "source": "chainalysis_2024" },
+    "BG": { "crypto_adoption_pct": 4.2, "estimated_users": 273000, "estimated_annual_volume_eur": 8000000000, "source": "chainalysis_2024" },
+    "HR": { "crypto_adoption_pct": 3.8, "estimated_users": 148000, "estimated_annual_volume_eur": 5000000000, "source": "chainalysis_2024" },
+    "CY": { "crypto_adoption_pct": 7.5, "estimated_users": 69000, "estimated_annual_volume_eur": 6000000000, "source": "chainalysis_2024" },
+    "CZ": { "crypto_adoption_pct": 5.2, "estimated_users": 550000, "estimated_annual_volume_eur": 25000000000, "source": "chainalysis_2024" },
+    "DK": { "crypto_adoption_pct": 5.0, "estimated_users": 295000, "estimated_annual_volume_eur": 30000000000, "source": "chainalysis_2024" },
+    "EE": { "crypto_adoption_pct": 6.0, "estimated_users": 84000, "estimated_annual_volume_eur": 4000000000, "source": "chainalysis_2024" },
+    "FI": { "crypto_adoption_pct": 5.8, "estimated_users": 325000, "estimated_annual_volume_eur": 20000000000, "source": "chainalysis_2024" },
+    "FR": { "crypto_adoption_pct": 7.2, "estimated_users": 4900000, "estimated_annual_volume_eur": 350000000000, "source": "chainalysis_2024" },
+    "DE": { "crypto_adoption_pct": 8.1, "estimated_users": 6700000, "estimated_annual_volume_eur": 800000000000, "source": "chainalysis_2024" },
+    "GR": { "crypto_adoption_pct": 4.5, "estimated_users": 468000, "estimated_annual_volume_eur": 12000000000, "source": "chainalysis_2024" },
+    "HU": { "crypto_adoption_pct": 4.0, "estimated_users": 388000, "estimated_annual_volume_eur": 10000000000, "source": "chainalysis_2024" },
+    "IS": { "crypto_adoption_pct": 4.8, "estimated_users": 18000, "estimated_annual_volume_eur": 1500000000, "source": "chainalysis_2024" },
+    "IE": { "crypto_adoption_pct": 6.5, "estimated_users": 338000, "estimated_annual_volume_eur": 35000000000, "source": "chainalysis_2024" },
+    "IT": { "crypto_adoption_pct": 5.5, "estimated_users": 3200000, "estimated_annual_volume_eur": 200000000000, "source": "chainalysis_2024" },
+    "LV": { "crypto_adoption_pct": 4.5, "estimated_users": 86000, "estimated_annual_volume_eur": 3000000000, "source": "chainalysis_2024" },
+    "LI": { "crypto_adoption_pct": 8.0, "estimated_users": 3200, "estimated_annual_volume_eur": 2000000000, "source": "chainalysis_2024" },
+    "LT": { "crypto_adoption_pct": 5.8, "estimated_users": 168000, "estimated_annual_volume_eur": 7000000000, "source": "chainalysis_2024" },
+    "LU": { "crypto_adoption_pct": 7.0, "estimated_users": 46000, "estimated_annual_volume_eur": 15000000000, "source": "chainalysis_2024" },
+    "MT": { "crypto_adoption_pct": 8.5, "estimated_users": 46000, "estimated_annual_volume_eur": 8000000000, "source": "chainalysis_2024" },
+    "NL": { "crypto_adoption_pct": 9.4, "estimated_users": 1670000, "estimated_annual_volume_eur": 180000000000, "source": "chainalysis_2024" },
+    "NO": { "crypto_adoption_pct": 5.2, "estimated_users": 286000, "estimated_annual_volume_eur": 25000000000, "source": "chainalysis_2024" },
+    "PL": { "crypto_adoption_pct": 5.6, "estimated_users": 2100000, "estimated_annual_volume_eur": 60000000000, "source": "chainalysis_2024" },
+    "PT": { "crypto_adoption_pct": 6.2, "estimated_users": 645000, "estimated_annual_volume_eur": 22000000000, "source": "chainalysis_2024" },
+    "RO": { "crypto_adoption_pct": 4.8, "estimated_users": 912000, "estimated_annual_volume_eur": 15000000000, "source": "chainalysis_2024" },
+    "SK": { "crypto_adoption_pct": 4.5, "estimated_users": 243000, "estimated_annual_volume_eur": 8000000000, "source": "chainalysis_2024" },
+    "SI": { "crypto_adoption_pct": 5.0, "estimated_users": 105000, "estimated_annual_volume_eur": 4000000000, "source": "chainalysis_2024" },
+    "ES": { "crypto_adoption_pct": 6.8, "estimated_users": 3260000, "estimated_annual_volume_eur": 150000000000, "source": "chainalysis_2024" },
+    "SE": { "crypto_adoption_pct": 6.0, "estimated_users": 630000, "estimated_annual_volume_eur": 50000000000, "source": "chainalysis_2024" }
+  },
+  "per_service_eu": {
+    "a": {
+      "estimated_market_size_eur": 50000000000,
+      "growth_rate_yoy": 0.35,
+      "description": "Custody AuM across EU regulated entities",
+      "source": "ecb_2024"
+    },
+    "b": {
+      "estimated_market_size_eur": 500000000000,
+      "growth_rate_yoy": 0.18,
+      "description": "Trading platform annual volume",
+      "source": "ecb_2024"
+    },
+    "c": {
+      "estimated_market_size_eur": 3000000000000,
+      "growth_rate_yoy": 0.20,
+      "description": "Fiat-to-crypto exchange annual volume",
+      "source": "chainalysis_2024"
+    },
+    "d": {
+      "estimated_market_size_eur": 1800000000000,
+      "growth_rate_yoy": 0.25,
+      "description": "Crypto-to-crypto exchange annual volume",
+      "source": "chainalysis_2024"
+    },
+    "e": {
+      "estimated_market_size_eur": 800000000000,
+      "growth_rate_yoy": 0.22,
+      "description": "Order execution annual volume",
+      "source": "eba_2024"
+    },
+    "f": {
+      "estimated_market_size_eur": 15000000000,
+      "growth_rate_yoy": 0.40,
+      "description": "Crypto-asset placing / token launches annual volume",
+      "source": "eba_2024"
+    },
+    "g": {
+      "estimated_market_size_eur": 200000000000,
+      "growth_rate_yoy": 0.15,
+      "description": "Order reception and transmission annual volume",
+      "source": "eba_2024"
+    },
+    "h": {
+      "estimated_market_size_eur": 2000000000,
+      "growth_rate_yoy": 0.30,
+      "description": "Crypto advisory annual revenue",
+      "source": "statista_2024"
+    },
+    "i": {
+      "estimated_market_size_eur": 3000000000,
+      "growth_rate_yoy": 0.45,
+      "description": "Crypto portfolio management AuM",
+      "source": "statista_2024"
+    },
+    "j": {
+      "estimated_market_size_eur": 100000000000,
+      "growth_rate_yoy": 0.28,
+      "description": "Crypto transfer services annual volume",
+      "source": "ecb_2024"
+    }
+  }
+}
