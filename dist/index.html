@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiCA CASP Analytics Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <!-- GA4 — production only -->
+  <script>
+    window.GA_ID = 'G-5RHGRL5X3F'; 
+    if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + window.GA_ID;
+      document.head.appendChild(s);
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', window.GA_ID);
+    } else {
+      window.gtag = function() {};
+    }
+  </script>
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <h1>MiCA MAP (CASP Analytics Dashboard)</h1>
+      <div class="header-meta" id="headerMeta"></div>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="overview">Overview</button>
+    <button class="tab" data-tab="country">Country View</button>
+    <button class="tab" data-tab="explorer">CASP Explorer</button>
+    <button class="tab" data-tab="market">Market Sizing</button>
+  </nav>
+
+  <main class="main">
+    <!-- ═══════════ TAB 1: OVERVIEW ═══════════ -->
+    <section id="tab-overview" class="tab-content active">
+      <div class="kpi-row" id="overviewKpis"></div>
+      <div class="grid-2col">
+        <div class="card">
+          <h3>CASPs by Home Country</h3>
+          <div class="chart-wrap"><canvas id="chartCountryBar"></canvas></div>
+        </div>
+        <div class="card">
+          <h3>Entity Type Breakdown</h3>
+          <div class="chart-wrap chart-wrap--sm"><canvas id="chartEntityDonut"></canvas></div>
+        </div>
+      </div>
+      <div class="grid-2col">
+        <div class="card">
+          <h3>MiCA Service Frequency</h3>
+          <div class="chart-wrap"><canvas id="chartServiceBar"></canvas></div>
+        </div>
+        <div class="card">
+          <h3>Authorisation Timeline</h3>
+          <div class="chart-wrap"><canvas id="chartTimeline"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Passporting Heatmap — Top Target Countries</h3>
+        <div class="chart-wrap chart-wrap--wide"><canvas id="chartPassportBar"></canvas></div>
+      </div>
+    </section>
+
+    <!-- ═══════════ TAB 2: COUNTRY VIEW ═══════════ -->
+    <section id="tab-country" class="tab-content">
+      <div class="controls-row">
+        <select id="countrySelect" class="select"></select>
+        <div class="toggle-group">
+          <button class="toggle active" data-mode="both">Both</button>
+          <button class="toggle" data-mode="registered">Registered</button>
+          <button class="toggle" data-mode="passported">Passported</button>
+        </div>
+      </div>
+      <div class="card" id="countrySummary"></div>
+      <div class="grid-2col">
+        <div class="card">
+          <h3>Services Available</h3>
+          <div class="chart-wrap"><canvas id="chartCountryServices"></canvas></div>
+        </div>
+        <div class="card">
+          <h3>Entity Type Split</h3>
+          <div class="chart-wrap chart-wrap--sm"><canvas id="chartCountryEntity"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>CASPs Active in Selected Country</h3>
+        <div class="table-controls">
+          <select id="countryFilterEntity" class="select select--sm"><option value="">All entity types</option></select>
+          <select id="countryFilterService" class="select select--sm"><option value="">All services</option></select>
+          <button class="btn btn--sm" id="countryExportCsv">Export CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table id="countryTable" class="data-table">
+            <thead>
+              <tr>
+                <th data-sort="commercial_name">Name</th>
+                <th data-sort="entity_type">Type</th>
+                <th data-sort="home_country">Country</th>
+                <th>Services</th>
+                <th data-sort="target_segments">Segments</th>
+                <th>Products</th>
+                <th>Web</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ TAB 3: CASP EXPLORER ═══════════ -->
+    <section id="tab-explorer" class="tab-content">
+      <div class="controls-row">
+        <input type="text" id="explorerSearch" class="input" placeholder="Search by name or LEI...">
+        <select id="explorerFilterEntity" class="select select--sm"><option value="">All types</option></select>
+        <select id="explorerFilterCountry" class="select select--sm"><option value="">All countries</option></select>
+        <select id="explorerFilterService" class="select select--sm"><option value="">All services</option></select>
+      </div>
+      <div class="card">
+        <div class="table-controls">
+          <span id="explorerCount"></span>
+          <button class="btn btn--sm" id="explorerExportCsv">Export CSV</button>
+        </div>
+        <div class="table-wrap">
+          <table id="explorerTable" class="data-table">
+            <thead>
+              <tr>
+                <th data-sort="commercial_name">Name</th>
+                <th data-sort="entity_type">Type</th>
+                <th data-sort="home_country">Home</th>
+                <th>Services</th>
+                <th data-sort="passporting_countries.length">Pass.</th>
+                <th>Segments</th>
+                <th>Products</th>
+                <th data-sort="confidence">Conf.</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div id="explorerDetail" class="card detail-card" style="display:none;"></div>
+    </section>
+
+    <!-- ═══════════ TAB 4: MARKET SIZING ═══════════ -->
+    <section id="tab-market" class="tab-content">
+      <div class="controls-row">
+        <select id="marketCountrySelect" class="select"></select>
+      </div>
+      <div class="kpi-row" id="marketKpis"></div>
+      <div class="grid-2col">
+        <div class="card">
+          <h3>Market Potential per Service</h3>
+          <div class="chart-wrap"><canvas id="chartMarketBubble"></canvas></div>
+        </div>
+        <div class="card">
+          <h3>Competition Density (CASPs per €1B market)</h3>
+          <div class="chart-wrap"><canvas id="chartCompetitionDensity"></canvas></div>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Service Breakdown</h3>
+        <div class="table-wrap">
+          <table id="marketTable" class="data-table">
+            <thead>
+              <tr>
+                <th>Service</th>
+                <th data-sort="casps">CASPs</th>
+                <th data-sort="market">Market Size</th>
+                <th data-sort="growth">Growth</th>
+                <th data-sort="density">Density</th>
+                <th>Gap</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card insight-panel" id="marketInsight"></div>
+      <div class="disclaimer">
+        Market estimates are based on publicly available reports (Chainalysis, ECB, EBA, Statista).
+        Actual values may differ. Data serves as indicative guidance only.
+      </div>
+    </section>
+  </main>
+
+  <script src="charts.js"></script>
+  <script src="filters.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
