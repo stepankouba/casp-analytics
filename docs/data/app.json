@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-02-24T14:08:27.423Z",
+    "generated_at": "2026-03-10T07:42:47.592Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 155,
-    "scrape_success_rate": 0.86,
+    "total_casps": 164,
+    "scrape_success_rate": 0.87,
     "llm_classification_rate": 1
   },
   "casps": [
@@ -959,7 +959,7 @@
       "id": "94d31fa7",
       "lei": "984500C46B3B7B69Y904",
       "legal_name": "CAPITAL VAULT LTD",
-      "commercial_name": null,
+      "commercial_name": "capital.com",
       "home_country": "CY",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
       "address": "Vasileiou Makedonos 8, KINNIS BUSINESS CENTER, 3rd floor, 3040 Limassol, Cyprus",
@@ -1002,7 +1002,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-02-02",
+      "last_update": "2026-02-20",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -1195,6 +1195,119 @@
       "confidence": "high",
       "brief_description": "ILAVO GROUP is a Czech fintech company specializing in comprehensive cryptocurrency services including digital wallets, payment solutions, and Bitcoin ATMs for retail customers.",
       "classification_date": "2026-02-24",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "50917d57",
+      "lei": "315700GXG7KIZFLV9R66",
+      "legal_name": "Pluso a.s.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Politických vězňů 156/21, 266 01 Beroun",
+      "website": "https://www.pluso.cz",
+      "website_platform": null,
+      "auth_date": "2026-02-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-03-02",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Pluso is a Czech crypto service provider offering a digital wallet for retail customers to buy, store, and transfer Bitcoin and other cryptocurrencies with integration to Tipsport betting platform.",
+      "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "f079b6ef",
+      "lei": "3157005QCM6Y91CUV844",
+      "legal_name": "COINMATE a.s.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Pernerova 697/35, 186 00 Praha",
+      "website": "https://coinmate.io/cs",
+      "website_platform": null,
+      "auth_date": "2026-02-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-03-02",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "otc_trading",
+        "savings_investment",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Coinmate is a Czech cryptocurrency exchange founded in 2014 that offers spot trading, custody services, and automated investment features primarily for Czech crown-based crypto trading.",
+      "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "a28d3666",
+      "lei": "9845006074DB79BFA392",
+      "legal_name": "MipSoftware s.r.o.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Na příkopě 848/6, 110 00 Praha",
+      "website": "https://coinero.cz",
+      "website_platform": null,
+      "auth_date": "2026-02-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-03-02",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "Coinero is a Czech cryptocurrency exchange platform founded in 2017 that offers simple buying and selling of cryptocurrencies with custody services, targeting retail customers who want to trade crypto without needing their own wallets.",
+      "classification_date": "2026-03-10",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -3042,6 +3155,184 @@
       "confidence": "medium",
       "brief_description": "Traditional investment institute with Swiss banking expertise focusing on wealth management, now expanding services to include reception and transmission of crypto-asset orders.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "5fb6bc0c",
+      "lei": "391200PNJ2SKONA02N07",
+      "legal_name": "Plutos Vermögensverwaltung AG",
+      "commercial_name": "Plutos Vermögensverwaltung AG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Geleitsstraße 14, 60599 Frankfurt am Main",
+      "website": "https://www.plutos.de",
+      "website_platform": null,
+      "auth_date": "2026-02-25",
+      "auth_end_date": null,
+      "services": [
+        "i"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-02-25",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management"
+      ],
+      "confidence": "high",
+      "brief_description": "A traditional German asset management firm with over 30 years of experience that has expanded into crypto-asset portfolio management services under MiCA regulation.",
+      "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "15eee687",
+      "lei": "9845000E4A7414709361",
+      "legal_name": "Penning Financial Services ApS",
+      "commercial_name": "Penning",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Frederiksgaards Allé 16A, st. th, 2720 Vanlose",
+      "website": "https://www.penning.io",
+      "website_platform": null,
+      "auth_date": "2026-01-15",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-04",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "otc_trading",
+        "portfolio_management",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Penning is Denmark's CASP-licensed crypto platform offering trading, custody, and professional portfolio management services with 190+ crypto assets and strategy-driven investment products.",
+      "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "a8aa65ed",
+      "lei": "984500DD714F66B77454",
+      "legal_name": "Lunar Block A/S",
+      "commercial_name": "Lunar Block",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Hack Kampmanns Plads 10, 8000 Aarhus C",
+      "website": "https://www.lunar.app/dk/privat/krypto",
+      "website_platform": null,
+      "auth_date": "2025-09-15",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e"
+      ],
+      "passporting_countries": [
+        "NO",
+        "SE"
+      ],
+      "last_update": "2026-03-04",
+      "comments": null,
+      "entity_type": "hybrid",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Lunar Block is the crypto arm of Danish digital bank Lunar, offering retail crypto trading and custody services with MiCA licensing, targeting consumers who want simple crypto investment without wallets or complex processes.",
+      "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "c6067f31",
+      "lei": "254900TM3KOYH0SY8V19",
+      "legal_name": "GC Exchange A/S",
+      "commercial_name": "GCEX|GC Exchange",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Amager Strandvej 390, 2770 Kastrup",
+      "website": "https://gc.exchange",
+      "website_platform": null,
+      "auth_date": "2025-12-12",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [],
+      "last_update": "2026-03-04",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "derivatives",
+        "staking",
+        "otc_trading",
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "GC Exchange is a regulated prime brokerage providing institutional and professional clients with access to digital assets, forex, and CFD trading along with staking and custody services.",
+      "classification_date": "2026-03-10",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -4908,7 +5199,7 @@
       "legal_name": "ZEUS Anstalt für Vermögensverwaltung",
       "commercial_name": "ZEUS Anstalt für Vermögensverwaltung",
       "home_country": "LI",
-      "competent_authority": "Financial Market Authority Liechtenstein (FMA)",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
       "address": "Industriestrasse 2 - 9487 Gamprin-Bendern",
       "website": "https://www.zeus-management.li/en",
       "website_platform": null,
@@ -4994,7 +5285,7 @@
       "legal_name": "Bank Frick AG",
       "commercial_name": "Bank Frick AG",
       "home_country": "LI",
-      "competent_authority": "Financial Market Authority Liechtenstein (FMA)",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
       "address": "Landstrasse 14 - 9496 Balzers",
       "website": "https://www.bankfrick.li/en",
       "website_platform": null,
@@ -5006,9 +5297,36 @@
         "j"
       ],
       "passporting_countries": [
-        "LI"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-01-05",
+      "last_update": "2026-02-24",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -5113,8 +5431,38 @@
         "d",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": null,
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-02",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -5150,8 +5498,38 @@
         "d",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": null,
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-02",
       "comments": null,
       "entity_type": "payment_institution",
       "target_segments": [
@@ -5166,6 +5544,44 @@
       "confidence": "high",
       "brief_description": "Payment institution specializing in fiat-to-crypto payment gateway with support for over 570 payment methods and B2B solutions for partners.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "8c15c273",
+      "lei": "894500R6HJP62BZX4M89",
+      "legal_name": "UAB Micar assets",
+      "commercial_name": "Myriad Capital",
+      "home_country": "LT",
+      "competent_authority": "Bank of Lithuania (LSC)",
+      "address": "J. Savickio g. 4-7, Vilnius, 01108, Lithuania",
+      "website": "https://myriadcapital.lt",
+      "website_platform": null,
+      "auth_date": "2026-02-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [],
+      "last_update": null,
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Myriad Capital is a Lithuanian investment firm that provides traditional investment services (stocks, ETFs, bonds) and has expanded to offer crypto-asset services including custody, exchange, and order execution for retail investors.",
+      "classification_date": "2026-03-10",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -6261,9 +6677,37 @@
         "j"
       ],
       "passporting_countries": [
-        "MT"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-02-17",
+      "last_update": "2026-02-24",
       "comments": null,
       "entity_type": "payment_institution",
       "target_segments": [
@@ -7456,6 +7900,43 @@
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
+      "id": "787bcd26",
+      "lei": "724500YJVIN0Q94ZZG5",
+      "legal_name": "WEB3 Technology B.V.",
+      "commercial_name": "ARI10, ARI10 NL, WEB3 Technology B.V.",
+      "home_country": "NL",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "address": "Prins Hendrikkade 21E - 1012TL - The Netherlands",
+      "website": "https://ari10.com/en",
+      "website_platform": null,
+      "auth_date": "2026-02-12",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [],
+      "last_update": "2026-03-04",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "spot_exchange",
+        "custody",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "ARI10 is a crypto payment gateway and fintech infrastructure provider that enables businesses to accept cryptocurrencies, process fiat-to-crypto conversions, and offers exchange services with B2B solutions.",
+      "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
       "id": "b0c16f7b",
       "lei": "529900OSVFQK3XISEQ85",
       "legal_name": "ILIRIKA borzno posredniška hiša d.d.",
@@ -7526,7 +8007,7 @@
     {
       "id": "527ab6d9",
       "lei": "485100UM87L7ILR4L484",
-      "legal_name": "INCREMENTUM poslovne storitve d.o.o.",
+      "legal_name": "INCREMENTUM družba za izvajanje storitev v zvezi s kriptosredstvi d.o.o.",
       "commercial_name": "Incrementum",
       "home_country": "SI",
       "competent_authority": "Securities Market Agency (ATVP)",
@@ -7545,7 +8026,7 @@
         "IT",
         "SI"
       ],
-      "last_update": "2026-01-29",
+      "last_update": "2026-03-04",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -7765,7 +8246,7 @@
     {
       "id": "36a8f0f1",
       "lei": "097900CAKA0000269926",
-      "legal_name": "FUMBI, s. r. o.",
+      "legal_name": "FUMBI, s.r.o.",
       "commercial_name": "FUMBI",
       "home_country": "SK",
       "competent_authority": "National Bank of Slovakia (NBS)",
@@ -7784,16 +8265,34 @@
       ],
       "passporting_countries": [
         "AT",
+        "BE",
+        "BG",
         "CY",
         "CZ",
         "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
         "GR",
+        "HR",
         "HU",
+        "IE",
         "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
         "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
         "SK"
       ],
-      "last_update": "2025-12-19",
+      "last_update": "2026-03-02",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -7816,7 +8315,7 @@
       "id": "90722044",
       "lei": "097900CAKA0000249459",
       "legal_name": "Madison Six j. s. a.",
-      "commercial_name": "Madison Six",
+      "commercial_name": "Madison Six|crypto4me",
       "home_country": "SK",
       "competent_authority": "National Bank of Slovakia (NBS)",
       "address": "Slávičie údolie 106, 811 02 Bratislava, Slovakia",
@@ -7864,7 +8363,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2025-12-19",
+      "last_update": "2026-03-02",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -7997,8 +8496,8 @@
       "gdp_eur": 447000000000,
       "eea": true,
       "registered_casps": 8,
-      "passported_casps": 77,
-      "total_casps": 85
+      "passported_casps": 82,
+      "total_casps": 90
     },
     "BE": {
       "name": "Belgium",
@@ -8007,8 +8506,8 @@
       "gdp_eur": 554000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 86,
-      "total_casps": 87
+      "passported_casps": 92,
+      "total_casps": 93
     },
     "BG": {
       "name": "Bulgaria",
@@ -8017,8 +8516,8 @@
       "gdp_eur": 95000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 72,
-      "total_casps": 73
+      "passported_casps": 78,
+      "total_casps": 79
     },
     "HR": {
       "name": "Croatia",
@@ -8027,8 +8526,8 @@
       "gdp_eur": 68000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 74,
-      "total_casps": 74
+      "passported_casps": 80,
+      "total_casps": 80
     },
     "CY": {
       "name": "Cyprus",
@@ -8037,8 +8536,8 @@
       "gdp_eur": 28000000000,
       "eea": true,
       "registered_casps": 8,
-      "passported_casps": 76,
-      "total_casps": 84
+      "passported_casps": 81,
+      "total_casps": 89
     },
     "CZ": {
       "name": "Czech Republic",
@@ -8046,9 +8545,9 @@
       "population": 10900000,
       "gdp_eur": 290000000000,
       "eea": true,
-      "registered_casps": 3,
-      "passported_casps": 75,
-      "total_casps": 78
+      "registered_casps": 6,
+      "passported_casps": 83,
+      "total_casps": 89
     },
     "DK": {
       "name": "Denmark",
@@ -8056,9 +8555,9 @@
       "population": 5900000,
       "gdp_eur": 380000000000,
       "eea": true,
-      "registered_casps": 0,
-      "passported_casps": 75,
-      "total_casps": 75
+      "registered_casps": 3,
+      "passported_casps": 80,
+      "total_casps": 83
     },
     "EE": {
       "name": "Estonia",
@@ -8067,8 +8566,8 @@
       "gdp_eur": 38000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 74,
-      "total_casps": 74
+      "passported_casps": 80,
+      "total_casps": 80
     },
     "FI": {
       "name": "Finland",
@@ -8077,8 +8576,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 76,
-      "total_casps": 81
+      "passported_casps": 82,
+      "total_casps": 87
     },
     "FR": {
       "name": "France",
@@ -8087,8 +8586,8 @@
       "gdp_eur": 2800000000000,
       "eea": true,
       "registered_casps": 13,
-      "passported_casps": 74,
-      "total_casps": 87
+      "passported_casps": 80,
+      "total_casps": 93
     },
     "DE": {
       "name": "Germany",
@@ -8096,9 +8595,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 44,
-      "passported_casps": 124,
-      "total_casps": 168
+      "registered_casps": 45,
+      "passported_casps": 130,
+      "total_casps": 175
     },
     "GR": {
       "name": "Greece",
@@ -8107,8 +8606,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 78,
-      "total_casps": 78
+      "passported_casps": 83,
+      "total_casps": 83
     },
     "HU": {
       "name": "Hungary",
@@ -8117,8 +8616,8 @@
       "gdp_eur": 180000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 73,
-      "total_casps": 73
+      "passported_casps": 78,
+      "total_casps": 78
     },
     "IS": {
       "name": "Iceland",
@@ -8127,8 +8626,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 58,
-      "total_casps": 58
+      "passported_casps": 62,
+      "total_casps": 62
     },
     "IE": {
       "name": "Ireland",
@@ -8137,8 +8636,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 11,
-      "passported_casps": 81,
-      "total_casps": 92
+      "passported_casps": 87,
+      "total_casps": 98
     },
     "IT": {
       "name": "Italy",
@@ -8147,8 +8646,8 @@
       "gdp_eur": 2000000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 87,
-      "total_casps": 87
+      "passported_casps": 92,
+      "total_casps": 92
     },
     "LV": {
       "name": "Latvia",
@@ -8157,8 +8656,8 @@
       "gdp_eur": 40000000000,
       "eea": true,
       "registered_casps": 2,
-      "passported_casps": 73,
-      "total_casps": 75
+      "passported_casps": 79,
+      "total_casps": 81
     },
     "LI": {
       "name": "Liechtenstein",
@@ -8167,8 +8666,8 @@
       "gdp_eur": 7000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 68,
-      "total_casps": 71
+      "passported_casps": 72,
+      "total_casps": 75
     },
     "LT": {
       "name": "Lithuania",
@@ -8176,9 +8675,9 @@
       "population": 2900000,
       "gdp_eur": 67000000000,
       "eea": true,
-      "registered_casps": 3,
-      "passported_casps": 74,
-      "total_casps": 77
+      "registered_casps": 4,
+      "passported_casps": 78,
+      "total_casps": 82
     },
     "LU": {
       "name": "Luxembourg",
@@ -8187,8 +8686,8 @@
       "gdp_eur": 80000000000,
       "eea": true,
       "registered_casps": 4,
-      "passported_casps": 82,
-      "total_casps": 86
+      "passported_casps": 88,
+      "total_casps": 92
     },
     "MT": {
       "name": "Malta",
@@ -8197,8 +8696,8 @@
       "gdp_eur": 18000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 69,
-      "total_casps": 81
+      "passported_casps": 73,
+      "total_casps": 85
     },
     "NL": {
       "name": "Netherlands",
@@ -8206,9 +8705,9 @@
       "population": 17800000,
       "gdp_eur": 1010000000000,
       "eea": true,
-      "registered_casps": 22,
-      "passported_casps": 91,
-      "total_casps": 113
+      "registered_casps": 23,
+      "passported_casps": 97,
+      "total_casps": 120
     },
     "NO": {
       "name": "Norway",
@@ -8217,8 +8716,8 @@
       "gdp_eur": 480000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 63,
-      "total_casps": 63
+      "passported_casps": 68,
+      "total_casps": 68
     },
     "PL": {
       "name": "Poland",
@@ -8227,8 +8726,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 77,
-      "total_casps": 77
+      "passported_casps": 82,
+      "total_casps": 82
     },
     "PT": {
       "name": "Portugal",
@@ -8237,8 +8736,8 @@
       "gdp_eur": 260000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 81,
-      "total_casps": 81
+      "passported_casps": 87,
+      "total_casps": 87
     },
     "RO": {
       "name": "Romania",
@@ -8247,8 +8746,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 72,
-      "total_casps": 72
+      "passported_casps": 78,
+      "total_casps": 78
     },
     "SK": {
       "name": "Slovakia",
@@ -8257,8 +8756,8 @@
       "gdp_eur": 115000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 78,
-      "total_casps": 84
+      "passported_casps": 83,
+      "total_casps": 89
     },
     "SI": {
       "name": "Slovenia",
@@ -8267,8 +8766,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 76,
-      "total_casps": 79
+      "passported_casps": 82,
+      "total_casps": 85
     },
     "ES": {
       "name": "Spain",
@@ -8277,8 +8776,8 @@
       "gdp_eur": 1400000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 90,
-      "total_casps": 95
+      "passported_casps": 96,
+      "total_casps": 101
     },
     "SE": {
       "name": "Sweden",
@@ -8287,8 +8786,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 75,
-      "total_casps": 76
+      "passported_casps": 82,
+      "total_casps": 83
     },
     "CH": {
       "name": "Switzerland",

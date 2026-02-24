@@ -1,4 +1,4 @@
-import { cpSync, mkdirSync, existsSync } from 'node:fs';
+import { cpSync, mkdirSync, existsSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -30,6 +30,9 @@ function main() {
       console.warn(`   ⚠️  ${file} not found in src/`);
     }
   }
+
+  // CNAME docs
+  writeFileSync(join(DIST_DIR, 'CNAME'), 'micamap.eu', 'utf-8');
 
   console.log(`\n✅ Static site built to docs/`);
   console.log(`   Run "npm run dev" to start local server`);
