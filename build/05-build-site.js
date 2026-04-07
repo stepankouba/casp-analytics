@@ -1,4 +1,4 @@
-import { cpSync, mkdirSync, existsSync, writeFileSync } from 'node:fs';
+import { cpSync, mkdirSync, existsSync, writeFileSync, readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -8,6 +8,8 @@ const SRC_DIR = join(ROOT, 'src');
 const DIST_DIR = join(ROOT, 'docs');
 
 function main() {
+  const buildVersion = Date.now();
+
   // Ensure dist exists
   mkdirSync(DIST_DIR, { recursive: true });
 
@@ -24,7 +26,12 @@ function main() {
     const src = join(SRC_DIR, file);
     const dst = join(DIST_DIR, file);
     if (existsSync(src)) {
-      cpSync(src, dst);
+      if (file === 'index.html') {
+        const html = readFileSync(src, 'utf-8').replaceAll('__BUILD_VERSION__', buildVersion);
+        writeFileSync(dst, html, 'utf-8');
+      } else {
+        cpSync(src, dst);
+      }
       console.log(`   📄 ${file}`);
     } else {
       console.warn(`   ⚠️  ${file} not found in src/`);
