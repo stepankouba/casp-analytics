@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-03-10T07:53:49.849Z",
+    "generated_at": "2026-04-07T13:53:47.030Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 164,
-    "scrape_success_rate": 0.87,
+    "total_casps": 176,
+    "scrape_success_rate": 0.89,
     "llm_classification_rate": 1
   },
   "casps": [
@@ -1066,7 +1066,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-02-02",
+      "last_update": "2026-03-13",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -1080,6 +1080,143 @@
       "confidence": "medium",
       "brief_description": "Crypto-native platform focused on copy trading, where users can copy trading strategies of experienced traders and trade CFDs and crypto assets.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "bb644fd4",
+      "lei": "259400HM2TR4U3LF5D43",
+      "legal_name": "XTB Limited",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Pikioni, 10 HIGHSIGHT RENTALS LTD, 3075, Limassol",
+      "website": "https://www.xtb.com/cy",
+      "website_platform": null,
+      "auth_date": "2025-12-15",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "g"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-13",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "derivatives"
+      ],
+      "confidence": "high",
+      "brief_description": "XTB Limited is an established European FX and CFD brokerage firm that has expanded into cryptocurrency services, offering crypto trading, custody, and order execution services across the EU through MiCA registration.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "21002178",
+      "lei": "25490004TC93R20KW073",
+      "legal_name": "Noemon Finance Ltd",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "18 Kyriakou Matsi, Victory Tower, 2nd Floor, Office 201, 1082 Nicosia, Cyprus",
+      "website": "https://www.noemon.finance",
+      "website_platform": null,
+      "auth_date": "2026-03-02",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "h",
+        "i"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-13",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "medium",
+      "brief_description": "Noemon Finance is a Cyprus-based investment firm that provides traditional financial services (stocks, ETFs, bonds, futures, currencies) alongside crypto-asset services including custody, exchange, and portfolio management across Europe.",
+      "classification_date": "2026-04-07",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -1143,7 +1280,9 @@
         "d",
         "e"
       ],
-      "passporting_countries": [],
+      "passporting_countries": [
+        "CZ"
+      ],
       "last_update": "2026-02-13",
       "comments": null,
       "entity_type": "crypto_native",
@@ -1179,8 +1318,12 @@
         "g",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": "2026-02-13",
+      "passporting_countries": [
+        "HU",
+        "PL",
+        "SK"
+      ],
+      "last_update": "2026-03-02",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -3191,6 +3334,186 @@
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
+      "id": "7f44f865",
+      "lei": "391200Y3EUNL4LTXRP94",
+      "legal_name": "Scalable Capital Bank GmbH",
+      "commercial_name": "Scalable Capital Bank GmbH",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Seitzstraße 8e, 80538 München",
+      "website": "https://www.scalable.capital",
+      "website_platform": null,
+      "auth_date": "2026-03-02",
+      "auth_end_date": null,
+      "services": [
+        "h"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-03-02",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "advisory",
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Scalable Capital Bank is a German digital bank offering comprehensive financial services including traditional banking, investment products, and cryptocurrency trading with advisory services to retail customers.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "f86202c7",
+      "lei": "529900FNJE1H184JV164",
+      "legal_name": "AnCeKa Vermögensbetreuungs Aktiengesellschaft",
+      "commercial_name": "AnCeKa Vermögensbetreuungs Aktiengesellschaft",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Schraderstraße 4, 87600 Kaufbeuren",
+      "website": "https://www.anceka.de",
+      "website_platform": null,
+      "auth_date": "2026-03-04",
+      "auth_end_date": null,
+      "services": [
+        "g",
+        "h",
+        "i"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-03-04",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "AnCeKa is a traditional German asset management company specializing in securities and wealth management that has expanded into crypto-asset services by offering portfolio management and advisory services for digital assets.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "5e5b9676",
+      "lei": "529900UC2OD7II24Z667",
+      "legal_name": "Joh. Berenberg, Gossler & Co. KG",
+      "commercial_name": "Joh. Berenberg, Gossler & Co. KG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Überseering 28, 22297 Hamburg",
+      "website": "https://www.berenberg.de",
+      "website_platform": null,
+      "auth_date": "2026-03-06",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-03-06",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Berenberg is a traditional German private bank founded in 1590 that has expanded into crypto-asset services, offering custody, trading, and portfolio management primarily to high-net-worth and institutional clients.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "79a101c1",
+      "lei": "529900YOBXEE8ZYM4V56",
+      "legal_name": "MLP Banking AG",
+      "commercial_name": "MLP Banking AG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Alte Heerstraße 40, 69168 Wiesloch",
+      "website": "https://www.mlp.de",
+      "website_platform": null,
+      "auth_date": "2026-03-11",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-03-11",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "advisory"
+      ],
+      "confidence": "medium",
+      "brief_description": "MLP Banking AG is a traditional German financial services company that offers comprehensive financial advisory services and has expanded to include crypto-asset order execution services under MiCA.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "4509588d",
+      "lei": "529900R4Q9UCQ25IAA05",
+      "legal_name": "BV & P Vermögen AG",
+      "commercial_name": "BV & P Vermögen AG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Edisonstraße 5, 87437 Kempten (Allgäu)",
+      "website": "https://www.bvp-vermoegen.de",
+      "website_platform": null,
+      "auth_date": "2026-03-13",
+      "auth_end_date": null,
+      "services": [
+        "g",
+        "i"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-03-13",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "BV & P Vermögen AG is a German independent asset management firm and family office that has expanded into crypto-asset portfolio management and order transmission services under MiCA regulation.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
       "id": "15eee687",
       "lei": "9845000E4A7414709361",
       "legal_name": "Penning Financial Services ApS",
@@ -3315,8 +3638,10 @@
         "e",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": "2026-03-04",
+      "passporting_countries": [
+        "NL"
+      ],
+      "last_update": "2026-03-09",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -3555,6 +3880,45 @@
       "confidence": "high",
       "brief_description": "Spanish investment bank specializing in investment services and asset management that expanded its services to crypto-assets through MiCA license.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "17f99364",
+      "lei": "7CUNS533WID6K7DGFI87",
+      "legal_name": "CAIXABANK S.A.",
+      "commercial_name": "CAIXABANK",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Pintor Sorolla 2-4. 46002 Valencia",
+      "website": "https://caixabank.es",
+      "website_platform": null,
+      "auth_date": "2026-03-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "ES"
+      ],
+      "last_update": null,
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "CaixaBank is a major Spanish traditional bank that has obtained MiCA registration to offer crypto custody, trading execution, and transfer services to its existing customer base.",
+      "classification_date": "2026-04-07",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -3817,7 +4181,7 @@
       "commercial_name": "COINSHARES ASSET MANAGEMENT",
       "home_country": "FR",
       "competent_authority": "Autorité des Marchés Financiers (AMF)",
-      "address": "17 rue de la Banque - 75002 PARIS",
+      "address": "17 rue de la Banque - 75002 PARIS",
       "website": "https://coinshares.com",
       "website_platform": null,
       "auth_date": "2025-07-17",
@@ -4829,7 +5193,7 @@
       "home_country": "IE",
       "competent_authority": "Central Bank of Ireland (CBI)",
       "address": "15 George’s Quay, Dublin D02 VR98",
-      "website": "https://www.skrill.com\nwww.neteller.com",
+      "website": "https://www.skrill.com\r\nwww.neteller.com",
       "website_platform": null,
       "auth_date": "2025-12-03",
       "auth_end_date": null,
@@ -5346,6 +5710,78 @@
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
+      "id": "5e00c451",
+      "lei": "391200DN4V2D0IBP3S36",
+      "legal_name": "Wyden Capital AG",
+      "commercial_name": "Wyden Capital AG",
+      "home_country": "LI",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
+      "address": "Industriering 14 - 9491 Ruggell",
+      "website": "https://www.wydencapital.com/en",
+      "website_platform": null,
+      "auth_date": "2026-02-12",
+      "auth_end_date": null,
+      "services": [
+        "i"
+      ],
+      "passporting_countries": [
+        "LI"
+      ],
+      "last_update": "2026-02-25",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Wyden Capital AG is a regulated Liechtenstein-based asset manager providing professional investors with active crypto investment strategies through EEA-compliant Alternative Investment Funds.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "fe6facf0",
+      "lei": "529900QHHMJYY9QSAC33",
+      "legal_name": "Celsion Bank AG",
+      "commercial_name": "Celsion Bank AG",
+      "home_country": "LI",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
+      "address": "Austrasse 77 - 9490 Vaduz",
+      "website": "https://www.celsion-finance.com",
+      "website_platform": null,
+      "auth_date": "2026-03-13",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "LI"
+      ],
+      "last_update": "2026-03-17",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "staking",
+        "derivatives"
+      ],
+      "confidence": "high",
+      "brief_description": "Celsion Bank AG is a regulated European bank licensed in Liechtenstein that provides comprehensive digital asset banking services including custody, trading, staking, and fiat infrastructure for professional and institutional clients.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
       "id": "2a1f8fd8",
       "lei": "254900GTP4UXQO1UMI36",
       "legal_name": "Robinhood Europe UAB",
@@ -5582,6 +6018,103 @@
       "confidence": "high",
       "brief_description": "Myriad Capital is a Lithuanian investment firm that provides traditional investment services (stocks, ETFs, bonds) and has expanded to offer crypto-asset services including custody, exchange, and order execution for retail investors.",
       "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "ec2f6e19",
+      "lei": "875500ONK4E5XGIP7O24",
+      "legal_name": "Newrails, UAB",
+      "commercial_name": "Newrails",
+      "home_country": "LT",
+      "competent_authority": "Bank of Lithuania (LSC)",
+      "address": "Švitrigailos g. 11C, 03228, Vilnius, Lithuania",
+      "website": "https://www.newrails.xyz",
+      "website_platform": null,
+      "auth_date": "2025-11-14",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-26",
+      "comments": "CASP services are provided under Article 60(4) of MiCA, in relation to own issued EMT called AMBR EURO (EURW)",
+      "entity_type": "hybrid",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "payment_services",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Newrails is a regulated hybrid financial platform that combines traditional euro banking services with stablecoin infrastructure, offering custody, transfer services, and API-based payment solutions for businesses and fintechs.",
+      "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "413509dd",
+      "lei": "254900XFMACGD0L7AI73",
+      "legal_name": "UAB BLUE EMI LT",
+      "commercial_name": "BLUE EMI",
+      "home_country": "LT",
+      "competent_authority": "Bank of Lithuania (LSC)",
+      "address": "Antano Tumėno g. 4, 01110, Vilnius, Lithuania",
+      "website": "https://blueemi.com",
+      "website_platform": null,
+      "auth_date": "2025-05-13",
+      "auth_end_date": null,
+      "services": [
+        "a"
+      ],
+      "passporting_countries": [],
+      "last_update": "2026-03-26",
+      "comments": "CASP services are provided under Article 60(4) of MiCA, in relation to own issued EMT called BLUEUR",
+      "entity_type": "payment_institution",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "payment_services",
+        "tokenization"
+      ],
+      "confidence": "high",
+      "brief_description": "Blue EMI is a MiCAR-compliant payment institution that provides e-money services, euro-backed stablecoins, and crypto custody services primarily focused on bridging traditional payments with Web3 for e-commerce and crowdfunding platforms.",
+      "classification_date": "2026-04-07",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -8496,8 +9029,8 @@
       "gdp_eur": 447000000000,
       "eea": true,
       "registered_casps": 8,
-      "passported_casps": 82,
-      "total_casps": 90
+      "passported_casps": 85,
+      "total_casps": 93
     },
     "BE": {
       "name": "Belgium",
@@ -8506,8 +9039,8 @@
       "gdp_eur": 554000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 92,
-      "total_casps": 93
+      "passported_casps": 95,
+      "total_casps": 96
     },
     "BG": {
       "name": "Bulgaria",
@@ -8516,8 +9049,8 @@
       "gdp_eur": 95000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 78,
-      "total_casps": 79
+      "passported_casps": 81,
+      "total_casps": 82
     },
     "HR": {
       "name": "Croatia",
@@ -8526,8 +9059,8 @@
       "gdp_eur": 68000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 80,
-      "total_casps": 80
+      "passported_casps": 83,
+      "total_casps": 83
     },
     "CY": {
       "name": "Cyprus",
@@ -8535,9 +9068,9 @@
       "population": 920000,
       "gdp_eur": 28000000000,
       "eea": true,
-      "registered_casps": 8,
-      "passported_casps": 81,
-      "total_casps": 89
+      "registered_casps": 10,
+      "passported_casps": 84,
+      "total_casps": 94
     },
     "CZ": {
       "name": "Czech Republic",
@@ -8546,8 +9079,8 @@
       "gdp_eur": 290000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 83,
-      "total_casps": 89
+      "passported_casps": 87,
+      "total_casps": 93
     },
     "DK": {
       "name": "Denmark",
@@ -8556,8 +9089,8 @@
       "gdp_eur": 380000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 80,
-      "total_casps": 83
+      "passported_casps": 83,
+      "total_casps": 86
     },
     "EE": {
       "name": "Estonia",
@@ -8566,8 +9099,8 @@
       "gdp_eur": 38000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 80,
-      "total_casps": 80
+      "passported_casps": 83,
+      "total_casps": 83
     },
     "FI": {
       "name": "Finland",
@@ -8576,8 +9109,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 82,
-      "total_casps": 87
+      "passported_casps": 85,
+      "total_casps": 90
     },
     "FR": {
       "name": "France",
@@ -8586,8 +9119,8 @@
       "gdp_eur": 2800000000000,
       "eea": true,
       "registered_casps": 13,
-      "passported_casps": 80,
-      "total_casps": 93
+      "passported_casps": 83,
+      "total_casps": 96
     },
     "DE": {
       "name": "Germany",
@@ -8595,9 +9128,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 45,
-      "passported_casps": 130,
-      "total_casps": 175
+      "registered_casps": 50,
+      "passported_casps": 138,
+      "total_casps": 188
     },
     "GR": {
       "name": "Greece",
@@ -8606,8 +9139,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 83,
-      "total_casps": 83
+      "passported_casps": 86,
+      "total_casps": 86
     },
     "HU": {
       "name": "Hungary",
@@ -8616,8 +9149,8 @@
       "gdp_eur": 180000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 78,
-      "total_casps": 78
+      "passported_casps": 82,
+      "total_casps": 82
     },
     "IS": {
       "name": "Iceland",
@@ -8626,8 +9159,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 62,
-      "total_casps": 62
+      "passported_casps": 65,
+      "total_casps": 65
     },
     "IE": {
       "name": "Ireland",
@@ -8636,8 +9169,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 11,
-      "passported_casps": 87,
-      "total_casps": 98
+      "passported_casps": 90,
+      "total_casps": 101
     },
     "IT": {
       "name": "Italy",
@@ -8646,8 +9179,8 @@
       "gdp_eur": 2000000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 92,
-      "total_casps": 92
+      "passported_casps": 95,
+      "total_casps": 95
     },
     "LV": {
       "name": "Latvia",
@@ -8656,8 +9189,8 @@
       "gdp_eur": 40000000000,
       "eea": true,
       "registered_casps": 2,
-      "passported_casps": 79,
-      "total_casps": 81
+      "passported_casps": 82,
+      "total_casps": 84
     },
     "LI": {
       "name": "Liechtenstein",
@@ -8665,9 +9198,9 @@
       "population": 40000,
       "gdp_eur": 7000000000,
       "eea": true,
-      "registered_casps": 3,
-      "passported_casps": 72,
-      "total_casps": 75
+      "registered_casps": 5,
+      "passported_casps": 77,
+      "total_casps": 82
     },
     "LT": {
       "name": "Lithuania",
@@ -8675,9 +9208,9 @@
       "population": 2900000,
       "gdp_eur": 67000000000,
       "eea": true,
-      "registered_casps": 4,
-      "passported_casps": 78,
-      "total_casps": 82
+      "registered_casps": 6,
+      "passported_casps": 80,
+      "total_casps": 86
     },
     "LU": {
       "name": "Luxembourg",
@@ -8686,8 +9219,8 @@
       "gdp_eur": 80000000000,
       "eea": true,
       "registered_casps": 4,
-      "passported_casps": 88,
-      "total_casps": 92
+      "passported_casps": 91,
+      "total_casps": 95
     },
     "MT": {
       "name": "Malta",
@@ -8696,8 +9229,8 @@
       "gdp_eur": 18000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 73,
-      "total_casps": 85
+      "passported_casps": 76,
+      "total_casps": 88
     },
     "NL": {
       "name": "Netherlands",
@@ -8706,8 +9239,8 @@
       "gdp_eur": 1010000000000,
       "eea": true,
       "registered_casps": 23,
-      "passported_casps": 97,
-      "total_casps": 120
+      "passported_casps": 101,
+      "total_casps": 124
     },
     "NO": {
       "name": "Norway",
@@ -8716,8 +9249,8 @@
       "gdp_eur": 480000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 68,
-      "total_casps": 68
+      "passported_casps": 71,
+      "total_casps": 71
     },
     "PL": {
       "name": "Poland",
@@ -8726,8 +9259,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 82,
-      "total_casps": 82
+      "passported_casps": 86,
+      "total_casps": 86
     },
     "PT": {
       "name": "Portugal",
@@ -8736,8 +9269,8 @@
       "gdp_eur": 260000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 87,
-      "total_casps": 87
+      "passported_casps": 90,
+      "total_casps": 90
     },
     "RO": {
       "name": "Romania",
@@ -8746,8 +9279,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 78,
-      "total_casps": 78
+      "passported_casps": 81,
+      "total_casps": 81
     },
     "SK": {
       "name": "Slovakia",
@@ -8756,8 +9289,8 @@
       "gdp_eur": 115000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 83,
-      "total_casps": 89
+      "passported_casps": 87,
+      "total_casps": 93
     },
     "SI": {
       "name": "Slovenia",
@@ -8766,8 +9299,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 82,
-      "total_casps": 85
+      "passported_casps": 85,
+      "total_casps": 88
     },
     "ES": {
       "name": "Spain",
@@ -8775,9 +9308,9 @@
       "population": 48000000,
       "gdp_eur": 1400000000000,
       "eea": true,
-      "registered_casps": 5,
-      "passported_casps": 96,
-      "total_casps": 101
+      "registered_casps": 6,
+      "passported_casps": 100,
+      "total_casps": 106
     },
     "SE": {
       "name": "Sweden",
@@ -8786,8 +9319,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 82,
-      "total_casps": 83
+      "passported_casps": 85,
+      "total_casps": 86
     },
     "CH": {
       "name": "Switzerland",

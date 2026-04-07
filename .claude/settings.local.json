@@ -6,7 +6,12 @@
       "Bash(echo:*)",
       "Bash(SKIP_LLM=true node:*)",
       "Bash(npx serve dist -l 3000)",
-      "Bash(curl:*)"
+      "Bash(curl:*)",
+      "mcp__bitgo__get_wallet_balances",
+      "mcp__bitgo__get_pending_approvals",
+      "mcp__bitgo__list_transfers",
+      "mcp__bitgo__get_transfer_status",
+      "WebFetch(domain:mempool.space)"
     ]
   }
 }
