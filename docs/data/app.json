@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-04-07T13:53:47.030Z",
+    "generated_at": "2026-04-26T21:41:41.031Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 176,
+    "total_casps": 189,
     "scrape_success_rate": 0.89,
     "llm_classification_rate": 1
   },
@@ -465,6 +465,37 @@
       "confidence": "high",
       "brief_description": "Austrian MiCA-licensed Bitcoin broker founded in 2014, specializing in simple Bitcoin buying, selling, and savings plans for regular users.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "9975dd0c",
+      "lei": "9845002BEC2C588CC678",
+      "legal_name": "Validvent Technology GmbH",
+      "commercial_name": "Validvent",
+      "home_country": "AT",
+      "competent_authority": "Austrian Financial Market Authority (FMA)",
+      "address": "Opernring 1/E/736, 1010 Wien, Austria",
+      "website": "https://validvent.com",
+      "website_platform": null,
+      "auth_date": "2026-04-15",
+      "auth_end_date": null,
+      "services": [
+        "h"
+      ],
+      "passporting_countries": [],
+      "last_update": "2026-04-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Validvent is a crypto-native company specializing in crypto tax accounting, transaction analysis, and advisory services to help clients stay compliant with tax regulations.",
+      "classification_date": "2026-04-26",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -1217,6 +1248,146 @@
       "confidence": "medium",
       "brief_description": "Noemon Finance is a Cyprus-based investment firm that provides traditional financial services (stocks, ETFs, bonds, futures, currencies) alongside crypto-asset services including custody, exchange, and portfolio management across Europe.",
       "classification_date": "2026-04-07",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "ff622ebc",
+      "lei": "213800QT8WZK738XGX35",
+      "legal_name": "Trading.com Markets EU Ltd",
+      "commercial_name": "Trading.com",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "13, Irenes Street, 3042, Limassol, Cyprus",
+      "website": "https://www.trading.com/eu",
+      "website_platform": null,
+      "auth_date": "2026-03-23",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "i"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-04-03",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "portfolio_management",
+        "derivatives"
+      ],
+      "confidence": "high",
+      "brief_description": "Trading.com is a Cyprus-regulated investment firm offering retail investors a comprehensive trading platform for forex, crypto CFDs, stocks, and traditional investments with custody and portfolio management services.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "d9d7b0e9",
+      "lei": "213800186TP6OZSHUV17",
+      "legal_name": "J2TX Ltd",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Magnum Business Center, 4A, 78 Spyrou Kyprianou Avenue, 3076, Limassol, Cyprus",
+      "website": "https://www.j2tx.com",
+      "website_platform": null,
+      "auth_date": "2026-03-16",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-04-22",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services",
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "J2TX is a Cyprus-regulated crypto payment app focused on retail customers, offering cryptocurrency buying with credit cards, custody services, and comprehensive crypto asset management.",
+      "classification_date": "2026-04-26",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -3514,6 +3685,116 @@
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
+      "id": "c94d747a",
+      "lei": "529900114Q5XQ6KLYR24",
+      "legal_name": "CONCEDUS GmbH",
+      "commercial_name": "CONCEDUS GmbH",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Ostendstraße 100, 90482 Nürnberg",
+      "website": "https://concedus.com",
+      "website_platform": null,
+      "auth_date": "2026-01-15",
+      "auth_end_date": null,
+      "services": [
+        "g",
+        "h"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-03-19",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "advisory",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Concedus is a BaFin-licensed investment firm that provides regulatory umbrella services and API-driven compliance infrastructure for fintechs and financial institutions operating in European markets.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "b0fb0e37",
+      "lei": "391200EYHDBM1YQI7A32",
+      "legal_name": "DLT Securities GmbH",
+      "commercial_name": "DLT Securities GmbH",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Schneckenhofstraße 13, 60596 Frankfurt",
+      "website": "https://www.dlt-finance.com",
+      "website_platform": null,
+      "auth_date": "2025-12-18",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "e",
+        "f"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-04-01",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "custody",
+        "spot_exchange",
+        "otc_trading"
+      ],
+      "confidence": "high",
+      "brief_description": "DLT Finance is a regulated investment firm providing B2B technology infrastructure and white-label solutions that enable trading platforms and financial institutions to launch compliant crypto trading products.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "6c27345e",
+      "lei": "391200KFWD74ZYNEEA30",
+      "legal_name": "Tradevest Markets AG",
+      "commercial_name": "Tradevest Markets AG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Clemensstraße 2, 80803 München",
+      "website": "https://www.tradevest.ai/de",
+      "website_platform": null,
+      "auth_date": "2025-12-19",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-04-01",
+      "comments": null,
+      "entity_type": "hybrid",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "spot_exchange",
+        "custody",
+        "tokenization"
+      ],
+      "confidence": "high",
+      "brief_description": "Tradevest Markets AG is a B2B financial infrastructure provider offering regulated APIs and white-label solutions for trading and custody of traditional securities, cryptocurrencies, and tokenized assets to banks, asset managers, and other financial institutions.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
       "id": "15eee687",
       "lei": "9845000E4A7414709361",
       "legal_name": "Penning Financial Services ApS",
@@ -3661,39 +3942,133 @@
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
-      "id": "11810ef8",
-      "lei": "9.60E+19",
-      "legal_name": "OPEN BANK S.A.",
-      "commercial_name": "OPENBANK",
-      "home_country": "ES",
-      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
-      "address": "Plaza de Santa Barbara 2 28004 Madrid.",
-      "website": "https://www.openbank.es",
+      "id": "613b8580",
+      "lei": "98450010C0CB6A4E8A79",
+      "legal_name": "Northstake ApS",
+      "commercial_name": "Northstake ApS",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Amaliegade 45 st, 1256 Kopenhavn K",
+      "website": "https://www.northstake.dk",
       "website_platform": null,
-      "auth_date": "2025-07-24",
+      "auth_date": "2026-04-07",
       "auth_end_date": null,
       "services": [
         "a",
-        "e"
+        "e",
+        "j"
       ],
       "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
         "DE",
-        "ES"
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": null,
+      "last_update": "2026-04-07",
       "comments": null,
-      "entity_type": "bank",
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "staking",
+        "custody",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Northstake is a crypto-native company specializing in regulatory compliant institutional staking solutions and custody services for regulated financial institutions, digital asset managers, and custodians.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "28c47f0e",
+      "lei": "254900BBBJZF2IE8EN54",
+      "legal_name": "Lightyear Europe AS",
+      "commercial_name": "Lightyear Europe AS",
+      "home_country": "EE",
+      "competent_authority": "Estonian Financial Supervision Authority (EFSA)",
+      "address": "Volta tn 1, Tallinn, 10412",
+      "website": "https://lightyear.com",
+      "website_platform": "https://lightyear.com",
+      "auth_date": "2025-11-17",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "g"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2025-12-05",
+      "comments": null,
+      "entity_type": "investment_firm",
       "target_segments": [
         "retail"
       ],
       "primary_products": [
-        "spot_exchange",
         "custody",
+        "spot_exchange",
         "savings_investment"
       ],
       "confidence": "high",
-      "brief_description": "Openbank is a 100% online bank from Santander group that expanded its traditional banking services to include cryptocurrency buying and selling for retail customers.",
-      "classification_date": "2026-02-16",
+      "brief_description": "Lightyear Europe is a retail investment platform offering stocks, ETFs, and savings products that has expanded into crypto-asset services including custody and order execution.",
+      "classification_date": "2026-04-26",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -3716,7 +4091,7 @@
       "passporting_countries": [
         "ES"
       ],
-      "last_update": null,
+      "last_update": "2026-03-07",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -3731,6 +4106,42 @@
       ],
       "confidence": "high",
       "brief_description": "Spanish traditional bank BBVA offering basic crypto services including custody, trading and cryptocurrency transfers for its clients.",
+      "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "11810ef8",
+      "lei": "9.60E+19",
+      "legal_name": "OPEN BANK S.A.",
+      "commercial_name": "OPENBANK",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Plaza de Santa Barbara 2 28004 Madrid.",
+      "website": "https://www.openbank.es",
+      "website_platform": null,
+      "auth_date": "2025-07-24",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e"
+      ],
+      "passporting_countries": [
+        "DE",
+        "ES"
+      ],
+      "last_update": "2025-08-07",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Openbank is a 100% online bank from Santander group that expanded its traditional banking services to include cryptocurrency buying and selling for retail customers.",
       "classification_date": "2026-02-16",
       "llm_model": "claude-sonnet-4-20250514"
     },
@@ -3754,7 +4165,7 @@
       "passporting_countries": [
         "ES"
       ],
-      "last_update": null,
+      "last_update": "2025-08-07",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -3824,7 +4235,7 @@
         "SI",
         "SK"
       ],
-      "last_update": null,
+      "last_update": "2025-11-03",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -3864,7 +4275,7 @@
       "passporting_countries": [
         "ES"
       ],
-      "last_update": null,
+      "last_update": "2025-11-25",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -3880,6 +4291,43 @@
       "confidence": "high",
       "brief_description": "Spanish investment bank specializing in investment services and asset management that expanded its services to crypto-assets through MiCA license.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "7b71d7f5",
+      "lei": "549300U4LIZV0REEQQ46",
+      "legal_name": "KUTXABANK S.A.",
+      "commercial_name": "KUTXABANK",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Gran Vía 30. 48009 Bilbao.",
+      "website": "https://portal.kutxabank.es/cs/ Satellite/kb/es/particulares",
+      "website_platform": null,
+      "auth_date": "2026-03-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "ES"
+      ],
+      "last_update": "2026-03-27",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Kutxabank is a traditional Spanish bank that has expanded into crypto-asset services, offering custody, order transmission, and transfer services for digital assets to its clients.",
+      "classification_date": "2026-04-26",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -3903,7 +4351,7 @@
       "passporting_countries": [
         "ES"
       ],
-      "last_update": null,
+      "last_update": "2026-03-27",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -4882,6 +5330,71 @@
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
+      "id": "1c74c7a9",
+      "lei": "747800R015JVW1T4WZ71",
+      "legal_name": "ELECTROCOIN Ltd for services",
+      "commercial_name": "ELECTROCOIN",
+      "home_country": "HR",
+      "competent_authority": "Croatian Financial Services Supervisory Agency (HANFA)",
+      "address": "Stubička ulica 50 B , 10 000 Zagreb, Croatia",
+      "website": "https://electrocoin.eu/hr",
+      "website_platform": null,
+      "auth_date": "2026-04-09",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-04-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "ELECTROCOIN is a Croatian crypto service provider offering cryptocurrency buying/selling, custody services, and crypto payment solutions for retail consumers across Europe.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
       "id": "5a3c464c",
       "lei": "9845003D98SCC2851458",
       "legal_name": "Payward Global Solutions Limited",
@@ -5761,9 +6274,38 @@
         "j"
       ],
       "passporting_countries": [
-        "LI"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-03-17",
+      "last_update": "2026-04-15",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -6386,6 +6928,71 @@
       "confidence": "high",
       "brief_description": "Specialized institutional custodial service for digital assets focused on banks, funds and corporations with advanced trading and DeFi functionalities.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "a144a915",
+      "lei": "213800W1NGBLERUS6M39",
+      "legal_name": "Banking Circle S.A.",
+      "commercial_name": "Banking Circle",
+      "home_country": "LU",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "2, Boulevard de la Foire, L-1528 Luxembourg",
+      "website": "https://bankingcircle.com",
+      "website_platform": null,
+      "auth_date": "2026-02-16",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-03-24",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "payment_services",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Banking Circle is a fully licensed Luxembourg bank providing traditional banking services and infrastructure to over 700 regulated financial institutions, now expanding into crypto-asset exchange and transfer services.",
+      "classification_date": "2026-04-26",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -8436,7 +9043,7 @@
       "id": "787bcd26",
       "lei": "724500YJVIN0Q94ZZG5",
       "legal_name": "WEB3 Technology B.V.",
-      "commercial_name": "ARI10, ARI10 NL, WEB3 Technology B.V.",
+      "commercial_name": "Ari10 | Ari10 NL |  WEB3 Technology B.V.",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "address": "Prins Hendrikkade 21E - 1012TL - The Netherlands",
@@ -8450,8 +9057,39 @@
         "d",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": "2026-03-04",
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-02-19",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -8467,6 +9105,74 @@
       "confidence": "high",
       "brief_description": "ARI10 is a crypto payment gateway and fintech infrastructure provider that enables businesses to accept cryptocurrencies, process fiat-to-crypto conversions, and offers exchange services with B2B solutions.",
       "classification_date": "2026-03-10",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "78574e81",
+      "lei": "7245002DD3GNFXPGPP93",
+      "legal_name": "D2X Group N.V.",
+      "commercial_name": "D2X",
+      "home_country": "NL",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "address": "Ijsbaanpad 2 - 1076CV Amsterdam - The Netherlands",
+      "website": "https://d2x.com",
+      "website_platform": null,
+      "auth_date": "2026-03-26",
+      "auth_end_date": null,
+      "services": [
+        "a"
+      ],
+      "passporting_countries": [
+        "NL"
+      ],
+      "last_update": "2026-03-26",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "derivatives",
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "D2X is a regulated investment firm operating a multilateral trading facility (MTF) that provides institutional crypto derivatives trading 7 days a week along with custody services.",
+      "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-20250514"
+    },
+    {
+      "id": "27674f49",
+      "lei": "724500EAW1MTCM9M1X68",
+      "legal_name": "ClearBank Europe N.V.",
+      "commercial_name": "ClearBank Europe B.V.",
+      "home_country": "NL",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "address": "Stadhouderskade 85 - 1073AT Amsterdam - The Netherlands",
+      "website": "https://clear.bank",
+      "website_platform": null,
+      "auth_date": "2026-04-03",
+      "auth_end_date": null,
+      "services": [
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "NL"
+      ],
+      "last_update": "2026-04-03",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "ClearBank Europe is a fully regulated bank that provides API-based banking infrastructure and payment services to fintechs, banks, and digital asset platforms, now offering crypto-asset order execution, transmission, and transfer services under MiCA.",
+      "classification_date": "2026-04-26",
       "llm_model": "claude-sonnet-4-20250514"
     },
     {
@@ -9028,9 +9734,9 @@
       "population": 9100000,
       "gdp_eur": 447000000000,
       "eea": true,
-      "registered_casps": 8,
-      "passported_casps": 85,
-      "total_casps": 93
+      "registered_casps": 9,
+      "passported_casps": 93,
+      "total_casps": 102
     },
     "BE": {
       "name": "Belgium",
@@ -9039,8 +9745,8 @@
       "gdp_eur": 554000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 95,
-      "total_casps": 96
+      "passported_casps": 103,
+      "total_casps": 104
     },
     "BG": {
       "name": "Bulgaria",
@@ -9049,8 +9755,8 @@
       "gdp_eur": 95000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 81,
-      "total_casps": 82
+      "passported_casps": 89,
+      "total_casps": 90
     },
     "HR": {
       "name": "Croatia",
@@ -9058,9 +9764,9 @@
       "population": 3900000,
       "gdp_eur": 68000000000,
       "eea": true,
-      "registered_casps": 0,
-      "passported_casps": 83,
-      "total_casps": 83
+      "registered_casps": 1,
+      "passported_casps": 91,
+      "total_casps": 92
     },
     "CY": {
       "name": "Cyprus",
@@ -9068,9 +9774,9 @@
       "population": 920000,
       "gdp_eur": 28000000000,
       "eea": true,
-      "registered_casps": 10,
-      "passported_casps": 84,
-      "total_casps": 94
+      "registered_casps": 12,
+      "passported_casps": 91,
+      "total_casps": 103
     },
     "CZ": {
       "name": "Czech Republic",
@@ -9079,8 +9785,8 @@
       "gdp_eur": 290000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 87,
-      "total_casps": 93
+      "passported_casps": 95,
+      "total_casps": 101
     },
     "DK": {
       "name": "Denmark",
@@ -9088,9 +9794,9 @@
       "population": 5900000,
       "gdp_eur": 380000000000,
       "eea": true,
-      "registered_casps": 3,
-      "passported_casps": 83,
-      "total_casps": 86
+      "registered_casps": 4,
+      "passported_casps": 91,
+      "total_casps": 95
     },
     "EE": {
       "name": "Estonia",
@@ -9098,9 +9804,9 @@
       "population": 1400000,
       "gdp_eur": 38000000000,
       "eea": true,
-      "registered_casps": 0,
-      "passported_casps": 83,
-      "total_casps": 83
+      "registered_casps": 1,
+      "passported_casps": 91,
+      "total_casps": 92
     },
     "FI": {
       "name": "Finland",
@@ -9109,8 +9815,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 85,
-      "total_casps": 90
+      "passported_casps": 93,
+      "total_casps": 98
     },
     "FR": {
       "name": "France",
@@ -9119,8 +9825,8 @@
       "gdp_eur": 2800000000000,
       "eea": true,
       "registered_casps": 13,
-      "passported_casps": 83,
-      "total_casps": 96
+      "passported_casps": 91,
+      "total_casps": 104
     },
     "DE": {
       "name": "Germany",
@@ -9128,9 +9834,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 50,
-      "passported_casps": 138,
-      "total_casps": 188
+      "registered_casps": 53,
+      "passported_casps": 149,
+      "total_casps": 202
     },
     "GR": {
       "name": "Greece",
@@ -9139,8 +9845,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 86,
-      "total_casps": 86
+      "passported_casps": 94,
+      "total_casps": 94
     },
     "HU": {
       "name": "Hungary",
@@ -9149,8 +9855,8 @@
       "gdp_eur": 180000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 82,
-      "total_casps": 82
+      "passported_casps": 90,
+      "total_casps": 90
     },
     "IS": {
       "name": "Iceland",
@@ -9159,8 +9865,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 65,
-      "total_casps": 65
+      "passported_casps": 73,
+      "total_casps": 73
     },
     "IE": {
       "name": "Ireland",
@@ -9169,8 +9875,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 11,
-      "passported_casps": 90,
-      "total_casps": 101
+      "passported_casps": 98,
+      "total_casps": 109
     },
     "IT": {
       "name": "Italy",
@@ -9179,8 +9885,8 @@
       "gdp_eur": 2000000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 95,
-      "total_casps": 95
+      "passported_casps": 103,
+      "total_casps": 103
     },
     "LV": {
       "name": "Latvia",
@@ -9189,8 +9895,8 @@
       "gdp_eur": 40000000000,
       "eea": true,
       "registered_casps": 2,
-      "passported_casps": 82,
-      "total_casps": 84
+      "passported_casps": 90,
+      "total_casps": 92
     },
     "LI": {
       "name": "Liechtenstein",
@@ -9199,8 +9905,8 @@
       "gdp_eur": 7000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 77,
-      "total_casps": 82
+      "passported_casps": 84,
+      "total_casps": 89
     },
     "LT": {
       "name": "Lithuania",
@@ -9209,8 +9915,8 @@
       "gdp_eur": 67000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 80,
-      "total_casps": 86
+      "passported_casps": 88,
+      "total_casps": 94
     },
     "LU": {
       "name": "Luxembourg",
@@ -9218,9 +9924,9 @@
       "population": 660000,
       "gdp_eur": 80000000000,
       "eea": true,
-      "registered_casps": 4,
-      "passported_casps": 91,
-      "total_casps": 95
+      "registered_casps": 5,
+      "passported_casps": 99,
+      "total_casps": 104
     },
     "MT": {
       "name": "Malta",
@@ -9229,8 +9935,8 @@
       "gdp_eur": 18000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 76,
-      "total_casps": 88
+      "passported_casps": 84,
+      "total_casps": 96
     },
     "NL": {
       "name": "Netherlands",
@@ -9238,9 +9944,9 @@
       "population": 17800000,
       "gdp_eur": 1010000000000,
       "eea": true,
-      "registered_casps": 23,
-      "passported_casps": 101,
-      "total_casps": 124
+      "registered_casps": 25,
+      "passported_casps": 111,
+      "total_casps": 136
     },
     "NO": {
       "name": "Norway",
@@ -9249,8 +9955,8 @@
       "gdp_eur": 480000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 71,
-      "total_casps": 71
+      "passported_casps": 79,
+      "total_casps": 79
     },
     "PL": {
       "name": "Poland",
@@ -9259,8 +9965,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 86,
-      "total_casps": 86
+      "passported_casps": 94,
+      "total_casps": 94
     },
     "PT": {
       "name": "Portugal",
@@ -9269,8 +9975,8 @@
       "gdp_eur": 260000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 90,
-      "total_casps": 90
+      "passported_casps": 98,
+      "total_casps": 98
     },
     "RO": {
       "name": "Romania",
@@ -9279,8 +9985,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 81,
-      "total_casps": 81
+      "passported_casps": 89,
+      "total_casps": 89
     },
     "SK": {
       "name": "Slovakia",
@@ -9289,8 +9995,8 @@
       "gdp_eur": 115000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 87,
-      "total_casps": 93
+      "passported_casps": 95,
+      "total_casps": 101
     },
     "SI": {
       "name": "Slovenia",
@@ -9299,8 +10005,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 85,
-      "total_casps": 88
+      "passported_casps": 93,
+      "total_casps": 96
     },
     "ES": {
       "name": "Spain",
@@ -9308,9 +10014,9 @@
       "population": 48000000,
       "gdp_eur": 1400000000000,
       "eea": true,
-      "registered_casps": 6,
-      "passported_casps": 100,
-      "total_casps": 106
+      "registered_casps": 7,
+      "passported_casps": 109,
+      "total_casps": 116
     },
     "SE": {
       "name": "Sweden",
@@ -9319,8 +10025,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 85,
-      "total_casps": 86
+      "passported_casps": 93,
+      "total_casps": 94
     },
     "CH": {
       "name": "Switzerland",
