@@ -14,7 +14,9 @@
       "WebFetch(domain:mempool.space)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git config *)",
+      "Bash(npm run *)"
     ]
   }
 }

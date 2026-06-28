@@ -159,7 +159,7 @@ Vstup: `build/cache/normalized.json` + `build/cache/scraped_raw.json`
 Výstup: `build/cache/enriched.json`
 
 **Anthropic API call per CASP:**
-- Model: `claude-sonnet-4-20250514` (optimální poměr cena/kvalita pro klasifikaci)
+- Model: `claude-sonnet-4-6` (optimální poměr cena/kvalita pro klasifikaci)
 - **Cache výsledky** — volat API jen pro nové/změněné záznamy
 - Rate limiting: max 5 concurrent requests, respektovat API rate limits
 
@@ -225,7 +225,7 @@ Odpověz POUZE jako validní JSON objekt.
   "confidence": "high",
   "brief_description": "Globální kryptoměnová burza zaměřená na retailové a profesionální obchodníky s deriváty a spot obchodováním.",
   "classification_date": "2025-02-16",
-  "llm_model": "claude-sonnet-4-20250514"
+  "llm_model": "claude-sonnet-4-6"
 }
 ```
 

@@ -11,7 +11,7 @@ const ENRICHED_CACHE = join(CACHE_DIR, 'enriched.json');
 
 const LLM_CONCURRENCY = parseInt(process.env.LLM_CONCURRENCY || '5', 10);
 const SKIP_LLM = process.env.SKIP_LLM === 'true';
-const MODEL = 'claude-sonnet-4-20250514';
+const MODEL = 'claude-sonnet-4-6';
 const MAX_RETRIES = 2;
 
 // ── MiCA service full names ────────────────────────────────────────────────
