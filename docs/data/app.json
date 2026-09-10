@@ -1,8 +1,8 @@
 {
   "metadata": {
-    "generated_at": "2026-06-26T11:30:13.081Z",
+    "generated_at": "2026-09-06T19:18:37.629Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 242,
+    "total_casps": 330,
     "scrape_success_rate": 0.89,
     "llm_classification_rate": 1
   },
@@ -590,6 +590,76 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "5511c013",
+      "lei": "8945001TKX2A5OJMNR45",
+      "legal_name": "OSL EU GmbH",
+      "commercial_name": "OSL EU",
+      "home_country": "AT",
+      "competent_authority": "Austrian Financial Market Authority (FMA)",
+      "address": "Julius-Tandler-Platz 3/Stiege B, Stock 9, 1090 Vienna, Austria",
+      "website": "https://www.osl.com/eu",
+      "website_platform": null,
+      "auth_date": "2026-07-07",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-13",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services",
+        "otc_trading",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "OSL EU is a globally licensed crypto-native platform offering regulated stablecoin trading, payments, custody, and B2B digital asset infrastructure for retail, professional, and institutional clients across the EEA and beyond.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "4ae2f5a0",
       "lei": "6B2PBRV1FCJDMR45RZ53",
       "legal_name": "KBC Bank NV",
@@ -623,6 +693,42 @@
       "confidence": "high",
       "brief_description": "Traditional Belgian bank offering basic crypto services (custody and trading) within its broad portfolio of banking and insurance products.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cefe5a78",
+      "lei": "MMYX0N4ZEZ13Z4XCG897",
+      "legal_name": "BNY SA/NV",
+      "commercial_name": "BNY",
+      "home_country": "BE",
+      "competent_authority": "National Bank of Belgium (NBB)",
+      "address": "Anspachlaan 1, 1000 Brussels",
+      "website": "https://www.bny.com",
+      "website_platform": null,
+      "auth_date": "2026-07-20",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "j"
+      ],
+      "passporting_countries": [
+        "BE"
+      ],
+      "last_update": "2026-07-20",
+      "comments": "1: The NBB has expressly confimed the completeness of the information file received by BNY SA/NV. This confirmation has been given on 20/07, after which BNY SA/NV, as soon as 27/7 could start to offer its crypto-asset services",
+      "entity_type": "bank",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "infrastructure",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "BNY (Bank of New York) is a leading global custodian bank and financial services institution offering institutional-grade crypto-asset custody and transfer services as an extension of its traditional capital markets infrastructure.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -668,6 +774,118 @@
       "confidence": "high",
       "brief_description": "Bulgarian investment firm with EU license specializing in trading US stocks and options, now expanding services to cryptocurrencies for professional traders and institutions.",
       "classification_date": "2026-02-16",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "6532a625",
+      "lei": "64882N0ABXS71817AI18",
+      "legal_name": "Belayer ООD",
+      "commercial_name": "Belayer",
+      "home_country": "BG",
+      "competent_authority": "Financial Supervision Commission (FSC)",
+      "address": "Office 1, 3rd Floor, 7 Industrialna St., Serdika District,",
+      "website": "https://www.belayer.bg",
+      "website_platform": null,
+      "auth_date": "2026-04-28",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "i"
+      ],
+      "passporting_countries": [
+        "BG"
+      ],
+      "last_update": "2026-04-28",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "custody",
+        "defi_access",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Belayer is a Bulgarian MiCA-registered crypto-native asset manager offering individualized crypto portfolio management, custody, and DeFi-based yield strategies tailored to client risk profiles and investment goals.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "bd8212f7",
+      "lei": "984500FBAE2EDEF1C317",
+      "legal_name": "Altcoins BG EООD",
+      "commercial_name": "Altcoins",
+      "home_country": "BG",
+      "competent_authority": "Financial Supervision Commission (FSC)",
+      "address": "Office 1, 1st Floor, 81 Vladislav Varnenchik Blvd.,\r\nVarna 9000, Bulgaria",
+      "website": "https://altcoins.bg",
+      "website_platform": null,
+      "auth_date": "2026-07-21",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "BG"
+      ],
+      "last_update": "2026-07-21",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "otc_trading",
+        "payment_services",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Altcoins.bg is a Bulgarian crypto-native exchange and custody platform, holding a MiCA license, offering spot trading, custody, OTC services, and crypto-to-bank payment solutions primarily to Bulgarian retail and professional clients.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "54409cdd",
+      "lei": "8755007GZKOS1VJ6BZ82",
+      "legal_name": "Digital Assist OOD",
+      "commercial_name": "Digital Assist",
+      "home_country": "BG",
+      "competent_authority": "Financial Supervision Commission (FSC)",
+      "address": "Apartment 1, 1st Floor, Entr. A, 13 Pencho Slaveykov Blvd., Sofia 1606, Bulgaria",
+      "website": "https://digitalassist.bg",
+      "website_platform": null,
+      "auth_date": "2026-07-21",
+      "auth_end_date": null,
+      "services": [
+        "c"
+      ],
+      "passporting_countries": [
+        "BG"
+      ],
+      "last_update": "2026-07-21",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "crypto_atm",
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Digital Assist is a Bulgarian MiCA-licensed crypto-native company operating the largest crypto ATM network in Bulgaria, enabling retail customers to buy and sell Bitcoin, Ethereum, Litecoin, and USDC for cash at 8 locations across four cities.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -1496,11 +1714,11 @@
       "id": "b0d03417",
       "lei": "254900K8AF5VMJFMZN69",
       "legal_name": "S.K. DASK KRYPTO LTD",
-      "commercial_name": "DASK CAPITAL",
+      "commercial_name": "DASK KRYPTO",
       "home_country": "CY",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
       "address": "18 Kyriakou Matsi Victorty Tower 3rd Floor 1082 Nicosia Cyprus",
-      "website": "https://www.daskcapital.io",
+      "website": "https://www.daskkrypto.eu",
       "website_platform": null,
       "auth_date": "2026-06-08",
       "auth_end_date": null,
@@ -1512,8 +1730,10 @@
         "g",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": "2026-06-16",
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-15",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -1529,6 +1749,672 @@
       "confidence": "medium",
       "brief_description": "DASK Capital is a Cyprus-based crypto-native CASP registered under MiCA, offering a broad range of services including crypto custody, spot exchange, order execution, and crypto transfer services to retail and professional clients.",
       "classification_date": "2026-06-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "0c2e8c68",
+      "lei": "984500DCB2AF415E5Y71",
+      "legal_name": "NAGA X",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Ariadnis 7, Mouttagiaka, 4531, Limassol, Cyprus - (HQ)",
+      "website": "https://www.nagax.com/eu",
+      "website_platform": null,
+      "auth_date": "2026-06-08",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "defi_access",
+        "payment_services",
+        "portfolio_management"
+      ],
+      "confidence": "high",
+      "brief_description": "NAGA X is a Cyprus-based crypto-native 'SuperApp' offering a social trading platform with spot exchange, custodial Web3 wallet, fiat-to-crypto purchasing, DeFi access, and portfolio management services primarily targeting retail users across 150+ countries.",
+      "classification_date": "2026-06-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "7f8c9d63",
+      "lei": "213800V83W83UL8WR118",
+      "legal_name": "Ronin EM Ltd",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "19 Promachon Eleftherias, Alpha Business Center, Mezzanine, Agios Athanasios, 4103, Limassol, Cyprus",
+      "website": "https://em.ron.in",
+      "website_platform": null,
+      "auth_date": "2026-06-22",
+      "auth_end_date": null,
+      "services": [
+        "a"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-08-04",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "otc_trading",
+        "tokenization",
+        "infrastructure"
+      ],
+      "confidence": "medium",
+      "brief_description": "Ronin EM Ltd is a Cyprus-registered MiCA-licensed crypto-asset service provider offering institutional-grade custody and liquidity solutions for regulated entities, asset managers, and professional clients, leveraging Fireblocks MPC-CMP technology and Chainalysis KYT monitoring.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "eaa0c545",
+      "lei": "984500I2EA955E934537",
+      "legal_name": "Krypto Knight Ltd",
+      "commercial_name": "KRYPTO KNIGHT",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Vasilissis Freiderikis 20, El Greco House, 2nd Floor, 1066, Nicosia, Cyprus",
+      "website": "https://www.krypto-knight.com",
+      "website_platform": null,
+      "auth_date": "2026-06-15",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Krypto Knight Ltd is a Cyprus-based crypto-asset service provider offering a broad range of MiCA-licensed services including custody, crypto-to-fiat and crypto-to-crypto exchange, order execution and transmission, and crypto transfer services, primarily targeting retail and professional clients.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "32bd82c1",
+      "lei": "9845007E2C96JA7B8653",
+      "legal_name": "TRIA BRIDGE LIMITED (ex Tokenomica Bridge Ltd)",
+      "commercial_name": "TRIA BRIDGE",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Arch. Makariou III & Markou Drakou, 66-68, Mesa Geitonia, 4003, Limassol, Cyprus",
+      "website": "https://triabridge.com",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-31",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Tría Bridge is a CySEC-registered Cyprus-based crypto-asset service provider offering exchange, custody, brokerage, investment advice, and portfolio management services to retail and professional clients under MiCA transitional provisions.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "9ee98a56",
+      "lei": "254900JFRZG8P67ZHI74",
+      "legal_name": "NOEMON TECH LTD",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Kyriakou Matsi 18, Victory Tower, 2nd Floor, 1082, Nicosia, Cyprus",
+      "website": "https://www.noemon.tech",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "otc_trading",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Noemon Tech Ltd is a CySEC-regulated Cypriot CASP (014/24) offering RFQ-based crypto exchange, custody, and transfer services, acting as principal counterparty on every trade and distributing its services through partner channels to professional and institutional clients.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c9c37a08",
+      "lei": "894500FFZOA2AVGYOA88",
+      "legal_name": "Unlimit Crypto Ltd",
+      "commercial_name": "Unlimit Crypto Ltd (ex Stable Defi Ltd)",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "125 Georgiou Griva Digeni, Limassol 3101, Cyprus.",
+      "website": "https://www.crypto.unlimit.com",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "payment_institution",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "spot_exchange",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Unlimit Crypto is a B2B fiat on/off-ramp provider offering white-label API infrastructure that enables businesses to integrate crypto buying and selling with 200+ digital assets and 1000+ global payment methods.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "18409af1",
+      "lei": "254900J8O1555O3B2T92",
+      "legal_name": "COMPLYCRYPTO DEPOSITORY EU LIMITED",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Diagorou 2, ERA HOUSE, 11th Floor, 1097 Nicosia, Cyprus",
+      "website": "https://www.complycrypto.eu",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "ComplyCrypto Depository EU Limited is a CySEC-registered crypto-asset service provider based in Cyprus, focused on compliant custody, exchange, and transfer services for crypto-assets with an emphasis on regulatory adherence and security.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "942977be",
+      "lei": "9845009846V10FGD4840",
+      "legal_name": "Brilliantscope Trading Limited",
+      "commercial_name": "tothemoon",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "28th Oktovriou 341, Trilogy Limassol Seafront, W505, Phase A, 3106, Limassol , Cyprus",
+      "website": "https://tothemoon.com",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "staking",
+        "savings_investment",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Tothemoon is a Cyprus-based crypto-native exchange founded in 2017, offering a broad one-stop ecosystem including spot trading, custody, staking, and transfer services for retail, professional, and institutional clients under MiCA registration.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "f5905721",
+      "lei": "254900YI6BJ1QQQZIY62",
+      "legal_name": "SG Digital Assets Limited",
+      "commercial_name": "Solidgate , SG Digital Assets",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Diogenous 1 , Block A, 2nd floor, Office 24, 2404, Nicosia, Cyprus",
+      "website": "https://solidgate.com/casp",
+      "website_platform": null,
+      "auth_date": "2026-07-13",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-17",
+      "comments": null,
+      "entity_type": "payment_institution",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services",
+        "infrastructure"
+      ],
+      "confidence": "medium",
+      "brief_description": "Solidgate (SG Digital Assets Limited) is a Cyprus-based payment technology company expanding into crypto-asset services under MiCA, planning to offer custody, crypto exchange, order execution, and transfer services subject to full CASP authorisation by CySEC.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d5e81c2c",
+      "lei": "2138005EFA978Y43G944",
+      "legal_name": "PM MTF LTD",
+      "commercial_name": "PM MTF LTD",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "21 kasou, 1086 Nicosia, Cyprus",
+      "website": "https://mtf.perpetuals.com/, http://eu.barriers.com",
+      "website_platform": null,
+      "auth_date": "2026-07-20",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "b",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-24",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "derivatives",
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "PM MTF LTD is a Cyprus-based crypto-asset service provider operating a multilateral trading facility (MTF) focused on perpetuals/derivatives trading, offering custody, order execution, and transfer services with broad EU passporting rights.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c4ddf3d4",
+      "lei": "549300ZCGZNVDA6R3Y84",
+      "legal_name": "Aquilla Nummus Ltd",
+      "commercial_name": "Aquilla Nummus Ltd",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "26 Lordou Vyronos, 1096, Nicosia",
+      "website": "https://www.aquillanummus.com",
+      "website_platform": null,
+      "auth_date": "2026-07-20",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "g",
+        "i"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-07-24",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "custody",
+        "spot_exchange",
+        "advisory"
+      ],
+      "confidence": "medium",
+      "brief_description": "Aquilla Nummus Ltd is a CySEC-licensed Cyprus Investment Firm (license 345/17) that has extended into MiCA-regulated crypto-asset services, offering portfolio management, custody, and order execution for crypto-assets to high net worth individuals and institutional investors.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "2723742f",
+      "lei": "213800IWLH982X74LO71",
+      "legal_name": "Cloverum Finance (CY) Limited",
+      "commercial_name": "Cloverum",
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "Kypranoros 13, Evi Building, Floor 2, Office 201, 1061 Nicosia, Cyprus",
+      "website": "https://www.cloverum.com",
+      "website_platform": null,
+      "auth_date": "2026-07-06",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-24",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Cloverum Finance (CY) Limited is a Cyprus-based MiCA-registered crypto-asset service provider offering a broad range of services including custody, spot exchange, order execution, and crypto transfer services, with passporting rights across the EU/EEA.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -1571,47 +2457,6 @@
       "confidence": "high",
       "brief_description": "Invity is a Czech crypto-native platform focused on Bitcoin accumulation for retail users, offering simplified buying, selling, custody services, and automated investment strategies like dollar-cost averaging and their 'Turbo Buy' feature.",
       "classification_date": "2026-02-24",
-      "llm_model": "claude-sonnet-4-6"
-    },
-    {
-      "id": "0c2e8c68",
-      "lei": "984500DCB2AF415E5Y71",
-      "legal_name": "NAGA X",
-      "commercial_name": null,
-      "home_country": "CY",
-      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
-      "address": "Ariadnis 7, Mouttagiaka, 4531, Limassol, Cyprus - (HQ)",
-      "website": "https://www.nagax.com/eu",
-      "website_platform": null,
-      "auth_date": "2026-06-08",
-      "auth_end_date": null,
-      "services": [
-        "a",
-        "c",
-        "d",
-        "e",
-        "g",
-        "h",
-        "i",
-        "j"
-      ],
-      "passporting_countries": [],
-      "last_update": "2026-06-16",
-      "comments": null,
-      "entity_type": "crypto_native",
-      "target_segments": [
-        "retail"
-      ],
-      "primary_products": [
-        "spot_exchange",
-        "custody",
-        "defi_access",
-        "payment_services",
-        "portfolio_management"
-      ],
-      "confidence": "high",
-      "brief_description": "NAGA X is a Cyprus-based crypto-native 'SuperApp' offering a social trading platform with spot exchange, custodial Web3 wallet, fiat-to-crypto purchasing, DeFi access, and portfolio management services primarily targeting retail users across 150+ countries.",
-      "classification_date": "2026-06-26",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -1843,6 +2688,151 @@
       "confidence": "medium",
       "brief_description": "Golden Gate appears to be a Czech investment platform offering crypto services alongside traditional precious metals investments, focusing on retail investors with custody, exchange, and advisory services.",
       "classification_date": "2026-06-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "1a8a3584",
+      "lei": "315700I7V6W7BLAI9Z32",
+      "legal_name": "IP wBTCb solutions, s.r.o.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Národní 973/41, 110 00 Praha",
+      "website": "https://bit.plus",
+      "website_platform": null,
+      "auth_date": "2026-06-13",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "crypto_atm",
+        "payment_services",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Bit.plus (IP wBTCb solutions, s.r.o.) is a Czech crypto-native exchange operating since 2014 that offers regulated buying, selling, custody, and transfer of Bitcoin, Ethereum, and USDC via a mobile app, along with a network of Bitcoin ATMs and cash exchange points across the Czech Republic.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cef3501d",
+      "lei": "3157008PWKP5LP7AR251",
+      "legal_name": "Simple Coin s.r.o.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Bubenečská 184/1, 160 00 Praha",
+      "website": "https://www.simplecoin.eu",
+      "website_platform": null,
+      "auth_date": "2026-06-23",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Simplecoin is a Czech crypto-native company offering cryptocurrency exchange, custody, and transfer services primarily to retail clients.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "787ce231",
+      "lei": "3157009R9J4OHLL5NY32",
+      "legal_name": "wBTCb.cz, s.r.o.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Národní 973/41, 110 00 Praha",
+      "website": "https://bit.plus",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "c"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "crypto_atm",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Bit.plus (wBTCb.cz) is a Czech crypto-native exchange operating since 2014, offering retail customers Bitcoin, Ethereum, and USDC spot trading via a regulated app, a network of Bitcoin ATMs, and cash exchange services up to 1,000 EUR equivalent.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c88b491a",
+      "lei": "315700J0QGFRKN11MF15",
+      "legal_name": "Partners Banka, a.s.",
+      "commercial_name": null,
+      "home_country": "CZ",
+      "competent_authority": "Czech National Bank (CNB)",
+      "address": "Türkova 2319/5b, 149 00 Praha",
+      "website": "https://www.partnersbanka.cz",
+      "website_platform": null,
+      "auth_date": "2026-07-29",
+      "auth_end_date": null,
+      "services": [
+        "g"
+      ],
+      "passporting_countries": [
+        "CZ"
+      ],
+      "last_update": "2026-08-04",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Partners Banka is a Czech retail bank offering traditional banking products (accounts, savings, mortgages, loans) alongside Bitcoin buying/selling integrated directly into its banking app, with a strong emphasis on personal financial advisory.",
+      "classification_date": "2026-08-20",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -2534,20 +3524,23 @@
         "j"
       ],
       "passporting_countries": [
+        "AT",
         "BE",
         "DE",
         "ES",
         "FR",
         "GR",
+        "HU",
         "IT",
         "LI",
         "LU",
         "MT",
         "NL",
         "PL",
-        "PT"
+        "PT",
+        "SK"
       ],
-      "last_update": "2025-05-23",
+      "last_update": "2026-06-19",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -2631,12 +3624,15 @@
         "HR",
         "HU",
         "IE",
+        "IS",
         "IT",
+        "LI",
         "LT",
         "LU",
         "LV",
         "MT",
         "NL",
+        "NO",
         "PL",
         "PT",
         "RO",
@@ -2644,7 +3640,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2025-08-08",
+      "last_update": "2026-06-22",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -3095,21 +4091,24 @@
       "id": "d51bf6ff",
       "lei": "529900EXG2PM316ISO63",
       "legal_name": "Deutsche WertpapierService Bank AG",
-      "commercial_name": "Deutsche WertpapierService Bank AG (dwpbank)",
+      "commercial_name": "Deutsche WertpapierService Bank AG",
       "home_country": "DE",
       "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
       "address": "Wildunger Straße 14, 60487 Frankfurt am Main",
       "website": "https://dwpbank.de",
       "website_platform": null,
-      "auth_date": "2025-12-04",
+      "auth_date": "2026-08-28",
       "auth_end_date": null,
       "services": [
-        "e"
+        "a",
+        "c",
+        "d",
+        "j"
       ],
       "passporting_countries": [
         "DE"
       ],
-      "last_update": "2025-11-27",
+      "last_update": "2026-07-30",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -3139,6 +4138,7 @@
       "auth_end_date": null,
       "services": [
         "a",
+        "c",
         "e",
         "j"
       ],
@@ -4175,6 +5175,671 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "a5560b06",
+      "lei": "529900P8OKWO25XE4251",
+      "legal_name": "Donau-Iller-Bank eG",
+      "commercial_name": "Donau-Iller-Bank eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Pfisterstraße 20, 89584 Ehingen",
+      "website": "https://www.donau-iller-bank.de",
+      "website_platform": null,
+      "auth_date": "2026-07-01",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-01",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Donau-Iller-Bank eG is a traditional German cooperative bank (Genossenschaftsbank) offering a full range of retail and business banking services, registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ac3a811a",
+      "lei": "5299009ADJ9XFQVUKZ50",
+      "legal_name": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "commercial_name": "Volksbank Schwarzwald-Donau-Neckar eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Am Seltenbach 15, 78532 Tuttlingen",
+      "website": "https://www.vbsdn.de",
+      "website_platform": null,
+      "auth_date": "2026-07-02",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-02",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Schwarzwald-Donau-Neckar eG is a German cooperative retail and commercial bank that has registered under MiCA to offer crypto-asset order execution services as an extension of its traditional banking product portfolio.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "44d2fa86",
+      "lei": "529900R1A7TN1LM06875",
+      "legal_name": "Raiffeisebank Auerbach-Freihung eG",
+      "commercial_name": "Raiffeisebank Auerbach-Freihung eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Oberer Marktplatz 13, 91275 Ansbach",
+      "website": "https://www.rb-af.de",
+      "website_platform": null,
+      "auth_date": "2026-06-19",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-06-19",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisebank Auerbach-Freihung eG is a traditional German cooperative bank offering a broad range of banking and financial services to retail and business clients, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "75e926ae",
+      "lei": "529900YERL5TV5YJCR45",
+      "legal_name": "JT Technologies GmbH",
+      "commercial_name": "justTRADE",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Hamburger Allee 14, 60486 Frankfurt am Main",
+      "website": "https://www.justtrade.com",
+      "website_platform": null,
+      "auth_date": "2026-07-14",
+      "auth_end_date": null,
+      "services": [
+        "e",
+        "g"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-14",
+      "comments": null,
+      "entity_type": "hybrid",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "derivatives",
+        "savings_investment",
+        "staking"
+      ],
+      "confidence": "high",
+      "brief_description": "justTRADE is a German online broker offering commission-free trading in stocks, ETFs, derivatives, and over 65 real cryptocurrencies (with custody in Germany), alongside crypto ETPs and staking options, targeting retail and active traders.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ed7a85da",
+      "lei": "529900793U3P5C6YYC70",
+      "legal_name": "Spar- und Kreditbank Rheinstetten eG",
+      "commercial_name": "Spar- und Kreditbank Rheinstetten eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Badener Straße 3, 76287 Rheinstetten",
+      "website": "https://www.skb-rheinstetten.de",
+      "website_platform": null,
+      "auth_date": "2026-07-27",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "low",
+      "brief_description": "Spar- und Kreditbank Rheinstetten eG is a traditional German cooperative savings and credit bank offering standard retail and business banking services, registered under MiCA for execution of crypto-asset orders on behalf of clients, though no crypto-specific offerings are visibly promoted on its we",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "b77f54e9",
+      "lei": "529900CG5HHEUT0AHK10",
+      "legal_name": "VR-Bank Augsburg-Ostallgäu eG",
+      "commercial_name": "VR-Bank Augsburg-Ostallgäu eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Schießgrabenstraße 10, 86150 Augsburg",
+      "website": "https://www.vrbank-augsburg-ostallgaeu.de",
+      "website_platform": null,
+      "auth_date": "2026-07-21",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-21",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "VR-Bank Augsburg-Ostallgäu eG is a traditional German cooperative bank offering a broad range of retail and business banking services, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "5dfc1863",
+      "lei": "391200236O6D9SGBE882",
+      "legal_name": "Raiffeisenbank Falkenstein-Wörth",
+      "commercial_name": "Raiffeisenbank Falkenstein-Wörth",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Dr.-Götz-Str. 1, 93167 Falkenstein",
+      "website": "https://www.rbfalkenstein-woerth.de",
+      "website_platform": null,
+      "auth_date": "2026-07-13",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-13",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisenbank Falkenstein-Wörth is a traditional German cooperative bank offering a broad range of retail and business banking services, now MiCA-registered to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d181f1ad",
+      "lei": "5299005O2LPWV9IP2Z21",
+      "legal_name": "Volksbank Raiffeisenbank Oberbayern Südost eG",
+      "commercial_name": "Volksbank Raiffeisenbank Oberbayern Südost eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Münchner Allee 2, 83435 Bad Reichenhall",
+      "website": "https://www-vrbank-obb-so.de",
+      "website_platform": null,
+      "auth_date": "2026-07-24",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-24",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Raiffeisenbank Oberbayern Südost eG is a German cooperative bank offering MiCA-regulated crypto-asset order execution services to its retail and professional client base in the Oberbayern Südost region.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c1f1b8ca",
+      "lei": "52990017DZKEH3Q6PV63",
+      "legal_name": "VR Bank Schleswig-Holstein Mitte eG",
+      "commercial_name": "VR Bank Schleswig-Holstein Mitte eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Werner-von-Siemens-Str. 44-48, 24783 Osterrönfeld",
+      "website": "https://www.vrbank-sh-mitte.de",
+      "website_platform": null,
+      "auth_date": "2026-07-21",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-21",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "VR Bank Schleswig-Holstein Mitte eG is a traditional German cooperative bank offering a broad range of retail banking services, now MiCA-registered to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "67fe1544",
+      "lei": "529900E9AS5RG8YBF660",
+      "legal_name": "VR-Bank Landau-Mengkofen eG",
+      "commercial_name": "VR-Bank Landau-Mengkofen eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Marienplatz 1, 94405 Landau a. d. Isar",
+      "website": "https://www.vrbanklm.de",
+      "website_platform": null,
+      "auth_date": "2026-07-29",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-29",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "VR-Bank Landau-Mengkofen eG is a traditional German cooperative bank serving retail customers in the Landau-Mengkofen region, which has registered under MiCA to offer crypto-asset order execution services as an extension of its conventional banking portfolio.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d23f2ea3",
+      "lei": "52990093INYLJNWHQ228",
+      "legal_name": "Volksbank eG - Die Gestalterbank",
+      "commercial_name": "Volksbank eG - Die Gestalterbank",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Am Riettor 1, 78048 Villingen-Schwenningen",
+      "website": "https://www.gestalterbank.de",
+      "website_platform": null,
+      "auth_date": "2026-07-27",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-07-27",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "Volksbank eG - Die Gestalterbank is a German cooperative bank offering traditional banking products to retail and business customers, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-20",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "692413ab",
+      "lei": "52990053QE1M1V4P6U87",
+      "legal_name": "VBU Volksbank im Unterland eG",
+      "commercial_name": "VBU Volksbank im Unterland eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Georg-Kohl-Straße 34, 74336 Brackenheim",
+      "website": "https://www.vbu-volksbank.de",
+      "website_platform": null,
+      "auth_date": "2026-08-03",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-03",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "VBU Volksbank im Unterland eG is a German cooperative retail bank offering traditional banking products alongside online brokerage and, under MiCA registration, execution of crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-20",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "51c167da",
+      "lei": "529900IAZ7K53LG7BT89",
+      "legal_name": "VR-Bank Erding eG",
+      "commercial_name": "VR-Bank Erding eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Zollnerstraße 4, 85435 Erding",
+      "website": "https://www.vr-bank-erding.de",
+      "website_platform": null,
+      "auth_date": "2026-08-04",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-04",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "VR-Bank Erding eG is a German cooperative retail bank offering a broad range of traditional banking products and services, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-20",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "da0d59e0",
+      "lei": "5299002RCY3D5M211G35",
+      "legal_name": "Volksbank Beilstein-Ilsfeld-Abstatt eG",
+      "commercial_name": "Volksbank Beilstein-Ilsfeld-Abstatt eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Hauptstraß3 20, 71717 Beilstein",
+      "website": "https://www.vb-bia.de",
+      "website_platform": null,
+      "auth_date": "2026-08-06",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-06",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "Volksbank Beilstein-Ilsfeld-Abstatt eG is a German cooperative retail bank that has registered under MiCA to offer crypto-asset order execution services as an extension of its traditional banking and investment product portfolio.",
+      "classification_date": "2026-08-20",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "e15a7e0e",
+      "lei": "529900JEKLBM7SSTQS98",
+      "legal_name": "Raiffeisenbank Aidlingen eG",
+      "commercial_name": "Raiffeisenbank Aidlingen eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Hauptstraße 8, 71134 Aidlingen, Württ",
+      "website": "https://www.IhrZiel.de",
+      "website_platform": null,
+      "auth_date": "2026-08-07",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-07",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisenbank Aidlingen eG is a traditional German cooperative bank offering a broad range of retail and business banking services, registered under MiCA for the execution of crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-08-20",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "f67eff60",
+      "lei": "529900XUBIXXFHP44185",
+      "legal_name": "Ihre Volksbank eG Neckar Odenwald Main Tauber",
+      "commercial_name": "Ihre Volksbank eG Neckar Odenwald Main Tauber",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Rechte Tauberstraße 1, 97877 Wertheim a Main",
+      "website": "https://www.ihre-vb.de",
+      "website_platform": null,
+      "auth_date": "2026-08-18",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-18",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Ihre Volksbank eG Neckar Odenwald Main Tauber is a German regional cooperative bank (Volksbank) offering traditional banking products to retail customers, with MiCA registration to execute crypto-asset orders on behalf of clients as an ancillary service.",
+      "classification_date": "2026-09-06",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ec6222e3",
+      "lei": "5299009RFJSJRM1FIW34",
+      "legal_name": "VR-Bank Mittelfranken Mitte eG",
+      "commercial_name": "VR-Bank Mittelfranken Mitte eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Promenade 19 -23, 91522 Ansbach",
+      "website": "https://www.vr-mfr.de",
+      "website_platform": null,
+      "auth_date": "2026-08-18",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-18",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "VR-Bank Mittelfranken Mitte eG is a traditional German cooperative bank offering a broad range of retail financial services, including crypto-asset order execution under MiCA registration, alongside conventional banking products such as savings accounts, mortgages, and investment funds.",
+      "classification_date": "2026-09-06",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "f777aabb",
+      "lei": "529900DLAJ534R7YPF91",
+      "legal_name": "Volksbank Euskirchen eG",
+      "commercial_name": "Volksbank Euskirchen eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Bahnhofstraße 7, 53879 Euskirchen",
+      "website": "https://www.eu-banking.de",
+      "website_platform": null,
+      "auth_date": "2026-08-14",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-20",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Euskirchen eG is a traditional German cooperative bank offering a broad range of retail banking services, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-09-06",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "551b9baf",
+      "lei": "529900Z9LN7U0GBF2S53",
+      "legal_name": "VR Bank Ried-Überwald eG",
+      "commercial_name": "VR Bank Ried-Überwald eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Nibelungenstraße 57, 68642 Bürstadt",
+      "website": "https://www.raiba-ried.de",
+      "website_platform": null,
+      "auth_date": "2026-08-20",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-20",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "VR Bank Ried-Überwald eG is a traditional German cooperative bank offering standard retail banking products and, under MiCA registration, execution of crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-09-06",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "fc7118cb",
+      "lei": "5299000CFIYPHBDCD952",
+      "legal_name": "Volksbank Backnang eG",
+      "commercial_name": "Volksbank Backnang eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Schillerstraße 18, 71522 Backnang",
+      "website": "https://www.volksbank-backnang.de",
+      "website_platform": null,
+      "auth_date": "2026-08-20",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-08-20",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Backnang eG is a German cooperative retail bank offering traditional banking services that has registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-09-06",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "15eee687",
       "lei": "9845000E4A7414709361",
       "legal_name": "Penning Financial Services ApS",
@@ -4202,6 +5867,7 @@
         "CY",
         "CZ",
         "DE",
+        "DK",
         "EE",
         "ES",
         "FI",
@@ -4262,6 +5928,7 @@
         "e"
       ],
       "passporting_countries": [
+        "DK",
         "NO",
         "SE"
       ],
@@ -4300,6 +5967,7 @@
         "j"
       ],
       "passporting_countries": [
+        "DK",
         "NL"
       ],
       "last_update": "2026-03-09",
@@ -4325,10 +5993,10 @@
       "id": "613b8580",
       "lei": "98450010C0CB6A4E8A79",
       "legal_name": "Northstake ApS",
-      "commercial_name": "Northstake ApS",
+      "commercial_name": "Northstake",
       "home_country": "DK",
       "competent_authority": "Finanstilsynet",
-      "address": "Amaliegade 45 st, 1256 Kopenhavn K",
+      "address": "Amaliegade 45 st, 1256 København K",
       "website": "https://www.northstake.dk",
       "website_platform": null,
       "auth_date": "2026-04-07",
@@ -4384,6 +6052,198 @@
       "confidence": "high",
       "brief_description": "Northstake is a crypto-native company specializing in regulatory compliant institutional staking solutions and custody services for regulated financial institutions, digital asset managers, and custodians.",
       "classification_date": "2026-04-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "66684e98",
+      "lei": "9845009Q9DDAE03FDE38",
+      "legal_name": "Coinify ApS",
+      "commercial_name": "Coinify",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Vesterbrogade 1C, 5. 1620 København V",
+      "website": "https://www.coinify.com",
+      "website_platform": null,
+      "auth_date": "2026-05-29",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-17",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "spot_exchange",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Coinify is a Danish crypto-native company offering B2B white-label crypto payment acceptance and trade widget solutions (buy/sell crypto) to businesses, payment service providers, exchanges, and wallets across Europe and globally.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "1816d615",
+      "lei": "984500A43E7FFC73CR76",
+      "legal_name": "Januar ApS",
+      "commercial_name": "Januar",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Gothersgade 14, 4., 1123 København K",
+      "website": "https://www.januar.com",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "BE",
+        "BG",
+        "CY",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-17",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "payment_services",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Januar is a Danish MiCA-registered crypto-native firm that provides business IBAN accounts, crypto custody and trading, and embedded account infrastructure specifically designed to serve crypto companies needing compliant access to financial rails.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "b7c19009",
+      "lei": "9845003F777K7DFF4E96",
+      "legal_name": "SafeLynx Technologies ApS",
+      "commercial_name": "SafeLynx",
+      "home_country": "DK",
+      "competent_authority": "Finanstilsynet",
+      "address": "Kålundsvej 18, 3520 Farum",
+      "website": "https://www.safelynx.io",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "c"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-08-10",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "otc_trading"
+      ],
+      "confidence": "high",
+      "brief_description": "SafeLynx Technologies ApS is a Danish MiCA-registered crypto-native company offering personalized cryptocurrency exchange services with dedicated account managers, targeting individuals, companies, and high-volume traders across Europe.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -4599,7 +6459,7 @@
       "commercial_name": "OPENBANK",
       "home_country": "ES",
       "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
-      "address": "Avenida de Cantabria s/n. 28660 Boadilla del Monte (Madrid)",
+      "address": "Avenida de Cantabria s/n. 28660 Boadilla del Monte (Madrid).",
       "website": "https://www.openbank.es",
       "website_platform": null,
       "auth_date": "2025-07-24",
@@ -4914,6 +6774,338 @@
       "confidence": "high",
       "brief_description": "Due Network is a Spanish-registered borderless payment platform powered by decentralised networks that enables individuals and businesses to send, receive, hold, and exchange multi-currency funds including stablecoins across 150+ countries at low cost.",
       "classification_date": "2026-06-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c14ed5d4",
+      "lei": "959800B6XCG14MKLTJ51",
+      "legal_name": "CROSSMINT EUROPE S.L.",
+      "commercial_name": "CROSSMINT",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Villalar 7. Bajo Izda Madrid",
+      "website": "https://www.crossmint.com",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "custody",
+        "payment_services",
+        "tokenization"
+      ],
+      "confidence": "high",
+      "brief_description": "Crossmint is a crypto-native B2B infrastructure provider offering an all-in-one stablecoin platform with APIs for wallets, custody, onramps/offramps, payments, and tokenization, targeting enterprises, fintechs, and developers.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "07a0690f",
+      "lei": "959800AZN23P7F30C189",
+      "legal_name": "CRIPTAN TRADE S.L.",
+      "commercial_name": "CRIPTAN",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Almirante Cadarso 26 46005 Valencia",
+      "website": "https://www.criptan.com",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-09",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "savings_investment",
+        "portfolio_management",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Criptan is a Spanish crypto-native platform targeting retail investors that offers buying/selling of cryptocurrencies (BTC, ETH, USDC, EURC), custody, crypto transfers, and a yield-generating savings product (Earn) with weekly returns.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ae36b18b",
+      "lei": "959800U0R44NN5DJC930",
+      "legal_name": "MINOS GLOBAL S.L.",
+      "commercial_name": "MINOS GLOBAL",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Maudes 51 planta 8 28003 Madrid",
+      "website": "https://ttps://minos.global",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g"
+      ],
+      "passporting_countries": [
+        "ES"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "otc_trading",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Minos Global is a Spanish crypto-asset service provider offering a broad range of MiCA-regulated services including custody, crypto-to-fiat and crypto-to-crypto exchange, order execution, and order reception and transmission.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "beb00bdf",
+      "lei": "59800G0P3PV13KLX615",
+      "legal_name": "PROSEGUR CUSTODIA DE ACTIVOS DIGITALES",
+      "commercial_name": "PROSEGUR CRYPTO",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Herberto Gut 12 Madrid 28007",
+      "website": "https://www.prosegurcrypto.com",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g"
+      ],
+      "passporting_countries": [
+        "ES"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "other",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Prosegur Crypto is the digital asset custody division of Prosegur, a global physical security company with 50 years of experience, offering institutional-grade crypto custody solutions that combine advanced physical security protocols with cutting-edge cybersecurity technology.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "eb8594d2",
+      "lei": "959800AZT2DVBLZQY241",
+      "legal_name": "IQANA TECHNOLOGIES S.L.",
+      "commercial_name": "IQANA TECHNOLOGIES S.L.",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Aribau numero 18 2-1. 08011 Barcelona.",
+      "website": "https://iqana.io",
+      "website_platform": null,
+      "auth_date": "2026-07-10",
+      "auth_end_date": null,
+      "services": [
+        "i"
+      ],
+      "passporting_countries": [
+        "DE",
+        "ES",
+        "PT"
+      ],
+      "last_update": "2026-07-10",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Iqana Technologies is a quantitative digital asset management firm offering non-custodial, systematic crypto strategies via separately managed accounts to institutional allocators such as hedge funds, asset managers, family offices, and corporate treasuries.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "fbe0fec2",
+      "lei": "9598005WW6HZ4V82BZ26",
+      "legal_name": "BASQUE PAY S.L.",
+      "commercial_name": "BASQUE PAY S.L.",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Villa de Plentzia 42-5 C. Getxeo Bizcaia.",
+      "website": "https://fazilcrypto.com/es",
+      "website_platform": null,
+      "auth_date": "2026-07-31",
+      "auth_end_date": null,
+      "services": [
+        "g"
+      ],
+      "passporting_countries": [
+        "ES"
+      ],
+      "last_update": "2026-08-17",
+      "comments": null,
+      "entity_type": "payment_institution",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "low",
+      "brief_description": "Basque Pay S.L. is a Spanish MiCA-registered crypto-asset service provider offering reception and transmission of orders for crypto-assets on behalf of clients, likely targeting retail users through its Fazil Crypto platform.",
+      "classification_date": "2026-08-20",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "1e839c40",
+      "lei": "549300746K71T6YJCV41",
+      "legal_name": "FINTECH PAYMENTS PSC S.L.",
+      "commercial_name": "FINTECH PAYMENTS PSC S.L.",
+      "home_country": "ES",
+      "competent_authority": "Comisión Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle San Juan de Ortega núm. 10 esc 1 puerta B local Correoslabs. 28050 Madrid",
+      "website": "https://cryptopocket.io",
+      "website_platform": null,
+      "auth_date": "2026-07-31",
+      "auth_end_date": null,
+      "services": [
+        "c"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-31",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Fintech Payments PSC, S.L. is a MiCA-registered Spanish crypto-asset service provider operating under the CryptoPocket brand, offering crypto-to-fiat exchange services with passporting rights across the EU.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -6603,6 +8795,394 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "4fb0715c",
+      "lei": "969500ULPB59U51BG334",
+      "legal_name": "ALPHACAP DIGITAL ASSETS SAS",
+      "commercial_name": "ALPHACAP",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "18 rue Jean GIRAUDOUX - 75116 Paris",
+      "website": "https://alphacap.fr",
+      "website_platform": "https://alphacap.fr",
+      "auth_date": "2026-06-25",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "FR"
+      ],
+      "last_update": "2026-06-25",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "custody",
+        "advisory",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Alphacap Digital Assets is a MiCA-regulated French asset management firm, subsidiary of Mata Capital, offering discretionary crypto-asset portfolio management, custody, and advisory services to private investors, wealth managers (CGPs), and corporates.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "2546a261",
+      "lei": "984500AB011S3AEF6706",
+      "legal_name": "FLOWDESK EUROPE SAS",
+      "commercial_name": "FLOWDESK EUROPE",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "231 rue Saint-Honoré - 75001 Paris",
+      "website": "https://www.flowdesk.co",
+      "website_platform": "https://www.flowdesk.co",
+      "auth_date": "2026-06-25",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "BE",
+        "DE",
+        "EE",
+        "ES",
+        "HR",
+        "IE",
+        "IT",
+        "LI",
+        "LU",
+        "LV",
+        "NL",
+        "PT",
+        "SE"
+      ],
+      "last_update": "2026-06-25",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "otc_trading",
+        "spot_exchange",
+        "custody",
+        "infrastructure",
+        "portfolio_management"
+      ],
+      "confidence": "high",
+      "brief_description": "Flowdesk Europe is a MiCA-regulated French crypto-native trading and technology firm providing institutional-grade liquidity solutions, OTC trading, market making, and custody services to crypto-native issuers and institutional clients across Europe.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "08827c84",
+      "lei": "9695005CVRZDK63ZST85",
+      "legal_name": "ICEBLOCK SAS",
+      "commercial_name": "ICEBLOCK",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "128 rue de la Boétie - 75008 Paris",
+      "website": "https://www.iceblockinvestments.com",
+      "website_platform": "https://www.iceblockinvestments.com",
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "FR"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "custody",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Iceblock is a French MiCA-registered crypto-native asset manager, regulated by the AMF and ACPR, offering discretionary managed crypto portfolios with custody services targeting both retail investors and wealth management professionals.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "3b5193b8",
+      "lei": "969500USEY22T9ZZRQ98",
+      "legal_name": "MEREAU FINANCE SAS",
+      "commercial_name": "CRYPTO-AM",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "35 Rue Jean Jaurès - 92800 Puteaux",
+      "website": "https://crypto-assets-management.com",
+      "website_platform": "https://crypto-assets-management.com",
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "h",
+        "i"
+      ],
+      "passporting_countries": [
+        "BE",
+        "DE",
+        "ES",
+        "IT",
+        "LU",
+        "NL"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Crypto-AM (Mereau Finance SAS) is a French crypto-native asset manager offering discretionary portfolio management and advisory services for crypto-assets to individuals, businesses, and financial professionals, using Bitcoin cycle analysis and tokenomics research as core investment strategies.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "e2214f2f",
+      "lei": "969500RQH18PU24DM081",
+      "legal_name": "FINARY SAS",
+      "commercial_name": "FINARY",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "31 ter Rue Vivienne, 75002 Paris, France",
+      "website": "https://finary.com/en",
+      "website_platform": "https://finary.com/en",
+      "auth_date": "2026-07-06",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-06",
+      "comments": null,
+      "entity_type": "hybrid",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "spot_exchange",
+        "custody",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Finary is a French MiCA-regulated wealth management app targeting retail users, offering automated portfolio tracking across all asset classes alongside crypto investment and custody services.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "36d756bd",
+      "lei": "213800RF9FDNJ92AE175",
+      "legal_name": "WOORTON SAS",
+      "commercial_name": "WOORTON",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "81 Rue Réaumur, 75002 Paris, France",
+      "website": "https://www.woorton.com",
+      "website_platform": "https://www.woorton.com",
+      "auth_date": "2026-07-23",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "e"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-23",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "otc_trading",
+        "spot_exchange",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "Woorton is a French algorithmic trading desk and market maker founded in 2017, providing OTC liquidity, tight-spread exchange services, and API-based trading infrastructure exclusively to institutional and professional clients in the digital asset industry.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "a4856fe7",
+      "lei": "9695000VFDEG5Z4JIY48",
+      "legal_name": "BLOCKCHAIN PROCESS SECURITY (B.P.S.) SAS",
+      "commercial_name": "FEEL MINING / WIGL ET OTHILA",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "18 rue de la Tuilerie, 38170 Seyssinet-Pariset, France",
+      "website": "https://feel-mining.com",
+      "website_platform": "https://wigl.fr",
+      "auth_date": "2026-07-24",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "BE"
+      ],
+      "last_update": "2026-07-24",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "portfolio_management",
+        "savings_investment",
+        "staking"
+      ],
+      "confidence": "medium",
+      "brief_description": "Feel Mining (BPS SAS) is a French crypto-native company offering a broad range of crypto-asset services including custody, exchange, portfolio management, and transfer services, primarily targeting retail clients, with operations extended to Belgium via passporting.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "2e6f727a",
+      "lei": "9695001LQMTTVPIIQI05",
+      "legal_name": "SHARES FINANCIAL ASSETS SAS",
+      "commercial_name": "SHARES",
+      "home_country": "FR",
+      "competent_authority": "Autorité des Marchés Financiers (AMF)",
+      "address": "6 Rue Abel Truchet  - 75017 Paris, France",
+      "website": "https://www.shares.io",
+      "website_platform": "https://www.shares.io",
+      "auth_date": "2026-07-28",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "BE",
+        "DE",
+        "DK",
+        "ES",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "PL",
+        "PT",
+        "SE",
+        "SI"
+      ],
+      "last_update": "2026-07-28",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "infrastructure",
+        "savings_investment",
+        "portfolio_management"
+      ],
+      "confidence": "high",
+      "brief_description": "Shares is a French MiCA-regulated fintech providing a white-label, API-driven investing platform covering crypto custody, order transmission, and transfer services for retail investors, wealth managers, and institutions across the EEA.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "1c74c7a9",
       "lei": "747800R015JVW1T4WZ71",
       "legal_name": "ELECTROCOIN Ltd for services",
@@ -6838,6 +9418,39 @@
       "confidence": "high",
       "brief_description": "IN KAPITAL is a Croatian physical currency exchange bureau (with locations in Zagreb, Split, and Dubrovnik) that has expanded into crypto-asset exchange services, offering in-person buying and selling of Bitcoin, Ethereum, Litecoin, and other cryptocurrencies for cash.",
       "classification_date": "2026-06-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "709ab438",
+      "lei": "529900D5G4V6THXC5P79",
+      "legal_name": "Hrvatska poštanska banka d.d.",
+      "commercial_name": "HPB d.d.",
+      "home_country": "HR",
+      "competent_authority": "Croatian National Bank",
+      "address": "Jurišićeva ulica 4, 10000 Zagreb,Croatia",
+      "website": "https://www.hpb.hr",
+      "website_platform": null,
+      "auth_date": "2026-06-16",
+      "auth_end_date": null,
+      "services": [
+        "a"
+      ],
+      "passporting_countries": [
+        "HR"
+      ],
+      "last_update": "2026-07-13",
+      "comments": "The crypto-asset services are limited solely to a Passive Digital Assets (PDA) AIF",
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "Hrvatska poštanska banka (HPB) is the largest Croatian-owned traditional bank, now registered as a MiCA CASP offering crypto-asset custody and administration services alongside its core retail and corporate banking products.",
+      "classification_date": "2026-07-19",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -7774,6 +10387,244 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "64931429",
+      "lei": "549300I7OIUB41P86L19",
+      "legal_name": "BANCA SELLA",
+      "commercial_name": "Banca Sella",
+      "home_country": "IT",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "address": "Piazza Gaudenzio Sella 1, BIELLA, 13900",
+      "website": "https://www.sella.it",
+      "website_platform": null,
+      "auth_date": "2026-04-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "j"
+      ],
+      "passporting_countries": [
+        "IT"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Banca Sella is a traditional Italian bank offering MiCA-regulated crypto-asset custody and transfer services to its broad client base.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "426ae864",
+      "lei": "815600C7E86B02BBE483",
+      "legal_name": "CRYPTOSMART S.P.A.",
+      "commercial_name": "Cryptosmart",
+      "home_country": "IT",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "address": "Via Bruno Simonucci, 18, PERUGIA, 06135",
+      "website": "https://cryptosmart.it",
+      "website_platform": null,
+      "auth_date": "2026-06-24",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "j"
+      ],
+      "passporting_countries": [
+        "IT"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "staking",
+        "tokenization",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Cryptosmart is an Italian MiCA-authorized crypto exchange based in Perugia, offering retail-focused services including buying/selling cryptocurrencies, custody, staking, tax management, and token listing support, with a traditional bank (Banca Popolare di Cortona) among its major shareholders.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c92608c8",
+      "lei": "815600F1E30AAB016171",
+      "legal_name": "YOUNG PLATFORM S.P.A.",
+      "commercial_name": "Young Platform",
+      "home_country": "IT",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "address": "Via Cigna, 96/17, TORINO, 10155",
+      "website": "https://youngplatform.com",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "FR",
+        "IT"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "savings_investment",
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Young Platform is an Italian crypto-native exchange targeting retail users, offering a simple and intuitive platform to buy, sell, and accumulate Bitcoin and other cryptocurrencies, along with savings tools, portfolio management, and educational resources.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "25c47614",
+      "lei": "9845006D4F5D2E5F8554",
+      "legal_name": "HODLIE S.R.L.",
+      "commercial_name": "Hodli",
+      "home_country": "IT",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "address": "Via della Posta, 7, MILANO, 20123",
+      "website": "https://hodli.com",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "i"
+      ],
+      "passporting_countries": [
+        "AT",
+        "CY",
+        "CZ",
+        "DE",
+        "EE",
+        "ES",
+        "FR",
+        "GR",
+        "IE",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "MT",
+        "NL",
+        "PL",
+        "PT"
+      ],
+      "last_update": "2026-07-23",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "custody",
+        "portfolio_management",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "Hodlie (HODLIE S.R.L.) is an Italian crypto-native company registered under MiCA offering crypto-asset custody and automated portfolio management services primarily targeting retail clients.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cf09c1d7",
+      "lei": "984500AEBA8A0HQ44988",
+      "legal_name": "HERCLE S.R.L.",
+      "commercial_name": "Hercle",
+      "home_country": "IT",
+      "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
+      "address": "Via Andrea Solari, 19, MILANO, 20144",
+      "website": "https://www.hercle.financial",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-10",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "spot_exchange",
+        "payment_services",
+        "otc_trading",
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "Hercle is an institutional-grade B2B infrastructure platform providing cross-border trading, settlement, and payment rails bridging fiat, digital assets, and stablecoins for banks, brokers, fintechs, and payment institutions.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "3c4c7d0f",
       "lei": "529900QH6TWSXWH0XM44",
       "legal_name": "ZEUS Anstalt für Vermögensverwaltung",
@@ -8172,6 +11023,277 @@
       "confidence": "high",
       "brief_description": "Bitcoin Suisse is a Swiss-founded crypto-native financial services provider offering a full suite of institutional-grade crypto services including trading, custody, staking, and lending to individuals, corporations, and financial intermediaries across Europe.",
       "classification_date": "2026-06-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "4982bf39",
+      "lei": "506700NPCDRP5LN89R92",
+      "legal_name": "Sygnum Europe AG",
+      "commercial_name": "Sygnum Europe",
+      "home_country": "LI",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
+      "address": "Dr. Grass-Strasse 12 - 9490 Vaduz",
+      "website": "https://www.sygnum.com/eu",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "otc_trading",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Sygnum Europe AG is a Liechtenstein-registered crypto-native firm offering institutional-grade custody, crypto-to-fiat and crypto-to-crypto exchange, and transfer services across the EEA under MiCA passporting.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "8065ecd1",
+      "lei": "254900S56908SP1E8O53",
+      "legal_name": "SMART VALOR AG",
+      "commercial_name": "SMART VALOR",
+      "home_country": "LI",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
+      "address": "Birkenweg 6 - 9490 Vaduz",
+      "website": "https://smartvalor.com/en",
+      "website_platform": null,
+      "auth_date": "2026-07-01",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-03",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "staking",
+        "infrastructure",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Smart Valor is a Liechtenstein-based regulated crypto exchange platform founded in 2017, offering spot trading, custody, staking, and white-label crypto infrastructure solutions for retail users, financial institutions, and API-based retailers across the EEA.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "1d330d60",
+      "lei": "529900DPOQPLDSF3R482",
+      "legal_name": "Kaiser Partner Privatbank AG",
+      "commercial_name": "Kaiser Partner Privatbank",
+      "home_country": "LI",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
+      "address": "Herrengasse 23 - 9490 Vaduz",
+      "website": "https://kaiserpartner.bank",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "portfolio_management",
+        "spot_exchange",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Kaiser Partner Privatbank AG is a Liechtenstein-based private bank offering traditional wealth management alongside MiCA-regulated crypto-asset services including custody, portfolio management, order transmission, and transfer services to private, business, and institutional clients across the EEA.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "bd0d9f29",
+      "lei": "529900AAZRC5LYVR7134",
+      "legal_name": "Damoon Technology (Europe) AG",
+      "commercial_name": "Paymonade",
+      "home_country": "LI",
+      "competent_authority": "Finanzmarktaufsicht (FMA)",
+      "address": "Dr. Grass-Strasse 12 - 9490 Vaduz",
+      "website": "https://www.paymonade.tech",
+      "website_platform": null,
+      "auth_date": "2026-07-10",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-15",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Paymonade is a Liechtenstein-based crypto-native platform enabling retail users in over 100 countries to easily buy and sell cryptocurrencies using local fiat currencies and various payment methods, with broad EEA passporting under MiCA.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -9043,6 +12165,338 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "309c11f9",
+      "lei": "213800HAR45C9K18O294",
+      "legal_name": "Standard Chartered Luxembourg S.A.",
+      "commercial_name": "Standard Chartered",
+      "home_country": "LU",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "53, Boulevard Royal, L-2449 Luxembourg",
+      "website": "https://www.sc.com",
+      "website_platform": null,
+      "auth_date": "2026-06-25",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Standard Chartered Luxembourg S.A. is the Luxembourg subsidiary of the global 170-year-old Standard Chartered banking group, offering MiCA-regulated crypto-asset custody and transfer services passported across the EU/EEA, primarily targeting institutional and professional clients.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ada0ff44",
+      "lei": "984500D4465EFA89EF38",
+      "legal_name": "bitFlyer EUROPE S.A.",
+      "commercial_name": "bitFlyer EUROPE",
+      "home_country": "LU",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "121, rue de Hollerich, L-1741 Luxembourg",
+      "website": "https://bitflyer.com/en-eu",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-06-29",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "bitFlyer EUROPE S.A. is the European subsidiary of the Japanese crypto exchange bitFlyer, offering crypto custody, spot trading, order execution, and transfer services to retail and professional clients across the EU/EEA under a MiCA CASP registration in Luxembourg.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "e52a642f",
+      "lei": "254900MVWQXMF77YZP65",
+      "legal_name": "Bridge Building S.A.",
+      "commercial_name": "Bridge",
+      "home_country": "LU",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "26 Boulevard Royal, L-2449 Luxembourg",
+      "website": "https://www.bridge.xyz",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-01",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "payment_services",
+        "custody",
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Bridge is a B2B stablecoin infrastructure platform providing APIs and end-to-end services for developers and businesses to issue, store, convert, and move stablecoins globally.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "2d9c1f25",
+      "lei": "984500CFB88366E9B834",
+      "legal_name": "CPS Europe S.A.",
+      "commercial_name": "CPS",
+      "home_country": "LU",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "51 Rue de Strasbourg, L-2561 Luxembourg",
+      "website": "https://www.enum8.com",
+      "website_platform": null,
+      "auth_date": "2026-07-03",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-03",
+      "comments": null,
+      "entity_type": "hybrid",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "custody",
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "CPS Europe S.A. (Enum8) is a Luxembourg-based electronic money institution and MiCA-registered CASP offering virtual IBANs, payment enumeration services, and crypto-asset services including custody, exchange, and transfers across the EU, though crypto services are not yet live.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "3c80a80f",
+      "lei": "2549000KEHDV2LWRRZ45",
+      "legal_name": "Ripple Payments Europe S.A.",
+      "commercial_name": "Ripple Payments Europe S.A.",
+      "home_country": "LU",
+      "competent_authority": "Commission de Surveillance du Secteur Financier (CSSF)",
+      "address": "53, Boulevard Royal, L-2449 Ville-Haute Luxembourg",
+      "website": "https://ripple.com",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-07",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "infrastructure",
+        "custody",
+        "tokenization",
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Ripple Payments Europe S.A. is a blockchain-native fintech company providing institutional-grade cross-border payment infrastructure, digital asset custody, stablecoin (RLUSD) settlement, and tokenization solutions to financial institutions and fintechs across the EEA.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "48ccf834",
       "lei": "254900BBV7FA7LUG5913",
       "legal_name": "BlockBen SIA",
@@ -9196,9 +12650,38 @@
         "j"
       ],
       "passporting_countries": [
-        "LV"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-05-15",
+      "last_update": "2026-05-28",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -9398,6 +12881,251 @@
       "confidence": "high",
       "brief_description": "TWINO is an EU-regulated investment platform specializing in asset-backed securities that has expanded to offer crypto-asset services including custody, exchange, and order execution.",
       "classification_date": "2026-06-14",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "739dceb0",
+      "lei": "259400JCJJ78A4ZCXP93",
+      "legal_name": "SIA AlphaRoute",
+      "commercial_name": "AlphaRoute",
+      "home_country": "LV",
+      "competent_authority": "Latvijas Banka",
+      "address": "Tērbatas iela 14 - 3, Rīga, LV-1011",
+      "website": "https://www.kangaexchange.eu",
+      "website_platform": null,
+      "auth_date": "2026-06-18",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "f",
+        "j"
+      ],
+      "passporting_countries": [
+        "BG",
+        "CZ",
+        "EE",
+        "HR",
+        "HU",
+        "LT",
+        "LV",
+        "PL",
+        "RO",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "AlphaRoute (Kanga Exchange EU) is a Latvian MiCA-registered crypto-native exchange platform currently in pre-launch phase, targeting EU retail users with plans to offer cryptocurrency trading, custody, and transfer services across Central and Eastern Europe.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ac7af60e",
+      "lei": "648812ZREA1B126B8G06",
+      "legal_name": "Hodleris SIA",
+      "commercial_name": "Hodleris",
+      "home_country": "LV",
+      "competent_authority": "Latvijas Banka",
+      "address": "Brīvības iela 40-43, Rīga, LV-1050",
+      "website": "https://hfinance.eu",
+      "website_platform": null,
+      "auth_date": "2026-06-25",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Hodleris SIA is a Latvian MiCA-registered crypto-asset service provider offering custody, crypto-to-fiat and crypto-to-crypto exchange, and transfer services, passporting its services across the EEA.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "95b0c8ff",
+      "lei": "2549005P20R5UTQWNB80",
+      "legal_name": "Bleap SIA",
+      "commercial_name": "Bleap",
+      "home_country": "LV",
+      "competent_authority": "Latvijas Banka",
+      "address": "Roberta Hirša iela 1, Rīga, LV-1045",
+      "website": "https://www.bleap.finance",
+      "website_platform": null,
+      "auth_date": "2026-06-25",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "d"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-14",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "payment_services",
+        "savings_investment",
+        "defi_access"
+      ],
+      "confidence": "high",
+      "brief_description": "Bleap is a self-custodial crypto-native fintech offering a crypto card with up to 20% cashback, fee-free spot trading of 18,000+ tokens, savings plans up to 8% APY, and global cross-border payments targeting retail consumers across the EEA.",
+      "classification_date": "2026-08-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "5ec2e0d2",
+      "lei": "98450065E59FDCD93R40",
+      "legal_name": "Nodu Digital, SIA",
+      "commercial_name": "Nodu Digital",
+      "home_country": "LV",
+      "competent_authority": "Latvijas Banka",
+      "address": "Aspazijas bulvāris 20, Rīga, LV-1050",
+      "website": "https://nodu.fi",
+      "website_platform": null,
+      "auth_date": "2026-07-08",
+      "auth_end_date": null,
+      "services": [
+        "c",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-24",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "infrastructure",
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Nodu Digital is a B2B stablecoin payment infrastructure provider that enables businesses to send cross-border payments using stablecoin rails (USDC/USDT) with fiat in and fiat out, keeping the crypto layer invisible to end customers.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -10181,9 +13909,37 @@
         "e"
       ],
       "passporting_countries": [
-        "MT"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-03-03",
+      "last_update": "2026-07-06",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -10408,6 +14164,286 @@
       "confidence": "high",
       "brief_description": "Strike (Zap Europe Limited) is a Bitcoin-focused crypto-native fintech company primarily known for Lightning Network-based Bitcoin payment services, offering custody, crypto-to-fiat exchange, order execution, and transfer services across the EU/EEA via MiCA passporting from Malta.",
       "classification_date": "2026-06-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "e10ffff6",
+      "lei": "254900OPT54E6SDS6P25",
+      "legal_name": "Legion Malta Limited",
+      "commercial_name": "Legion",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "ELITE BUSINESS CENTRE \r\nTREJQA TA' BOX BOX \r\nMSIDA \r\nMSD 1840 \r\nMalta",
+      "website": "https://legion.cc",
+      "website_platform": null,
+      "auth_date": "2026-06-23",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "f",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "MT"
+      ],
+      "last_update": "2026-06-26",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "savings_investment",
+        "custody",
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Legion is a MiCA-regulated, merit-based crypto fundraising and ICO underwriting platform that connects curated Web3 token sales with a verified investor base of 350,000+ users, backed by major industry players including VanEck, Kraken, and Coinbase Ventures.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "0bef512c",
+      "lei": "984500F6A0762F9LA923",
+      "legal_name": "FalconX Limited",
+      "commercial_name": "FalconX",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "Trident Park, Notabilie Gardens, Nos 6, Level 4, \r\nMdina Road, Zone 2, \r\nCentral Business District, \r\nBirkirkara, Malta, \r\nCBD2010",
+      "website": "https://www.falconx.io",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-01",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "otc_trading",
+        "custody",
+        "derivatives",
+        "spot_exchange",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "FalconX is a crypto-native institutional prime brokerage providing deep liquidity, OTC trading, derivatives, custody, and financing solutions exclusively to institutional clients such as hedge funds, asset managers, banks, and family offices.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d09ddb47",
+      "lei": "98450091A6D61FB36406",
+      "legal_name": "CF Technologies Ltd",
+      "commercial_name": "Xcoins",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "Progetta House Level 0, \r\n62-64 Triq it-Torri, \r\nBirkirkara, BKR4011, \r\nMalta",
+      "website": "https://xcoins.com/en",
+      "website_platform": null,
+      "auth_date": "2026-06-27",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "MT"
+      ],
+      "last_update": "2026-07-01",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Xcoins (CF Technologies Ltd) is a Malta-based crypto-native platform enabling retail users to instantly buy, sell, and transfer Bitcoin and other cryptocurrencies using credit/debit cards, Apple Pay, Google Pay, or SEPA bank transfers.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d5e15136",
+      "lei": "984500C3A855AC77FE74",
+      "legal_name": "Everest Network Limited",
+      "commercial_name": "Everest",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "c/o Regus Tower Business Centre 2nd floor\r\nTRIQ IT- TORRI\r\nSWATAR BIRKIRKARA\r\nBKR 4013\r\nMalta",
+      "website": "https://www.everest.org",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "f",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-17",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "payment_services"
+      ],
+      "confidence": "medium",
+      "brief_description": "Everest Network Limited is a Malta-based crypto-native CASP offering custody, order execution, crypto transfer services, and order reception/transmission under MiCA registration.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "e90a6fde",
+      "lei": "213800Y834JOMU87Z285",
+      "legal_name": "Bequant Pro Limited",
+      "commercial_name": "Bequant",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "The Core, Valley Road, Msida, MSD9021, Malta",
+      "website": "https://bequant.pro",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-01",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "otc_trading",
+        "custody",
+        "spot_exchange",
+        "infrastructure",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Bequant is a Malta-regulated institutional prime brokerage and principal trading firm founded in 2018, offering crypto trading infrastructure, undercollateralised lending, OTC execution, and liquidity provision exclusively to professional and institutional clients such as prop traders, quants, and f",
+      "classification_date": "2026-07-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -11705,11 +15741,11 @@
       "id": "787bcd26",
       "lei": "724500YJVIN0Q94ZZG5",
       "legal_name": "WEB3 Technology B.V.",
-      "commercial_name": "Ari10 | Ari10 NL |  WEB3 Technology B.V.",
+      "commercial_name": "Ari10 | Ari10 NL |  WEB3 Technology B.V. | RGLTD\r\nCashify",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
-      "address": "Prins Hendrikkade 21E - 1012TL - The Netherlands",
-      "website": "https://ari10.com/en",
+      "address": "Prins Hendrikkade 21E - 1012TL Amsterdam - The Netherlands",
+      "website": "https://ari10.com/en\r\nhttps://ari10.com/en/encashify.eu",
       "website_platform": null,
       "auth_date": "2026-02-12",
       "auth_end_date": null,
@@ -11751,7 +15787,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-02-19",
+      "last_update": "2026-07-17",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -11892,6 +15928,142 @@
       "confidence": "high",
       "brief_description": "Change Securities B.V. is a MiCA-regulated investment firm offering retail clients trading in 140+ cryptocurrencies and 360+ CFDs on stocks, forex, indices and commodities through an all-in-one platform.",
       "classification_date": "2026-06-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "4e8d774d",
+      "lei": "724500QZRWKCU8D2L569",
+      "legal_name": "Digital Currency Services B.V.",
+      "commercial_name": "DCS | HappyCoins",
+      "home_country": "NL",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "address": "Europalaan 100 - 3526 KS Utrecht - The Netherlands",
+      "website": "https://happycoins.com",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "j"
+      ],
+      "passporting_countries": [
+        "NL"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "spot_exchange",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "HappyCoins is a Dutch crypto-native company offering B2B crypto payment acceptance with fiat/stablecoin settlement and an embeddable white-label onramp SDK enabling businesses and their users to buy and receive crypto assets.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cbc7c764",
+      "lei": "894500CUU8Y0ZBG8DX95",
+      "legal_name": "Webull Securities (Europe) B.V.",
+      "commercial_name": "Webull | Webull Europe",
+      "home_country": "NL",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "address": "Kraijenhoffstraat 137A - 1018RG Amsterdam - The Netherlands",
+      "website": "https://www.webull.eu",
+      "website_platform": null,
+      "auth_date": "2026-06-30",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g"
+      ],
+      "passporting_countries": [
+        "NL"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "Webull Securities (Europe) B.V. is a Dutch-registered investment firm offering retail investors commission-free trading in stocks, ETFs, and options, with MiCA-licensed crypto custody and order transmission services layered onto its core securities trading platform.",
+      "classification_date": "2026-07-03",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d129b5ba",
+      "lei": "724500F2THLY5MHEIM78",
+      "legal_name": "BitPay B.V.",
+      "commercial_name": "BitPay B.V. | Cashify | RGLTD",
+      "home_country": "NL",
+      "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
+      "address": "Keizersgracht 520H -\r\n1017EK  AMSTERDAM -The Netherlands",
+      "website": "https://www.bitpay.com",
+      "website_platform": null,
+      "auth_date": "2026-07-16",
+      "auth_end_date": null,
+      "services": [
+        "c"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-08-13",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "payment_services",
+        "spot_exchange",
+        "custody",
+        "infrastructure"
+      ],
+      "confidence": "high",
+      "brief_description": "BitPay is a veteran crypto-native company offering a self-custody wallet app for individuals to buy, store, swap, and spend crypto, alongside merchant payment processing and B2B infrastructure for businesses accepting crypto payments.",
+      "classification_date": "2026-08-03",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -12049,6 +16221,164 @@
       "confidence": "high",
       "brief_description": "K33 Markets is a Norwegian crypto-native OTC trading platform and exchange targeting professional investors and businesses, offering institutional-grade liquidity, custody, and personalized client support with no trading or withdrawal fees.",
       "classification_date": "2026-06-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "0f889847",
+      "lei": "636700PFX3CY9R033H73",
+      "legal_name": "BARE BITCOIN AS",
+      "commercial_name": null,
+      "home_country": "NO",
+      "competent_authority": "Norwegian Financial Supervisory Authority (Finanstilsynet)",
+      "address": "c/o Regus Posthuset Biskop Gunnerus' gate 14A, 0185 Oslo, NORWAY",
+      "website": "https://barebitcoin.no",
+      "website_platform": null,
+      "auth_date": "2026-06-26",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "j"
+      ],
+      "passporting_countries": [
+        "NO"
+      ],
+      "last_update": "2026-06-30",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Bare Bitcoin is a Norwegian Bitcoin-only retail platform offering simple buying, selling, custody, and automated recurring savings in Bitcoin, positioned as the most user-friendly Bitcoin service in Norway.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "1fb5c9db",
+      "lei": "5493004WNVZP9EMYI834",
+      "legal_name": "NORWEGIAN BLOCK EXCHANGE AS",
+      "commercial_name": "NBX",
+      "home_country": "NO",
+      "competent_authority": "Norwegian Financial Supervisory Authority (Finanstilsynet)",
+      "address": "Arnstein ARnebergs vei 30, 1366 Lysaker, NORWAY",
+      "website": "https://nbx.com",
+      "website_platform": null,
+      "auth_date": "2026-06-29",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-07-02",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "otc_trading",
+        "tokenization",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Norwegian Block Exchange (NBX) is a publicly listed, Finanstilsynet-regulated crypto-native exchange offering spot trading in NOK and other currencies, insured custody, OTC services, DCA savings tools, and unique tokenized gold and silver products primarily to Norwegian and Nordic users.",
+      "classification_date": "2026-07-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "f9050d78",
+      "lei": "549300V4H4USWZUCE073",
+      "legal_name": "Bison Bank, S.A.",
+      "commercial_name": "Bison Bank",
+      "home_country": "PT",
+      "competent_authority": "Banco de Portugal",
+      "address": "Rua Barata Salgueiro, n.º 33, Piso 0, 1250-042 Lisboa",
+      "website": "https://bisonbank.com",
+      "website_platform": null,
+      "auth_date": "2026-05-19",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "j"
+      ],
+      "passporting_countries": [
+        "DE",
+        "ES",
+        "FR",
+        "IT",
+        "NL",
+        "PT"
+      ],
+      "last_update": "2026-05-19",
+      "comments": "Bison Bank is a credit institution authorized to operate in Portugal since 2001.\r\nBison Bank was authorized to provide criptoasset services by Banco de Portugal and Comissão do Mercado de Valores Mobiliários.",
+      "entity_type": "bank",
+      "target_segments": [
+        "professional",
+        "institutional",
+        "retail"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "advisory",
+        "portfolio_management",
+        "payment_services"
+      ],
+      "confidence": "high",
+      "brief_description": "Bison Bank is a licensed Portuguese private bank with over 25 years of experience that offers traditional banking services (private banking, depository, corporate advisory) alongside regulated digital asset services including custody, trading, and crypto advisory, primarily targeting high-net-worth ",
+      "classification_date": "2026-07-19",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -12513,10 +16843,38 @@
         "j"
       ],
       "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
         "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
         "SK"
       ],
-      "last_update": "2026-01-05",
+      "last_update": "2026-07-29",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -12610,9 +16968,9 @@
       "population": 9100000,
       "gdp_eur": 447000000000,
       "eea": true,
-      "registered_casps": 10,
-      "passported_casps": 130,
-      "total_casps": 140
+      "registered_casps": 11,
+      "passported_casps": 167,
+      "total_casps": 178
     },
     "BE": {
       "name": "Belgium",
@@ -12620,9 +16978,9 @@
       "population": 11700000,
       "gdp_eur": 554000000000,
       "eea": true,
-      "registered_casps": 1,
-      "passported_casps": 138,
-      "total_casps": 139
+      "registered_casps": 2,
+      "passported_casps": 179,
+      "total_casps": 181
     },
     "BG": {
       "name": "Bulgaria",
@@ -12630,9 +16988,9 @@
       "population": 6500000,
       "gdp_eur": 95000000000,
       "eea": true,
-      "registered_casps": 1,
-      "passported_casps": 117,
-      "total_casps": 118
+      "registered_casps": 4,
+      "passported_casps": 156,
+      "total_casps": 160
     },
     "HR": {
       "name": "Croatia",
@@ -12640,9 +16998,9 @@
       "population": 3900000,
       "gdp_eur": 68000000000,
       "eea": true,
-      "registered_casps": 5,
-      "passported_casps": 123,
-      "total_casps": 128
+      "registered_casps": 6,
+      "passported_casps": 162,
+      "total_casps": 168
     },
     "CY": {
       "name": "Cyprus",
@@ -12650,9 +17008,9 @@
       "population": 920000,
       "gdp_eur": 28000000000,
       "eea": true,
-      "registered_casps": 14,
-      "passported_casps": 121,
-      "total_casps": 135
+      "registered_casps": 25,
+      "passported_casps": 164,
+      "total_casps": 189
     },
     "CZ": {
       "name": "Czech Republic",
@@ -12660,9 +17018,9 @@
       "population": 10900000,
       "gdp_eur": 290000000000,
       "eea": true,
-      "registered_casps": 7,
-      "passported_casps": 128,
-      "total_casps": 135
+      "registered_casps": 11,
+      "passported_casps": 168,
+      "total_casps": 179
     },
     "DK": {
       "name": "Denmark",
@@ -12670,9 +17028,9 @@
       "population": 5900000,
       "gdp_eur": 380000000000,
       "eea": true,
-      "registered_casps": 4,
-      "passported_casps": 120,
-      "total_casps": 124
+      "registered_casps": 7,
+      "passported_casps": 160,
+      "total_casps": 167
     },
     "EE": {
       "name": "Estonia",
@@ -12681,8 +17039,8 @@
       "gdp_eur": 38000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 120,
-      "total_casps": 123
+      "passported_casps": 159,
+      "total_casps": 162
     },
     "FI": {
       "name": "Finland",
@@ -12691,8 +17049,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 124,
-      "total_casps": 129
+      "passported_casps": 160,
+      "total_casps": 165
     },
     "FR": {
       "name": "France",
@@ -12700,9 +17058,9 @@
       "population": 68000000,
       "gdp_eur": 2800000000000,
       "eea": true,
-      "registered_casps": 26,
-      "passported_casps": 115,
-      "total_casps": 141
+      "registered_casps": 34,
+      "passported_casps": 154,
+      "total_casps": 188
     },
     "DE": {
       "name": "Germany",
@@ -12710,9 +17068,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 56,
-      "passported_casps": 184,
-      "total_casps": 240
+      "registered_casps": 76,
+      "passported_casps": 245,
+      "total_casps": 321
     },
     "GR": {
       "name": "Greece",
@@ -12721,8 +17079,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 121,
-      "total_casps": 121
+      "passported_casps": 158,
+      "total_casps": 158
     },
     "HU": {
       "name": "Hungary",
@@ -12731,8 +17089,8 @@
       "gdp_eur": 180000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 117,
-      "total_casps": 117
+      "passported_casps": 154,
+      "total_casps": 154
     },
     "IS": {
       "name": "Iceland",
@@ -12741,8 +17099,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 106,
-      "total_casps": 107
+      "passported_casps": 137,
+      "total_casps": 138
     },
     "IE": {
       "name": "Ireland",
@@ -12751,8 +17109,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 127,
-      "total_casps": 139
+      "passported_casps": 166,
+      "total_casps": 178
     },
     "IT": {
       "name": "Italy",
@@ -12760,9 +17118,9 @@
       "population": 59000000,
       "gdp_eur": 2000000000000,
       "eea": true,
-      "registered_casps": 4,
-      "passported_casps": 140,
-      "total_casps": 144
+      "registered_casps": 9,
+      "passported_casps": 184,
+      "total_casps": 193
     },
     "LV": {
       "name": "Latvia",
@@ -12770,9 +17128,9 @@
       "population": 1900000,
       "gdp_eur": 40000000000,
       "eea": true,
-      "registered_casps": 6,
-      "passported_casps": 119,
-      "total_casps": 125
+      "registered_casps": 10,
+      "passported_casps": 157,
+      "total_casps": 167
     },
     "LI": {
       "name": "Liechtenstein",
@@ -12780,9 +17138,9 @@
       "population": 40000,
       "gdp_eur": 7000000000,
       "eea": true,
-      "registered_casps": 8,
-      "passported_casps": 117,
-      "total_casps": 125
+      "registered_casps": 12,
+      "passported_casps": 151,
+      "total_casps": 163
     },
     "LT": {
       "name": "Lithuania",
@@ -12791,8 +17149,8 @@
       "gdp_eur": 67000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 118,
-      "total_casps": 124
+      "passported_casps": 157,
+      "total_casps": 163
     },
     "LU": {
       "name": "Luxembourg",
@@ -12800,9 +17158,9 @@
       "population": 660000,
       "gdp_eur": 80000000000,
       "eea": true,
-      "registered_casps": 8,
-      "passported_casps": 131,
-      "total_casps": 139
+      "registered_casps": 13,
+      "passported_casps": 167,
+      "total_casps": 180
     },
     "MT": {
       "name": "Malta",
@@ -12810,9 +17168,9 @@
       "population": 540000,
       "gdp_eur": 18000000000,
       "eea": true,
-      "registered_casps": 17,
-      "passported_casps": 111,
-      "total_casps": 128
+      "registered_casps": 22,
+      "passported_casps": 145,
+      "total_casps": 167
     },
     "NL": {
       "name": "Netherlands",
@@ -12820,9 +17178,9 @@
       "population": 17800000,
       "gdp_eur": 1010000000000,
       "eea": true,
-      "registered_casps": 26,
-      "passported_casps": 141,
-      "total_casps": 167
+      "registered_casps": 29,
+      "passported_casps": 184,
+      "total_casps": 213
     },
     "NO": {
       "name": "Norway",
@@ -12830,9 +17188,9 @@
       "population": 5500000,
       "gdp_eur": 480000000000,
       "eea": true,
-      "registered_casps": 4,
-      "passported_casps": 116,
-      "total_casps": 120
+      "registered_casps": 6,
+      "passported_casps": 147,
+      "total_casps": 153
     },
     "PL": {
       "name": "Poland",
@@ -12841,8 +17199,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 122,
-      "total_casps": 122
+      "passported_casps": 161,
+      "total_casps": 161
     },
     "PT": {
       "name": "Portugal",
@@ -12850,9 +17208,9 @@
       "population": 10400000,
       "gdp_eur": 260000000000,
       "eea": true,
-      "registered_casps": 0,
-      "passported_casps": 128,
-      "total_casps": 128
+      "registered_casps": 1,
+      "passported_casps": 169,
+      "total_casps": 170
     },
     "RO": {
       "name": "Romania",
@@ -12861,8 +17219,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 117,
-      "total_casps": 117
+      "passported_casps": 154,
+      "total_casps": 154
     },
     "SK": {
       "name": "Slovakia",
@@ -12871,8 +17229,8 @@
       "gdp_eur": 115000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 122,
-      "total_casps": 128
+      "passported_casps": 159,
+      "total_casps": 165
     },
     "SI": {
       "name": "Slovenia",
@@ -12881,8 +17239,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 121,
-      "total_casps": 124
+      "passported_casps": 159,
+      "total_casps": 162
     },
     "ES": {
       "name": "Spain",
@@ -12890,9 +17248,9 @@
       "population": 48000000,
       "gdp_eur": 1400000000000,
       "eea": true,
-      "registered_casps": 8,
-      "passported_casps": 141,
-      "total_casps": 149
+      "registered_casps": 15,
+      "passported_casps": 186,
+      "total_casps": 201
     },
     "SE": {
       "name": "Sweden",
@@ -12901,8 +17259,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 124,
-      "total_casps": 125
+      "passported_casps": 161,
+      "total_casps": 162
     },
     "CH": {
       "name": "Switzerland",
