@@ -33,6 +33,9 @@ Vytvořit statickou HTML/JS analytickou aplikaci nad interim MiCA registrem CASP
 │  market_data.json (manuální) ──┐                                │
 │  enriched.json ────────────────┴► [4. Data Merger] ──► app.json │
 │                                                                 │
+│  app.json + git HEAD app.json ──► [4b. Change Detection] ──►    │
+│                                    app.json (+ changes)         │
+│                                                                 │
 │  app.json ──► [5. Static Site Build] ──► dist/                  │
 └─────────────────────────────────────────────────────────────────┘
 
@@ -57,6 +60,7 @@ mica-casp-analytics/
 │   ├── 02-scrape-websites.js        # Web scraping všech CASPs
 │   ├── 03-llm-classify.js           # LLM enrichment (Anthropic API)
 │   ├── 04-merge-data.js             # Spojení všech zdrojů → app.json
+│   ├── 04b-compute-changes.js       # Diff proti poslední publikované verzi
 │   ├── 05-build-site.js             # Generování statického webu
 │   └── cache/                       # Cache scraped/LLM výsledků
 │       ├── scraped_raw.json
@@ -252,6 +256,7 @@ Spojí všechna data do jednoho JSON souboru optimalizovaného pro frontend:
     "scrape_success_rate": 0.87,
     "llm_classification_rate": 0.95
   },
+  "changes": { /* viz krok 4b — diff proti poslední publikované verzi */ },
   "casps": [ /* pole enriched CASP objektů */ ],
   "countries": {
     "AT": {
@@ -280,6 +285,58 @@ Spojí všechna data do jednoho JSON souboru optimalizovaného pro frontend:
   }
 }
 ```
+
+### Krok 4b: Change Detection (`04b-compute-changes.js`)
+
+Vstup: `docs/data/app.json` (právě vygenerovaný) + `git show HEAD:docs/data/app.json`
+Výstup: `docs/data/app.json` obohacený o klíč `changes`
+
+Referenční „předchozí verze" je **poslední commitnutý** `docs/data/app.json`, protože commit
+je to, co se publikuje na GitHub Pages. Baseline se dá přepsat přes `DIFF_BASE_REF`
+(např. `DIFF_BASE_REF=HEAD~1`). Když git nebo soubor není k dispozici, krok vypíše varování
+a `app.json` nechá bez `changes` — build nikdy nespadne na chybějící baseline.
+
+Klíč porovnání je LEI (fallback `id`). Jako `modified` se hlásí jen změny registru:
+`services`, `passporting_countries`, `auth_end_date`, `home_country`. Změny v LLM enrichmentu
+(`brief_description`, `target_segments`, …) se ignorují, protože nejsou změnou registru.
+
+```json
+{
+  "changes": {
+    "previous_generated_at": "2026-09-17T19:26:49.779Z",
+    "previous_total": 349,
+    "current_total": 356,
+    "added": [
+      {
+        "id": "5d9a5266",
+        "lei": "529900VHU3S8ZYAQYZ61",
+        "legal_name": "Münchner Bank eG",
+        "commercial_name": "Münchner Bank eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-10-12",
+        "services": ["e"],
+        "passporting_countries": ["DE"]
+      }
+    ],
+    "removed": [ /* stejné schema jako added */ ],
+    "modified": [
+      {
+        "id": "bd8212f7",
+        "lei": "984500FBAE2EDEF1C317",
+        "legal_name": "Altcoins BG EOOD",
+        "commercial_name": "Altcoins",
+        "home_country": "BG",
+        "fields": [
+          { "field": "passporting_countries", "from": ["BG"], "to": ["AT", "BE", "..."] }
+        ]
+      }
+    ]
+  }
+}
+```
+
+`added` a `removed` jsou řazené podle `home_country` a pak podle názvu, stejně `modified`.
 
 ### Krok 5: Static Site Build (`05-build-site.js`)
 
@@ -382,6 +439,7 @@ Manuálně připravený soubor s daty z veřejných zdrojů. Struktura:
 ├──────────────────────────────────────────────────────────────┤
 │  NAVIGATION TABS:                                            │
 │  [Overview] [Country View] [CASP Explorer] [Market Sizing]   │
+│  [What's new]                                                │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
 │  TAB CONTENT (viz níže)                                      │
@@ -526,6 +584,31 @@ Analýza tržního potenciálu.
 
 ---
 
+### Tab 5: What's new
+
+Co se změnilo proti poslední publikované verzi registru. Čte `changes` z `app.json`.
+
+```
+┌──────────────────────────────────────────────────────────────┐
+│  Compared with the version published on 2026-09-17:          │
+│  +7 new, 0 removed, 2 changed.                               │
+├──────────────────────────────────────────────────────────────┤
+│  New CASPs      — tabulka: Name | Home | Competent Authority │
+│                   | Authorised | Services | Pass.            │
+│  Removed CASPs  — stejné sloupce                              │
+│  Changed CASPs  — Name | Home | Field | Before | After        │
+│                   (jeden řádek na změněné pole)               │
+├──────────────────────────────────────────────────────────────┤
+│  Klik na řádek otevře stejný detail jako v CASP Exploreru,    │
+│  pokud subjekt v aktuálních datech existuje.                  │
+└──────────────────────────────────────────────────────────────┘
+```
+
+Bez `changes` nebo s prázdným diffem tab zobrazí „No changes against the previous version."
+V CASP Exploreru mají nově zaevidované subjekty u názvu štítek `new`.
+
+---
+
 ## 6. Datová kvalita a known issues
 
 ### Problémy v CSV, které MUSÍ parser řešit:
@@ -558,6 +641,7 @@ npm run build:parse          # Krok 1
 npm run build:scrape         # Krok 2 (pomalé, ~5 min)
 npm run build:classify       # Krok 3 (vyžaduje API key, ~150 calls)
 npm run build:merge          # Krok 4
+npm run build:changes        # Krok 4b (diff proti git HEAD, volitelně DIFF_BASE_REF)
 
 # Krok 5: Build frontend
 npm run build:site
@@ -579,6 +663,7 @@ SCRAPE_CONCURRENCY=5            # Volitelné, default 5
 LLM_CONCURRENCY=5               # Volitelné, default 5
 SKIP_SCRAPE=false               # Přeskočit scraping (použít cache)
 SKIP_LLM=false                  # Přeskočit LLM klasifikaci (použít cache)
+DIFF_BASE_REF=HEAD              # Volitelné, baseline pro krok 4b
 ```
 
 ---
