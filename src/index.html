@@ -39,6 +39,7 @@
     <button class="tab" data-tab="country">Country View</button>
     <button class="tab" data-tab="explorer">CASP Explorer</button>
     <button class="tab" data-tab="market">Market Sizing</button>
+    <button class="tab" data-tab="whatsnew">What's new</button>
   </nav>
 
   <main class="main">
@@ -191,6 +192,65 @@
         Market estimates are based on publicly available reports (Chainalysis, ECB, EBA, Statista).
         Actual values may differ. Data serves as indicative guidance only.
       </div>
+    </section>
+
+    <!-- ═══════════ TAB 5: WHAT'S NEW ═══════════ -->
+    <section id="tab-whatsnew" class="tab-content">
+      <div class="card" id="whatsnewSummary"></div>
+      <div class="card" id="whatsnewAdded" style="display:none;">
+        <h3>New CASPs</h3>
+        <div class="table-wrap">
+          <table class="data-table data-table--static" id="whatsnewAddedTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Home</th>
+                <th>Competent Authority</th>
+                <th>Authorised</th>
+                <th>Services</th>
+                <th>Pass.</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card" id="whatsnewRemoved" style="display:none;">
+        <h3>Removed CASPs</h3>
+        <div class="table-wrap">
+          <table class="data-table data-table--static" id="whatsnewRemovedTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Home</th>
+                <th>Competent Authority</th>
+                <th>Authorised</th>
+                <th>Services</th>
+                <th>Pass.</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card" id="whatsnewModified" style="display:none;">
+        <h3>Changed CASPs</h3>
+        <div class="table-wrap">
+          <table class="data-table data-table--static" id="whatsnewModifiedTable">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Home</th>
+                <th>Field</th>
+                <th>Before</th>
+                <th>After</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <div id="whatsnewDetail" class="card detail-card" style="display:none;"></div>
     </section>
   </main>
 

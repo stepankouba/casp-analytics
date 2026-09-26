@@ -4,6 +4,10 @@
   const resp = await fetch('data/app.json');
   const data = await resp.json();
   const { casps, countries, market_sizing, services_reference, metadata } = data;
+  const changes = data.changes || null;
+
+  // LEIs of CASPs added since the previously published version (for the "new" tag).
+  const addedLeis = new Set((changes?.added || []).map(a => a.lei).filter(Boolean));
 
   // ── Header meta ──
   document.getElementById('headerMeta').textContent =
@@ -303,6 +307,88 @@
   }
 
   // ════════════════════════════════════════════════════════════
+  //  TAB 5: WHAT'S NEW
+  // ════════════════════════════════════════════════════════════
+  {
+    const summary = document.getElementById('whatsnewSummary');
+    const added = changes?.added || [];
+    const removed = changes?.removed || [];
+    const modified = changes?.modified || [];
+    const hasChanges = added.length + removed.length + modified.length > 0;
+
+    if (!changes || !hasChanges) {
+      summary.innerHTML = '<p>No changes against the previous version.</p>';
+    } else {
+      const prevDate = changes.previous_generated_at
+        ? changes.previous_generated_at.slice(0, 10)
+        : 'the previous version';
+      summary.innerHTML = `<p>Compared with the version published on ${prevDate}:
+        <strong>+${added.length}</strong> new,
+        <strong>${removed.length}</strong> removed,
+        <strong>${modified.length}</strong> changed.</p>`;
+
+      renderEntryTable('whatsnewAdded', 'whatsnewAddedTable', added);
+      renderEntryTable('whatsnewRemoved', 'whatsnewRemovedTable', removed);
+      renderModifiedTable(modified);
+    }
+
+    function renderEntryTable(cardId, tableId, entries) {
+      if (entries.length === 0) return;
+      document.getElementById(cardId).style.display = 'block';
+      document.querySelector(`#${tableId} tbody`).innerHTML = entries.map(e => `
+        <tr data-lei="${e.lei || ''}">
+          <td><strong>${e.commercial_name || e.legal_name}</strong></td>
+          <td>${countries[e.home_country]?.name || e.home_country || '-'}</td>
+          <td>${e.competent_authority || '-'}</td>
+          <td>${e.auth_date || '-'}</td>
+          <td>${Filters.renderServiceBadges(e.services || [])}</td>
+          <td>${(e.passporting_countries || []).length}</td>
+        </tr>
+      `).join('');
+    }
+
+    function renderModifiedTable(entries) {
+      if (entries.length === 0) return;
+      document.getElementById('whatsnewModified').style.display = 'block';
+      document.querySelector('#whatsnewModifiedTable tbody').innerHTML = entries.map(e =>
+        e.fields.map((f, i) => `
+        <tr data-lei="${e.lei || ''}">
+          <td>${i === 0 ? `<strong>${e.commercial_name || e.legal_name}</strong>` : ''}</td>
+          <td>${i === 0 ? (countries[e.home_country]?.name || e.home_country || '-') : ''}</td>
+          <td>${fieldLabel(f.field)}</td>
+          <td>${fmtFieldValue(f.field, f.from)}</td>
+          <td>${fmtFieldValue(f.field, f.to)}</td>
+        </tr>
+      `).join('')).join('');
+    }
+
+    function fieldLabel(field) {
+      const labels = {
+        services: 'Services',
+        passporting_countries: 'Passporting',
+        auth_end_date: 'Authorisation end',
+        home_country: 'Home country',
+      };
+      return labels[field] || field;
+    }
+
+    function fmtFieldValue(field, value) {
+      if (value == null || (Array.isArray(value) && value.length === 0)) return '-';
+      if (field === 'services') return Filters.renderServiceBadges(value);
+      if (Array.isArray(value)) return value.map(v => `<span class="tag">${v}</span>`).join(' ');
+      return String(value);
+    }
+
+    // Row click opens the same detail card as in the Explorer, when the CASP still exists.
+    document.getElementById('tab-whatsnew').addEventListener('click', (e) => {
+      const row = e.target.closest('tr[data-lei]');
+      if (!row || !row.dataset.lei) return;
+      const casp = casps.find(c => c.lei === row.dataset.lei);
+      if (casp) showDetail(casp, 'whatsnewDetail');
+    });
+  }
+
+  // ════════════════════════════════════════════════════════════
   //  SHARED HELPERS
   // ════════════════════════════════════════════════════════════
 
@@ -349,7 +435,7 @@
     const tbody = document.querySelector('#explorerTable tbody');
     tbody.innerHTML = data.map(c => `
       <tr data-lei="${c.lei}">
-        <td><strong>${c.commercial_name || c.legal_name}</strong></td>
+        <td><strong>${c.commercial_name || c.legal_name}</strong>${addedLeis.has(c.lei) ? ' <span class="tag tag--new">new</span>' : ''}</td>
         <td>${Filters.renderEntityBadge(c.entity_type)}</td>
         <td>${c.home_country}</td>
         <td>${Filters.renderServiceBadges(c.services)}</td>
@@ -381,8 +467,8 @@
     });
   }
 
-  function showDetail(c) {
-    const detail = document.getElementById('explorerDetail');
+  function showDetail(c, targetId = 'explorerDetail') {
+    const detail = document.getElementById(targetId);
     detail.style.display = 'block';
     detail.innerHTML = `
       <button class="detail-close" onclick="this.parentElement.style.display='none'">&times;</button>

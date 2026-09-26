@@ -343,3 +343,15 @@ a:hover { text-decoration: underline; }
   .main { padding: 1rem; }
   .kpi-row { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ── What's new ──────────────────────────────────────────── */
+#whatsnewSummary { border-left: 4px solid var(--c-primary); font-size: .9rem; }
+.data-table--static th { cursor: default; }
+.data-table--static th:hover { color: var(--c-text-dim); }
+.tag--new {
+  background: var(--c-primary-light);
+  color: #1e40af;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+}
