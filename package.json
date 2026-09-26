@@ -9,8 +9,9 @@
     "build:scrape": "node build/02-scrape-websites.js",
     "build:classify": "node build/03-llm-classify.js",
     "build:merge": "node build/04-merge-data.js",
+    "build:changes": "node build/04b-compute-changes.js",
     "build:site": "node build/05-build-site.js",
-    "build:data": "npm run build:parse && npm run build:scrape && npm run build:classify && npm run build:merge",
+    "build:data": "npm run build:parse && npm run build:scrape && npm run build:classify && npm run build:merge && npm run build:changes",
     "build": "npm run build:data && npm run build:site",
     "dev": "npx serve docs",
     "clean:cache": "rm -rf build/cache/*.json build/cache/*.log"
