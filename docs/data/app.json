@@ -6,6 +6,254 @@
     "scrape_success_rate": 0.87,
     "llm_classification_rate": 1
   },
+  "changes": {
+    "previous_generated_at": "2026-09-17T19:26:49.779Z",
+    "previous_total": 349,
+    "current_total": 356,
+    "added": [
+      {
+        "id": "5d9a5266",
+        "lei": "529900VHU3S8ZYAQYZ61",
+        "legal_name": "Münchner Bank eG",
+        "commercial_name": "Münchner Bank eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-10-12",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "4808ae1c",
+        "lei": "529900Q4W1LSVUCO8L66",
+        "legal_name": "Raiffeisenbank im Oberland eG",
+        "commercial_name": "Raiffeisenbank im Oberland eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-10-12",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "18c36d04",
+        "lei": "529900K1110GFV3VUM61",
+        "legal_name": "Volksbank Göppingen eG",
+        "commercial_name": "Volksbank Göppingen eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-09-17",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "a95bb91a",
+        "lei": "5299002PZ7ROI71ZQW56",
+        "legal_name": "Wiesbadener Volksbank eG",
+        "commercial_name": "Wiesbadener Volksbank eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-09-29",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "29c06cfb",
+        "lei": "969500Y5SNO2WBYDB059",
+        "legal_name": "REGULAR FINANCE SAS",
+        "commercial_name": "REGULAR",
+        "home_country": "FR",
+        "competent_authority": "Autorité des Marchés Financiers (AMF)",
+        "auth_date": "2028-09-11",
+        "services": [
+          "a",
+          "c",
+          "h",
+          "i",
+          "j"
+        ],
+        "passporting_countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "id": "ddf925e0",
+        "lei": "213800OYHR1MPQ5VJL60",
+        "legal_name": "PIRAEUS BANK Société Anonyme (S.A.)",
+        "commercial_name": null,
+        "home_country": "GR",
+        "competent_authority": "Bank of Greece",
+        "auth_date": "2026-08-07",
+        "services": [
+          "a",
+          "e",
+          "g",
+          "j"
+        ],
+        "passporting_countries": [
+          "GR"
+        ]
+      },
+      {
+        "id": "f9853a10",
+        "lei": "485100CIMEOMSMFT8G48",
+        "legal_name": "ICONOMI EUROPE, borznoposredniška družba, d.o.o.",
+        "commercial_name": "Iconomi",
+        "home_country": "SI",
+        "competent_authority": "Securities Market Agency (ATVP)",
+        "auth_date": "2026-09-06",
+        "services": [
+          "a",
+          "e",
+          "g",
+          "h",
+          "i"
+        ],
+        "passporting_countries": [
+          "SI"
+        ]
+      }
+    ],
+    "removed": [],
+    "modified": [
+      {
+        "id": "bd8212f7",
+        "lei": "984500FBAE2EDEF1C317",
+        "legal_name": "Altcoins BG EООD",
+        "commercial_name": "Altcoins",
+        "home_country": "BG",
+        "fields": [
+          {
+            "field": "passporting_countries",
+            "from": [
+              "BG"
+            ],
+            "to": [
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "ES",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IT",
+              "LT",
+              "LU",
+              "LV",
+              "MT",
+              "NL",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "7edda97b",
+        "lei": "724500Z8JCXSX3351I94",
+        "legal_name": "BLOX B.V.",
+        "commercial_name": "BLOX B.V.",
+        "home_country": "NL",
+        "fields": [
+          {
+            "field": "passporting_countries",
+            "from": [
+              "BE",
+              "DE",
+              "ES",
+              "NL"
+            ],
+            "to": [
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "ES",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IS",
+              "IT",
+              "LI",
+              "LT",
+              "LU",
+              "LV",
+              "MT",
+              "NL",
+              "NO",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK"
+            ]
+          }
+        ]
+      }
+    ]
+  },
   "casps": [
     {
       "id": "479b8d95",
