@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "generated_at": "2026-09-26T16:10:00.813Z",
+    "generated_at": "2026-10-06T09:44:46.360Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 356,
-    "scrape_success_rate": 0.87,
+    "total_casps": 358,
+    "scrape_success_rate": 0.88,
     "llm_classification_rate": 1
   },
   "changes": {
-    "previous_generated_at": "2026-09-17T19:26:49.779Z",
-    "previous_total": 349,
-    "current_total": 356,
+    "previous_generated_at": "2026-09-26T16:10:00.813Z",
+    "previous_total": 356,
+    "current_total": 358,
     "added": [
       {
-        "id": "5d9a5266",
-        "lei": "529900VHU3S8ZYAQYZ61",
-        "legal_name": "Münchner Bank eG",
-        "commercial_name": "Münchner Bank eG",
+        "id": "42e9a9f9",
+        "lei": "529900OPEDQJAXAQT146",
+        "legal_name": "VR Bank zwischen den Meeren eG",
+        "commercial_name": "VR Bank zwischen den Meeren eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-12",
+        "auth_date": "2026-09-24",
         "services": [
           "e"
         ],
@@ -27,195 +27,68 @@
         ]
       },
       {
-        "id": "4808ae1c",
-        "lei": "529900Q4W1LSVUCO8L66",
-        "legal_name": "Raiffeisenbank im Oberland eG",
-        "commercial_name": "Raiffeisenbank im Oberland eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-12",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "18c36d04",
-        "lei": "529900K1110GFV3VUM61",
-        "legal_name": "Volksbank Göppingen eG",
-        "commercial_name": "Volksbank Göppingen eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-09-17",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "a95bb91a",
-        "lei": "5299002PZ7ROI71ZQW56",
-        "legal_name": "Wiesbadener Volksbank eG",
-        "commercial_name": "Wiesbadener Volksbank eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-09-29",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "29c06cfb",
-        "lei": "969500Y5SNO2WBYDB059",
-        "legal_name": "REGULAR FINANCE SAS",
-        "commercial_name": "REGULAR",
-        "home_country": "FR",
-        "competent_authority": "Autorité des Marchés Financiers (AMF)",
-        "auth_date": "2028-09-11",
+        "id": "d481c4a7",
+        "lei": "984500G55775959B9C37",
+        "legal_name": "VS Digital Europe Ltd.",
+        "commercial_name": "VS Digital",
+        "home_country": "MT",
+        "competent_authority": "Malta Financial Services Authority (MFSA)",
+        "auth_date": "2026-09-23",
         "services": [
           "a",
           "c",
-          "h",
-          "i",
+          "d",
+          "e",
           "j"
         ],
         "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "ES",
-          "FI",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IS",
-          "IT",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MT",
-          "NL",
-          "NO",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
-        ]
-      },
-      {
-        "id": "ddf925e0",
-        "lei": "213800OYHR1MPQ5VJL60",
-        "legal_name": "PIRAEUS BANK Société Anonyme (S.A.)",
-        "commercial_name": null,
-        "home_country": "GR",
-        "competent_authority": "Bank of Greece",
-        "auth_date": "2026-08-07",
-        "services": [
-          "a",
-          "e",
-          "g",
-          "j"
-        ],
-        "passporting_countries": [
-          "GR"
-        ]
-      },
-      {
-        "id": "f9853a10",
-        "lei": "485100CIMEOMSMFT8G48",
-        "legal_name": "ICONOMI EUROPE, borznoposredniška družba, d.o.o.",
-        "commercial_name": "Iconomi",
-        "home_country": "SI",
-        "competent_authority": "Securities Market Agency (ATVP)",
-        "auth_date": "2026-09-06",
-        "services": [
-          "a",
-          "e",
-          "g",
-          "h",
-          "i"
-        ],
-        "passporting_countries": [
-          "SI"
+          "MT"
         ]
       }
     ],
     "removed": [],
     "modified": [
       {
-        "id": "bd8212f7",
-        "lei": "984500FBAE2EDEF1C317",
-        "legal_name": "Altcoins BG EООD",
-        "commercial_name": "Altcoins",
-        "home_country": "BG",
+        "id": "d9d7b0e9",
+        "lei": "213800186TP6OZSHUV17",
+        "legal_name": "J2TX Ltd",
+        "commercial_name": null,
+        "home_country": "CY",
         "fields": [
           {
-            "field": "passporting_countries",
+            "field": "services",
             "from": [
-              "BG"
+              "a",
+              "c",
+              "d",
+              "e",
+              "g",
+              "h",
+              "i",
+              "j"
             ],
             "to": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IT",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
+              "a",
+              "c",
+              "d",
+              "e",
+              "g",
+              "j"
             ]
           }
         ]
       },
       {
-        "id": "7edda97b",
-        "lei": "724500Z8JCXSX3351I94",
-        "legal_name": "BLOX B.V.",
-        "commercial_name": "BLOX B.V.",
-        "home_country": "NL",
+        "id": "a661897d",
+        "lei": "391200Z1YA45VPMIGP98",
+        "legal_name": "Floin AG",
+        "commercial_name": "Floin AG",
+        "home_country": "LI",
         "fields": [
           {
             "field": "passporting_countries",
             "from": [
-              "BE",
-              "DE",
-              "ES",
-              "NL"
+              "LI"
             ],
             "to": [
               "AT",
@@ -1978,8 +1851,6 @@
         "d",
         "e",
         "g",
-        "h",
-        "i",
         "j"
       ],
       "passporting_countries": [
@@ -2014,7 +1885,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-05-21",
+      "last_update": "2026-09-29",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -2287,7 +2158,7 @@
       "home_country": "CY",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
       "address": "Arch. Makariou III & Markou Drakou, 66-68, Mesa Geitonia, 4003, Limassol, Cyprus",
-      "website": "https://triabridge.com",
+      "website": "https://triabridge.com/\r\nhttps://thevault.inc",
       "website_platform": null,
       "auth_date": "2026-06-29",
       "auth_end_date": null,
@@ -2333,7 +2204,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-07-31",
+      "last_update": "2026-09-29",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -7030,6 +6901,39 @@
       "confidence": "medium",
       "brief_description": "Münchner Bank eG is a traditional German cooperative bank founded in 1862, serving retail customers in Munich with standard banking services and now registered under MiCA to execute crypto-asset orders on behalf of clients.",
       "classification_date": "2026-09-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "42e9a9f9",
+      "lei": "529900OPEDQJAXAQT146",
+      "legal_name": "VR Bank zwischen den Meeren eG",
+      "commercial_name": "VR Bank zwischen den Meeren eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Großflecken 56-60, 24534 Neumünster",
+      "website": "https://www.meine-vrbank.de",
+      "website_platform": null,
+      "auth_date": "2026-09-24",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-09-24",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "VR Bank zwischen den Meeren eG is a German cooperative bank offering traditional banking and investment services, including securities trading and savings products, with MiCA registration for executing crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-10-06",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -12302,7 +12206,7 @@
       "commercial_name": "Floin AG",
       "home_country": "LI",
       "competent_authority": "Finanzmarktaufsicht (FMA)",
-      "address": "Am Schrägen Weg 2 - 9490",
+      "address": "Am Schrägen Weg 2 - 9490 Vaduz",
       "website": "https://floin.com",
       "website_platform": null,
       "auth_date": "2026-06-10",
@@ -12315,9 +12219,38 @@
         "j"
       ],
       "passporting_countries": [
-        "LI"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-06-12",
+      "last_update": "2026-09-25",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -15892,6 +15825,44 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "d481c4a7",
+      "lei": "984500G55775959B9C37",
+      "legal_name": "VS Digital Europe Ltd.",
+      "commercial_name": "VS Digital",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "Level G (Office 1/1544), Quantum House, 75, Triq l-Abate Rigord, Ta' Xbiex, XBX 1120, Malta",
+      "website": "https://www.figma.com/design/mQlpK97GfMFNAlXToGX4oq/VSC-Landing?node-id=0-1&t=OZ977XpGYqyBbDWr-1",
+      "website_platform": null,
+      "auth_date": "2026-09-23",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "j"
+      ],
+      "passporting_countries": [
+        "MT"
+      ],
+      "last_update": "2026-09-25",
+      "comments": "This is a dummy website link. The official link will be provided at a later date.",
+      "entity_type": "other",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "payment_services"
+      ],
+      "confidence": "low",
+      "brief_description": "VS Digital Europe Ltd. is a Malta-registered MiCA CASP offering custody, crypto exchange, order execution, and transfer services, but its listed website resolves to a Figma design tool page rather than a legitimate business presence, making reliable classification impossible.",
+      "classification_date": "2026-10-06",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "89d7583b",
       "lei": "254900KXWAZ3B1340G26",
       "legal_name": "MoonPay Europe B.V.",
@@ -18592,8 +18563,8 @@
       "gdp_eur": 447000000000,
       "eea": true,
       "registered_casps": 11,
-      "passported_casps": 181,
-      "total_casps": 192
+      "passported_casps": 182,
+      "total_casps": 193
     },
     "BE": {
       "name": "Belgium",
@@ -18602,8 +18573,8 @@
       "gdp_eur": 554000000000,
       "eea": true,
       "registered_casps": 2,
-      "passported_casps": 192,
-      "total_casps": 194
+      "passported_casps": 193,
+      "total_casps": 195
     },
     "BG": {
       "name": "Bulgaria",
@@ -18612,8 +18583,8 @@
       "gdp_eur": 95000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 171,
-      "total_casps": 176
+      "passported_casps": 172,
+      "total_casps": 177
     },
     "HR": {
       "name": "Croatia",
@@ -18622,8 +18593,8 @@
       "gdp_eur": 68000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 175,
-      "total_casps": 181
+      "passported_casps": 176,
+      "total_casps": 182
     },
     "CY": {
       "name": "Cyprus",
@@ -18632,8 +18603,8 @@
       "gdp_eur": 28000000000,
       "eea": true,
       "registered_casps": 25,
-      "passported_casps": 175,
-      "total_casps": 200
+      "passported_casps": 176,
+      "total_casps": 201
     },
     "CZ": {
       "name": "Czech Republic",
@@ -18642,8 +18613,8 @@
       "gdp_eur": 290000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 179,
-      "total_casps": 191
+      "passported_casps": 180,
+      "total_casps": 192
     },
     "DK": {
       "name": "Denmark",
@@ -18652,8 +18623,8 @@
       "gdp_eur": 380000000000,
       "eea": true,
       "registered_casps": 7,
-      "passported_casps": 174,
-      "total_casps": 181
+      "passported_casps": 175,
+      "total_casps": 182
     },
     "EE": {
       "name": "Estonia",
@@ -18662,8 +18633,8 @@
       "gdp_eur": 38000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 173,
-      "total_casps": 176
+      "passported_casps": 174,
+      "total_casps": 177
     },
     "FI": {
       "name": "Finland",
@@ -18672,8 +18643,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 175,
-      "total_casps": 180
+      "passported_casps": 176,
+      "total_casps": 181
     },
     "FR": {
       "name": "France",
@@ -18682,8 +18653,8 @@
       "gdp_eur": 2800000000000,
       "eea": true,
       "registered_casps": 36,
-      "passported_casps": 166,
-      "total_casps": 202
+      "passported_casps": 167,
+      "total_casps": 203
     },
     "DE": {
       "name": "Germany",
@@ -18691,9 +18662,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 95,
-      "passported_casps": 276,
-      "total_casps": 371
+      "registered_casps": 96,
+      "passported_casps": 278,
+      "total_casps": 374
     },
     "GR": {
       "name": "Greece",
@@ -18702,8 +18673,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 173,
-      "total_casps": 174
+      "passported_casps": 174,
+      "total_casps": 175
     },
     "HU": {
       "name": "Hungary",
@@ -18712,8 +18683,8 @@
       "gdp_eur": 180000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 169,
-      "total_casps": 169
+      "passported_casps": 170,
+      "total_casps": 170
     },
     "IS": {
       "name": "Iceland",
@@ -18722,8 +18693,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 150,
-      "total_casps": 151
+      "passported_casps": 151,
+      "total_casps": 152
     },
     "IE": {
       "name": "Ireland",
@@ -18732,8 +18703,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 180,
-      "total_casps": 192
+      "passported_casps": 181,
+      "total_casps": 193
     },
     "IT": {
       "name": "Italy",
@@ -18742,8 +18713,8 @@
       "gdp_eur": 2000000000000,
       "eea": true,
       "registered_casps": 9,
-      "passported_casps": 197,
-      "total_casps": 206
+      "passported_casps": 198,
+      "total_casps": 207
     },
     "LV": {
       "name": "Latvia",
@@ -18752,8 +18723,8 @@
       "gdp_eur": 40000000000,
       "eea": true,
       "registered_casps": 10,
-      "passported_casps": 170,
-      "total_casps": 180
+      "passported_casps": 171,
+      "total_casps": 181
     },
     "LI": {
       "name": "Liechtenstein",
@@ -18772,8 +18743,8 @@
       "gdp_eur": 67000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 171,
-      "total_casps": 177
+      "passported_casps": 172,
+      "total_casps": 178
     },
     "LU": {
       "name": "Luxembourg",
@@ -18782,8 +18753,8 @@
       "gdp_eur": 80000000000,
       "eea": true,
       "registered_casps": 13,
-      "passported_casps": 181,
-      "total_casps": 194
+      "passported_casps": 182,
+      "total_casps": 195
     },
     "MT": {
       "name": "Malta",
@@ -18791,9 +18762,9 @@
       "population": 540000,
       "gdp_eur": 18000000000,
       "eea": true,
-      "registered_casps": 22,
-      "passported_casps": 157,
-      "total_casps": 179
+      "registered_casps": 23,
+      "passported_casps": 159,
+      "total_casps": 182
     },
     "NL": {
       "name": "Netherlands",
@@ -18802,8 +18773,8 @@
       "gdp_eur": 1010000000000,
       "eea": true,
       "registered_casps": 29,
-      "passported_casps": 199,
-      "total_casps": 228
+      "passported_casps": 200,
+      "total_casps": 229
     },
     "NO": {
       "name": "Norway",
@@ -18812,8 +18783,8 @@
       "gdp_eur": 480000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 159,
-      "total_casps": 165
+      "passported_casps": 160,
+      "total_casps": 166
     },
     "PL": {
       "name": "Poland",
@@ -18822,8 +18793,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 176,
-      "total_casps": 176
+      "passported_casps": 177,
+      "total_casps": 177
     },
     "PT": {
       "name": "Portugal",
@@ -18832,8 +18803,8 @@
       "gdp_eur": 260000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 183,
-      "total_casps": 184
+      "passported_casps": 184,
+      "total_casps": 185
     },
     "RO": {
       "name": "Romania",
@@ -18842,8 +18813,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 168,
-      "total_casps": 168
+      "passported_casps": 169,
+      "total_casps": 169
     },
     "SK": {
       "name": "Slovakia",
@@ -18852,8 +18823,8 @@
       "gdp_eur": 115000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 173,
-      "total_casps": 179
+      "passported_casps": 174,
+      "total_casps": 180
     },
     "SI": {
       "name": "Slovenia",
@@ -18862,8 +18833,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 173,
-      "total_casps": 178
+      "passported_casps": 174,
+      "total_casps": 179
     },
     "ES": {
       "name": "Spain",
@@ -18872,8 +18843,8 @@
       "gdp_eur": 1400000000000,
       "eea": true,
       "registered_casps": 15,
-      "passported_casps": 200,
-      "total_casps": 215
+      "passported_casps": 201,
+      "total_casps": 216
     },
     "SE": {
       "name": "Sweden",
@@ -18882,8 +18853,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 177,
-      "total_casps": 178
+      "passported_casps": 178,
+      "total_casps": 179
     },
     "CH": {
       "name": "Switzerland",
