@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-10-06T09:44:46.360Z",
+    "generated_at": "2026-10-06T09:57:05.924Z",
     "source": "ESMA MiCA Interim Register",
     "total_casps": 358,
     "scrape_success_rate": 0.88,
@@ -15832,7 +15832,7 @@
       "home_country": "MT",
       "competent_authority": "Malta Financial Services Authority (MFSA)",
       "address": "Level G (Office 1/1544), Quantum House, 75, Triq l-Abate Rigord, Ta' Xbiex, XBX 1120, Malta",
-      "website": "https://www.figma.com/design/mQlpK97GfMFNAlXToGX4oq/VSC-Landing?node-id=0-1&t=OZ977XpGYqyBbDWr-1",
+      "website": "https://www.vscapital.com",
       "website_platform": null,
       "auth_date": "2026-09-23",
       "auth_end_date": null,
@@ -15848,17 +15848,20 @@
       ],
       "last_update": "2026-09-25",
       "comments": "This is a dummy website link. The official link will be provided at a later date.",
-      "entity_type": "other",
+      "entity_type": "hybrid",
       "target_segments": [
-        "retail"
+        "retail",
+        "professional",
+        "institutional"
       ],
       "primary_products": [
         "spot_exchange",
         "custody",
+        "derivatives",
         "payment_services"
       ],
-      "confidence": "low",
-      "brief_description": "VS Digital Europe Ltd. is a Malta-registered MiCA CASP offering custody, crypto exchange, order execution, and transfer services, but its listed website resolves to a Figma design tool page rather than a legitimate business presence, making reliable classification impossible.",
+      "confidence": "medium",
+      "brief_description": "VS Digital Europe Ltd. (operating as VS Capital) is a Malta-based multi-asset online broker offering CFD and stock trading across 300+ instruments alongside MiCA-registered crypto-asset services including custody, exchange, order execution, and transfer of crypto-assets.",
       "classification_date": "2026-10-06",
       "llm_model": "claude-sonnet-4-6"
     },
