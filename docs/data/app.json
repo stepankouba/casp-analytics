@@ -1,100 +1,24 @@
 {
   "metadata": {
-    "generated_at": "2026-10-19T14:37:10.834Z",
+    "generated_at": "2026-11-01T11:59:38.742Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 376,
-    "scrape_success_rate": 0.89,
+    "total_casps": 389,
+    "scrape_success_rate": 0.88,
     "llm_classification_rate": 1
   },
   "changes": {
-    "previous_generated_at": "2026-10-06T09:57:05.924Z",
-    "previous_total": 358,
-    "current_total": 376,
+    "previous_generated_at": "2026-10-19T14:37:10.834Z",
+    "previous_total": 376,
+    "current_total": 389,
     "added": [
       {
-        "id": "3d6b8e01",
-        "lei": "984500G149054BADD925",
-        "legal_name": "MEGE zweite GmbH",
-        "commercial_name": "BingX EU",
-        "home_country": "AT",
-        "competent_authority": "Austrian Financial Market Authority (FMA)",
-        "auth_date": "2026-10-13",
-        "services": [
-          "a",
-          "c",
-          "d",
-          "j"
-        ],
-        "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "FI",
-          "FR",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IS",
-          "IT",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "NL",
-          "NO",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
-        ]
-      },
-      {
-        "id": "c22073fa",
-        "lei": "5299007QRBQF1SF24853",
-        "legal_name": "KSW Vermögensverwaltung AG",
-        "commercial_name": "KSW Vermögensverwaltung AG",
+        "id": "7a8c22be",
+        "lei": "529900V5E7HEA1LD8V54",
+        "legal_name": "Raiffeisen-Volksbank Ebersberg eG",
+        "commercial_name": "Raiffeisen-Volksbank Ebersberg eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-07",
-        "services": [
-          "g"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "80dfae15",
-        "lei": "5299002CRNX7K6KOL397",
-        "legal_name": "Openbank Deutschland AG",
-        "commercial_name": "Openbank Deutschland AG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-23",
-        "services": [
-          "a",
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "dfcd000f",
-        "lei": "529900C0H5OM7TYSQK47",
-        "legal_name": "Raiffeisenbank im Fuldaer Land eG",
-        "commercial_name": "Raiffeisenbank im Fuldaer Land eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-02",
+        "auth_date": "2026-11-03",
         "services": [
           "e"
         ],
@@ -103,10 +27,70 @@
         ]
       },
       {
-        "id": "e975f895",
-        "lei": "529900JONLIJEZUYT574",
-        "legal_name": "Raiffeisenbank Rehling eG",
-        "commercial_name": "Raiffeisenbank Rehling eG",
+        "id": "5b346b47",
+        "lei": "5299007Y7UJE5QV9QD03",
+        "legal_name": "Raiffeisenbank Eifel eG",
+        "commercial_name": "Raiffeisenbank Eifel eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-10-19",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "d7cbb02a",
+        "lei": "529900MNNP2L0BZKDM04",
+        "legal_name": "Raiffeisenbank Kirchweihtal eG",
+        "commercial_name": "Raiffeisenbank Kirchweihtal eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-11-25",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "d9256cd5",
+        "lei": "529900LF81A0TME61753",
+        "legal_name": "Raiffeisenbank Wittelsbacher Land eG",
+        "commercial_name": "Raiffeisenbank Wittelsbacher Land eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-11-03",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "ccd0655a",
+        "lei": "5299004HBAECUACNWN98",
+        "legal_name": "Sparda-Bank Baden-Württemberg eG",
+        "commercial_name": "Sparda-Bank Baden-Württemberg eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-10-19",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "235f6366",
+        "lei": "529900NK7TIIGQEJ6L07",
+        "legal_name": "Volksbank in der Hohen Mark eG",
+        "commercial_name": "Volksbank in der Hohen Mark eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
         "auth_date": "2026-10-30",
@@ -118,13 +102,13 @@
         ]
       },
       {
-        "id": "a56a42c1",
-        "lei": "529900DCW7IO492RBC56",
-        "legal_name": "Volksbank eG",
-        "commercial_name": "Volksbank eG",
+        "id": "3d6ea06e",
+        "lei": "5299006E6UGNN6YEPU72",
+        "legal_name": "Volksbank in der Region eG",
+        "commercial_name": "Volksbank in der Region eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-12",
+        "auth_date": "2026-08-27",
         "services": [
           "e"
         ],
@@ -133,13 +117,13 @@
         ]
       },
       {
-        "id": "b276b773",
-        "lei": "529900PEKQWL9DDI8J02",
-        "legal_name": "VR Bank im südlichen Franken eG",
-        "commercial_name": "VR Bank im südlichen Franken eG",
+        "id": "c7e0bde5",
+        "lei": "529900PUK9IU39VCWK54",
+        "legal_name": "Volksbank in Ostwestfalen eG",
+        "commercial_name": "Volksbank in Ostwestfalen eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-12",
+        "auth_date": "2026-11-18",
         "services": [
           "e"
         ],
@@ -148,13 +132,13 @@
         ]
       },
       {
-        "id": "cb88d8c3",
-        "lei": "529900R1I4GVDN3WN882",
-        "legal_name": "VR Bank Lahn-Dill eG",
-        "commercial_name": "VR Bank Lahn-Dill eG",
+        "id": "6641aec1",
+        "lei": "529900HHCMGEXXJAGA76",
+        "legal_name": "Volksbank Mittlerer Neckar eG",
+        "commercial_name": "Volksbank Mittlerer Neckar eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-13",
+        "auth_date": "2026-08-27",
         "services": [
           "e"
         ],
@@ -163,13 +147,13 @@
         ]
       },
       {
-        "id": "96e5f8f9",
-        "lei": "52990089LBIKLBM8YB23",
-        "legal_name": "VR Bank Nord eG",
-        "commercial_name": "VR Bank Nord eG",
+        "id": "2a2559b3",
+        "lei": "529900SH7SAVJN3TFQ06",
+        "legal_name": "Volksbank Niederrhein eG",
+        "commercial_name": "Volksbank Niederrhein eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-09-30",
+        "auth_date": "2026-10-22",
         "services": [
           "e"
         ],
@@ -178,13 +162,13 @@
         ]
       },
       {
-        "id": "18a6b9e4",
-        "lei": "529900CNL32BATSBXF59",
-        "legal_name": "VR GenoBank DonauWald eG",
-        "commercial_name": "VR GenoBank DonauWald eG",
+        "id": "03dc2d19",
+        "lei": "529900OSV01JOCMF4Z23",
+        "legal_name": "Volksbank Oberberg eG",
+        "commercial_name": "Volksbank Oberberg eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-06",
+        "auth_date": "2026-11-19",
         "services": [
           "e"
         ],
@@ -193,13 +177,13 @@
         ]
       },
       {
-        "id": "2cbf7c43",
-        "lei": "529900S24NBYGGVAFY08",
-        "legal_name": "VR-Bank Alb-Blau-Donau eG",
-        "commercial_name": "VR-Bank Alb-Blau-Donau eG",
+        "id": "79537e04",
+        "lei": "5299004D2UMCDTD9JG58",
+        "legal_name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
+        "commercial_name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-06",
+        "auth_date": "2026-11-05",
         "services": [
           "e"
         ],
@@ -208,333 +192,62 @@
         ]
       },
       {
-        "id": "49cd9d66",
-        "lei": "959800BLRZ4Z36U5HK79",
-        "legal_name": "PRAKMA MARKETS S.L.",
-        "commercial_name": "GOIN CRYPTO",
-        "home_country": "ES",
-        "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-        "auth_date": "2026-10-09",
+        "id": "9c380db2",
+        "lei": "529900IWU96YBZ2JG374",
+        "legal_name": "VR Bank Neuburg-Rain eG",
+        "commercial_name": "VR Bank Neuburg-Rain eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-11-12",
         "services": [
-          "a",
-          "g",
-          "j"
+          "e"
         ],
         "passporting_countries": [
-          "ES",
-          "FR",
-          "IT"
-        ]
-      },
-      {
-        "id": "55ed1777",
-        "lei": "984500C5A9YK55041179",
-        "legal_name": "BCASH SOCIETE ANONYME",
-        "commercial_name": "BCASH",
-        "home_country": "GR",
-        "competent_authority": "Hellenic Capital Market Commission (HCMC)",
-        "auth_date": "2026-06-30",
-        "services": [
-          "c"
-        ],
-        "passporting_countries": [
-          "GR"
-        ]
-      },
-      {
-        "id": "d545f9f9",
-        "lei": "213800VHQNZ72RU8CW51",
-        "legal_name": "CAPITAL WALLET GREECE S.A.",
-        "commercial_name": "CAPITAL WALLET SA\nCAPITAL WALLET\nCAPITAL WALLET GREECE",
-        "home_country": "GR",
-        "competent_authority": "Hellenic Capital Market Commission (HCMC)",
-        "auth_date": "2026-07-22",
-        "services": [
-          "a",
-          "c",
-          "d",
-          "e",
-          "g",
-          "j"
-        ],
-        "passporting_countries": [
-          "CY",
-          "DE",
-          "ES",
-          "FR",
-          "GR",
-          "IT"
-        ]
-      },
-      {
-        "id": "0721c6d3",
-        "lei": "2138009N1SHZPPM84705",
-        "legal_name": "XENIOS BLOCKCHAIN GROUP S.A.",
-        "commercial_name": "XBG",
-        "home_country": "GR",
-        "competent_authority": "Hellenic Capital Market Commission (HCMC)",
-        "auth_date": "2026-07-22",
-        "services": [
-          "g"
-        ],
-        "passporting_countries": [
-          "BG",
-          "CY",
-          "DE",
-          "FR",
-          "GR",
-          "IT",
-          "LU",
-          "MT",
-          "RO"
-        ]
-      },
-      {
-        "id": "7c9211d9",
-        "lei": "894500I5LYET12OFII30",
-        "legal_name": "YOUHODLER ITALY S.R.L.",
-        "commercial_name": "YouHodler",
-        "home_country": "IT",
-        "competent_authority": "Commissione Nazionale per le Societa e la Borsa (CONSOB)",
-        "auth_date": null,
-        "services": [
-          "a",
-          "c",
-          "d",
-          "e",
-          "j"
-        ],
-        "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IT",
-          "LT",
-          "LU",
-          "LV",
-          "MT",
-          "NL",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
-        ]
-      },
-      {
-        "id": "c52e2f8f",
-        "lei": "648800CZ0UN5M4WVZ402",
-        "legal_name": "Atrya Technologies SIA",
-        "commercial_name": "Atrya Technologies SIA",
-        "home_country": "LV",
-        "competent_authority": "Latvijas Banka",
-        "auth_date": "2026-09-30",
-        "services": [
-          "a",
-          "d"
-        ],
-        "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IS",
-          "IT",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MT",
-          "NL",
-          "NO",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
-        ]
-      },
-      {
-        "id": "be61649d",
-        "lei": "984500F4C47H19274320",
-        "legal_name": "Noah LV SIA",
-        "commercial_name": "Noah",
-        "home_country": "LV",
-        "competent_authority": "Latvijas Banka",
-        "auth_date": "2026-09-30",
-        "services": [
-          "a",
-          "c",
-          "e",
-          "j"
-        ],
-        "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IS",
-          "IT",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MT",
-          "NL",
-          "NO",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
-        ]
-      },
-      {
-        "id": "cf6ba7f7",
-        "lei": "724500YJVIN0Q94ZZG58",
-        "legal_name": "WEB3 Technology B.V.",
-        "commercial_name": "Ari10 | Ari10 NL |  WEB3 Technology B.V. | RGLTD\nCashify",
-        "home_country": "NL",
-        "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
-        "auth_date": "2026-02-12",
-        "services": [
-          "a",
-          "c",
-          "d",
-          "j"
-        ],
-        "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IS",
-          "IT",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MT",
-          "NL",
-          "NO",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
+          "DE"
         ]
       }
     ],
-    "removed": [
-      {
-        "id": "787bcd26",
-        "lei": "724500YJVIN0Q94ZZG5",
-        "legal_name": "WEB3 Technology B.V.",
-        "commercial_name": "Ari10 | Ari10 NL |  WEB3 Technology B.V. | RGLTD\r\nCashify",
-        "home_country": "NL",
-        "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
-        "auth_date": "2026-02-12",
-        "services": [
-          "a",
-          "c",
-          "d",
-          "j"
-        ],
-        "passporting_countries": [
-          "AT",
-          "BE",
-          "BG",
-          "CY",
-          "CZ",
-          "DE",
-          "DK",
-          "EE",
-          "ES",
-          "FI",
-          "FR",
-          "GR",
-          "HR",
-          "HU",
-          "IE",
-          "IS",
-          "IT",
-          "LI",
-          "LT",
-          "LU",
-          "LV",
-          "MT",
-          "NL",
-          "NO",
-          "PL",
-          "PT",
-          "RO",
-          "SE",
-          "SI",
-          "SK"
-        ]
-      }
-    ],
+    "removed": [],
     "modified": [
       {
-        "id": "cefe5a78",
-        "lei": "MMYX0N4ZEZ13Z4XCG897",
-        "legal_name": "BNY SA/NV",
-        "commercial_name": "BNY",
-        "home_country": "BE",
+        "id": "f47a653f",
+        "lei": "529900HMYYJR2NHVZ124",
+        "legal_name": "FIOR Digital GmbH",
+        "commercial_name": "21bitcoin",
+        "home_country": "AT",
         "fields": [
           {
             "field": "passporting_countries",
             "from": [
-              "BE"
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "ES",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IS",
+              "IT",
+              "LI",
+              "LT",
+              "LU",
+              "LV",
+              "MT",
+              "NL",
+              "NO",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SK"
             ],
             "to": [
               "AT",
@@ -572,16 +285,44 @@
         ]
       },
       {
-        "id": "83e0bdca",
-        "lei": "549300I48OJHSE9OZS95",
-        "legal_name": "Alaric Securities OOD",
-        "commercial_name": "Alaric Securities",
-        "home_country": "BG",
+        "id": "4139f096",
+        "lei": "5299005I4LYIFW7GKB54",
+        "legal_name": "AMINA (Austria) AG",
+        "commercial_name": "AMINA EU",
+        "home_country": "AT",
         "fields": [
           {
             "field": "passporting_countries",
             "from": [
-              "BG"
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "ES",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IS",
+              "IT",
+              "LI",
+              "LT",
+              "LU",
+              "LV",
+              "MT",
+              "NL",
+              "NO",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SK"
             ],
             "to": [
               "AT",
@@ -619,16 +360,89 @@
         ]
       },
       {
-        "id": "1ca82d94",
-        "lei": "648851FOKWX4PG639059",
-        "legal_name": "FF Digital EOOD",
-        "commercial_name": "FF Digital",
-        "home_country": "BG",
+        "id": "3d6b8e01",
+        "lei": "984500G149054BADD925",
+        "legal_name": "MEGE zweite GmbH",
+        "commercial_name": "BingX EU",
+        "home_country": "AT",
         "fields": [
           {
             "field": "passporting_countries",
             "from": [
-              "BG"
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IS",
+              "IT",
+              "LI",
+              "LT",
+              "LU",
+              "LV",
+              "NL",
+              "NO",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK"
+            ],
+            "to": [
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "ES",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IS",
+              "IT",
+              "LI",
+              "LT",
+              "LU",
+              "LV",
+              "NL",
+              "NO",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5c9d4ff5",
+        "lei": "7LTWFZYICNSX8D621K86",
+        "legal_name": "Deutsche Bank Aktiengesellschaft",
+        "commercial_name": "Deutsche Bank Aktiengesellschaft",
+        "home_country": "DE",
+        "fields": [
+          {
+            "field": "passporting_countries",
+            "from": [
+              "DE"
             ],
             "to": [
               "AT",
@@ -666,122 +480,41 @@
         ]
       },
       {
-        "id": "a28d3666",
-        "lei": "9845006074DB79BFA392",
-        "legal_name": "MipSoftware s.r.o.",
-        "commercial_name": null,
-        "home_country": "CZ",
+        "id": "c22073fa",
+        "lei": "5299007QRBQF1SF24853",
+        "legal_name": "KSW Vermögensverwaltung AG",
+        "commercial_name": "KSW Vermögensverwaltung AG",
+        "home_country": "DE",
         "fields": [
           {
-            "field": "passporting_countries",
+            "field": "services",
             "from": [
-              "CZ"
+              "g"
             ],
             "to": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
+              "g",
+              "i"
             ]
           }
         ]
       },
       {
-        "id": "2b4b0ac6",
-        "lei": "6488C2PNI17093U2YA18",
-        "legal_name": "\"Trek Technologies\" SIA",
-        "commercial_name": "Backpack EU",
-        "home_country": "LV",
+        "id": "f3268841",
+        "lei": "969500FX8K40ZDW4F377",
+        "legal_name": "SOCIETE GENERALE - FORGE",
+        "commercial_name": "SOCIETE GENERALE - FORGE",
+        "home_country": "FR",
         "fields": [
           {
-            "field": "passporting_countries",
+            "field": "services",
             "from": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
+              "a",
+              "j"
             ],
             "to": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
+              "a",
+              "e",
+              "j"
             ]
           }
         ]
@@ -1042,9 +775,10 @@
         "PT",
         "RO",
         "SE",
+        "SI",
         "SK"
       ],
-      "last_update": "2026-05-28",
+      "last_update": "2026-10-23",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -1109,9 +843,10 @@
         "PT",
         "RO",
         "SE",
+        "SI",
         "SK"
       ],
-      "last_update": "2025-11-27",
+      "last_update": "2026-10-23",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -1466,6 +1201,7 @@
         "DE",
         "DK",
         "EE",
+        "ES",
         "FI",
         "FR",
         "GR",
@@ -1487,7 +1223,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-10-14",
+      "last_update": "2026-10-23",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -7495,9 +7231,38 @@
         "j"
       ],
       "passporting_countries": [
-        "DE"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-09-11",
+      "last_update": "2026-10-20",
       "comments": null,
       "entity_type": "bank",
       "target_segments": [
@@ -7956,7 +7721,8 @@
       "auth_date": "2026-10-07",
       "auth_end_date": null,
       "services": [
-        "g"
+        "g",
+        "i"
       ],
       "passporting_countries": [
         "DE"
@@ -8017,7 +7783,7 @@
       "commercial_name": "Volksbank eG",
       "home_country": "DE",
       "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-      "address": "Kennedydamm 10\n31134 Hildesheim",
+      "address": "Kennedydamm 10, 31134 Hildesheim",
       "website": "https://www.vb-eg.de",
       "website_platform": null,
       "auth_date": "2026-10-12",
@@ -8084,7 +7850,7 @@
       "commercial_name": "VR Bank Lahn-Dill eG",
       "home_country": "DE",
       "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-      "address": "Hauptstraße 65; 35683 Dillenburg",
+      "address": "Hauptstraße 65, 35683 Dillenburg",
       "website": "https://www.vrbank-lahndill.de",
       "website_platform": null,
       "auth_date": "2026-11-13",
@@ -8109,6 +7875,434 @@
       "confidence": "high",
       "brief_description": "VR Bank Lahn-Dill eG is a traditional German cooperative bank (Volksbank) that has registered under MiCA to offer crypto-asset order execution services alongside its conventional banking products for retail, business, and corporate clients.",
       "classification_date": "2026-10-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "3d6ea06e",
+      "lei": "5299006E6UGNN6YEPU72",
+      "legal_name": "Volksbank in der Region eG",
+      "commercial_name": "Volksbank in der Region eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Herrenberger Straße 1-5, 72070 Tübingen",
+      "website": "https://www.vbidr.de",
+      "website_platform": null,
+      "auth_date": "2026-08-27",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-16",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank in der Region eG is a German cooperative retail bank that offers crypto-asset trading services (buying/selling selected cryptocurrencies) to its members and customers via the VR Banking App through its 'meinKrypto' product.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "6641aec1",
+      "lei": "529900HHCMGEXXJAGA76",
+      "legal_name": "Volksbank Mittlerer Neckar eG",
+      "commercial_name": "Volksbank Mittlerer Neckar eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Fabrikstraße 5, 73728 Esslingen",
+      "website": "https://www.v-mn.de",
+      "website_platform": null,
+      "auth_date": "2026-08-27",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-16",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Mittlerer Neckar eG is a German cooperative bank offering retail banking services alongside crypto buying, selling, and wallet functionality via its 'meinKrypto' feature integrated into the VR Banking App.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ccd0655a",
+      "lei": "5299004HBAECUACNWN98",
+      "legal_name": "Sparda-Bank Baden-Württemberg eG",
+      "commercial_name": "Sparda-Bank Baden-Württemberg eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Am Hauptbahnhof 3, 70173 Stuttgart",
+      "website": "https://www.sparda-bw.de",
+      "website_platform": null,
+      "auth_date": "2026-10-19",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-19",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Sparda-Bank Baden-Württemberg is a German cooperative retail bank offering traditional banking services such as mortgages, savings, and online banking, which has registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "5b346b47",
+      "lei": "5299007Y7UJE5QV9QD03",
+      "legal_name": "Raiffeisenbank Eifel eG",
+      "commercial_name": "Raiffeisenbank Eifel eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Hauptstraße 76, 52152 Simmerath",
+      "website": "https://www.rb-eifel.de",
+      "website_platform": null,
+      "auth_date": "2026-10-19",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-19",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Raiffeisenbank Eifel eG is a German cooperative retail bank registered under MiCA to execute crypto-asset orders on behalf of clients, extending its traditional banking services into cryptocurrency trading.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "2a2559b3",
+      "lei": "529900SH7SAVJN3TFQ06",
+      "legal_name": "Volksbank Niederrhein eG",
+      "commercial_name": "Volksbank Niederrhein eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Lindenallee 11-15, 46519 Alpen",
+      "website": "https://www.Volksbank-niederrhein.de",
+      "website_platform": null,
+      "auth_date": "2026-10-22",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-09",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Niederrhein eG is a German cooperative retail bank offering traditional banking products and services, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "c7e0bde5",
+      "lei": "529900PUK9IU39VCWK54",
+      "legal_name": "Volksbank in Ostwestfalen eG",
+      "commercial_name": "Volksbank in Ostwestfalen eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Kesselbrink 1, 33602 Bielefeld",
+      "website": "https://www.volksbankinostwestfalen.de",
+      "website_platform": null,
+      "auth_date": "2026-11-18",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-20",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank in Ostwestfalen eG is a traditional German cooperative bank offering a broad range of retail and business banking services, registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "03dc2d19",
+      "lei": "529900OSV01JOCMF4Z23",
+      "legal_name": "Volksbank Oberberg eG",
+      "commercial_name": "Volksbank Oberberg eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Bahnhofstraße 3,  51674 Wiehl",
+      "website": "https://www.vb-oberberg.de",
+      "website_platform": null,
+      "auth_date": "2026-11-19",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-20",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Oberberg eG is a traditional German cooperative bank serving the Oberberg region that has registered under MiCA to offer crypto-asset order execution services as an extension of its conventional banking and investment offerings.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "235f6366",
+      "lei": "529900NK7TIIGQEJ6L07",
+      "legal_name": "Volksbank in der Hohen Mark eG",
+      "commercial_name": "Volksbank in der Hohen Mark eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Hauptstraße 13,  48734 Reken",
+      "website": "https://www.vb-hm.de",
+      "website_platform": null,
+      "auth_date": "2026-10-30",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-20",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank in der Hohen Mark eG is a German cooperative retail bank offering traditional banking services alongside crypto-asset order execution under MiCA registration, primarily serving retail and private clients in the Hohe Mark region.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "7a8c22be",
+      "lei": "529900V5E7HEA1LD8V54",
+      "legal_name": "Raiffeisen-Volksbank Ebersberg eG",
+      "commercial_name": "Raiffeisen-Volksbank Ebersberg eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Marktplatz 1, 85567 Grafing",
+      "website": "https://www.rv-ebe.de",
+      "website_platform": null,
+      "auth_date": "2026-11-03",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-21",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Raiffeisen-Volksbank Ebersberg eG is a traditional German cooperative bank offering a broad range of retail banking and savings products, now MiCA-registered to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "79537e04",
+      "lei": "5299004D2UMCDTD9JG58",
+      "legal_name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
+      "commercial_name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Pfauengasse 1, 93047 Regensburg",
+      "website": "https://www.vr-rs.de",
+      "website_platform": null,
+      "auth_date": "2026-11-05",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-21",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG is a traditional German cooperative bank offering a broad range of retail banking and investment services, now registered as a CASP under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d9256cd5",
+      "lei": "529900LF81A0TME61753",
+      "legal_name": "Raiffeisenbank Wittelsbacher Land eG",
+      "commercial_name": "Raiffeisenbank Wittelsbacher Land eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Münchener Straße 11, 86415 Mering",
+      "website": "https://www.rb-wila.de",
+      "website_platform": null,
+      "auth_date": "2026-11-03",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-22",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisenbank Wittelsbacher Land eG is a traditional German cooperative retail bank that has registered under MiCA to offer order execution services for crypto-assets on behalf of clients.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d7cbb02a",
+      "lei": "529900MNNP2L0BZKDM04",
+      "legal_name": "Raiffeisenbank Kirchweihtal eG",
+      "commercial_name": "Raiffeisenbank Kirchweihtal eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Bahnhofstraße 8, 87666 Pforzen",
+      "website": "https://www.rb-kirchweihtal.de",
+      "website_platform": null,
+      "auth_date": "2026-11-25",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-23",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisenbank Kirchweihtal eG is a German cooperative retail bank offering traditional banking products to private and business clients, with MiCA registration for executing crypto-asset orders on behalf of clients as an ancillary service.",
+      "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "9c380db2",
+      "lei": "529900IWU96YBZ2JG374",
+      "legal_name": "VR Bank Neuburg-Rain eG",
+      "commercial_name": "VR Bank Neuburg-Rain eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Luitpoldstraße 70, 86633 Neuburg",
+      "website": "https://www.vr-neuburg-rain.de",
+      "website_platform": null,
+      "auth_date": "2026-11-12",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-28",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "VR Bank Neuburg-Rain eG is a German cooperative retail bank offering traditional banking products such as savings accounts, fixed deposits, and investment plans, with MiCA registration enabling execution of crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-01",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -9711,7 +9905,7 @@
         "SK"
       ],
       "last_update": "2025-05-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -9777,7 +9971,7 @@
         "SK"
       ],
       "last_update": "2025-06-19",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -9822,7 +10016,7 @@
         "NL"
       ],
       "last_update": "2025-06-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "bank",
       "target_segments": [
         "institutional",
@@ -9886,7 +10080,7 @@
         "SK"
       ],
       "last_update": "2025-06-30",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -9949,7 +10143,7 @@
         "SK"
       ],
       "last_update": "2025-07-04",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -9991,7 +10185,7 @@
         "NL"
       ],
       "last_update": "2025-07-17",
-      "comments": null,
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "retail",
@@ -10039,7 +10233,7 @@
         "PT"
       ],
       "last_update": "2025-09-11",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10099,7 +10293,7 @@
         "SK"
       ],
       "last_update": "2025-10-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -10128,6 +10322,7 @@
       "auth_end_date": null,
       "services": [
         "a",
+        "e",
         "j"
       ],
       "passporting_countries": [
@@ -10161,8 +10356,8 @@
         "SI",
         "SK"
       ],
-      "last_update": "2025-10-23",
-      "comments": null,
+      "last_update": "2026-10-29",
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "institutional",
@@ -10232,7 +10427,7 @@
         "SK"
       ],
       "last_update": "2025-10-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "bank",
       "target_segments": [
         "retail",
@@ -10291,7 +10486,7 @@
         "SK"
       ],
       "last_update": "2025-12-04",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -10360,7 +10555,7 @@
         "SK"
       ],
       "last_update": "2026-01-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "payment_institution",
       "target_segments": [
         "institutional"
@@ -10400,7 +10595,7 @@
         "PT"
       ],
       "last_update": "2026-02-05",
-      "comments": null,
+      "comments": "0",
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -10467,7 +10662,7 @@
         "SK"
       ],
       "last_update": "2026-03-05",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10533,7 +10728,7 @@
         "SK"
       ],
       "last_update": "2026-04-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -10581,7 +10776,7 @@
         "PT"
       ],
       "last_update": "2026-04-28",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10626,7 +10821,7 @@
         "LU"
       ],
       "last_update": "2026-05-07",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10669,7 +10864,7 @@
         "FR"
       ],
       "last_update": "2026-05-21",
-      "comments": null,
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "professional",
@@ -10737,7 +10932,7 @@
         "SK"
       ],
       "last_update": "2026-05-21",
-      "comments": null,
+      "comments": "0",
       "entity_type": "payment_institution",
       "target_segments": [
         "institutional",
@@ -10784,7 +10979,7 @@
         "PT"
       ],
       "last_update": "2026-06-12",
-      "comments": null,
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "retail"
@@ -10851,7 +11046,7 @@
         "SK"
       ],
       "last_update": "2026-06-12",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "professional",
@@ -10888,7 +11083,7 @@
         "FR"
       ],
       "last_update": "2026-06-18",
-      "comments": null,
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "professional",
@@ -10927,7 +11122,7 @@
         "NL"
       ],
       "last_update": "2026-06-18",
-      "comments": null,
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "professional",
@@ -10994,7 +11189,7 @@
         "SK"
       ],
       "last_update": "2026-06-22",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11059,7 +11254,7 @@
         "SK"
       ],
       "last_update": "2026-06-22",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -11104,7 +11299,7 @@
         "PT"
       ],
       "last_update": "2026-06-22",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11144,7 +11339,7 @@
         "FR"
       ],
       "last_update": "2026-06-25",
-      "comments": null,
+      "comments": "0",
       "entity_type": "investment_firm",
       "target_segments": [
         "retail",
@@ -11194,7 +11389,7 @@
         "SE"
       ],
       "last_update": "2026-06-25",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -11240,8 +11435,8 @@
         "LU",
         "NL"
       ],
-      "last_update": "2026-09-15",
-      "comments": null,
+      "last_update": "2026-06-30",
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -11279,7 +11474,7 @@
         "FR"
       ],
       "last_update": "2026-06-30",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11320,7 +11515,7 @@
         "NL"
       ],
       "last_update": "2026-06-30",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11382,7 +11577,7 @@
         "SK"
       ],
       "last_update": "2026-07-06",
-      "comments": null,
+      "comments": "0",
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -11443,7 +11638,7 @@
         "SK"
       ],
       "last_update": "2026-07-23",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -11483,7 +11678,7 @@
         "BE"
       ],
       "last_update": "2026-07-24",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -11534,7 +11729,7 @@
         "SI"
       ],
       "last_update": "2026-07-28",
-      "comments": null,
+      "comments": "0",
       "entity_type": "hybrid",
       "target_segments": [
         "retail",
@@ -11604,7 +11799,7 @@
         "SK"
       ],
       "last_update": "2026-09-11",
-      "comments": null,
+      "comments": "0",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -12850,7 +13045,7 @@
       "address": "Piazza Del Liberty, 8, MILANO, 20121",
       "website": "https://WWW.CHECKSIG.COM",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-05-06",
       "auth_end_date": null,
       "services": [
         "a",
@@ -12891,7 +13086,7 @@
       "address": "Via Giuseppe Marcora, 11, MILANO, 20121",
       "website": "https://coinflip.tech/it-IT",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-04",
       "auth_end_date": null,
       "services": [
         "c"
@@ -12926,7 +13121,7 @@
       "address": "Via Luigi Dalla Via, 3b, SCHIO (VI), 36015",
       "website": "https://riv-digital.it",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-10",
       "auth_end_date": null,
       "services": [
         "c",
@@ -12963,7 +13158,7 @@
       "address": "Via Agostino Bertani, 6, MILANO, 20154",
       "website": "https://www.conio.com",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-16",
       "auth_end_date": null,
       "services": [
         "a",
@@ -13005,7 +13200,7 @@
       "address": "Piazza Gaudenzio Sella 1, BIELLA, 13900",
       "website": "https://www.sella.it",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-04-27",
       "auth_end_date": null,
       "services": [
         "a",
@@ -13041,7 +13236,7 @@
       "address": "Via Bruno Simonucci, 18, PERUGIA, 06135",
       "website": "https://cryptosmart.it",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-24",
       "auth_end_date": null,
       "services": [
         "a",
@@ -13082,7 +13277,7 @@
       "address": "Via Cigna, 96/17, TORINO, 10155",
       "website": "https://youngplatform.com",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-30",
       "auth_end_date": null,
       "services": [
         "a",
@@ -13126,7 +13321,7 @@
       "address": "Via della Posta, 7, MILANO, 20123",
       "website": "https://hodli.com",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-30",
       "auth_end_date": null,
       "services": [
         "a",
@@ -13177,7 +13372,7 @@
       "address": "Via Andrea Solari, 19, MILANO, 20144",
       "website": "https://www.hercle.financial",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-06-30",
       "auth_end_date": null,
       "services": [
         "a",
@@ -13243,7 +13438,7 @@
       "address": "Via del Commercio 32, 00154, Roma",
       "website": "https://www.youhodler.eu",
       "website_platform": null,
-      "auth_date": null,
+      "auth_date": "2026-10-08",
       "auth_end_date": null,
       "services": [
         "a",
@@ -14861,8 +15056,8 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-06-25",
-      "comments": null,
+      "last_update": "2026-10-26",
+      "comments": "The CASP has notified its intention to establish a branch in Germany. The corresponding passporting notification was forwarded to the competent German authorities on 26 October 2026, in accordance with Article 65 of Regulation (EU) 2023/1114 (MiCA).",
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -20097,8 +20292,8 @@
       "gdp_eur": 447000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 190,
-      "total_casps": 202
+      "passported_casps": 191,
+      "total_casps": 203
     },
     "BE": {
       "name": "Belgium",
@@ -20107,8 +20302,8 @@
       "gdp_eur": 554000000000,
       "eea": true,
       "registered_casps": 2,
-      "passported_casps": 200,
-      "total_casps": 202
+      "passported_casps": 201,
+      "total_casps": 203
     },
     "BG": {
       "name": "Bulgaria",
@@ -20117,8 +20312,8 @@
       "gdp_eur": 95000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 179,
-      "total_casps": 184
+      "passported_casps": 180,
+      "total_casps": 185
     },
     "HR": {
       "name": "Croatia",
@@ -20127,8 +20322,8 @@
       "gdp_eur": 68000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 184,
-      "total_casps": 190
+      "passported_casps": 185,
+      "total_casps": 191
     },
     "CY": {
       "name": "Cyprus",
@@ -20137,8 +20332,8 @@
       "gdp_eur": 28000000000,
       "eea": true,
       "registered_casps": 25,
-      "passported_casps": 186,
-      "total_casps": 211
+      "passported_casps": 187,
+      "total_casps": 212
     },
     "CZ": {
       "name": "Czech Republic",
@@ -20147,8 +20342,8 @@
       "gdp_eur": 290000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 186,
-      "total_casps": 198
+      "passported_casps": 187,
+      "total_casps": 199
     },
     "DK": {
       "name": "Denmark",
@@ -20157,8 +20352,8 @@
       "gdp_eur": 380000000000,
       "eea": true,
       "registered_casps": 7,
-      "passported_casps": 183,
-      "total_casps": 190
+      "passported_casps": 184,
+      "total_casps": 191
     },
     "EE": {
       "name": "Estonia",
@@ -20167,8 +20362,8 @@
       "gdp_eur": 38000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 182,
-      "total_casps": 185
+      "passported_casps": 183,
+      "total_casps": 186
     },
     "FI": {
       "name": "Finland",
@@ -20177,8 +20372,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 184,
-      "total_casps": 189
+      "passported_casps": 185,
+      "total_casps": 190
     },
     "FR": {
       "name": "France",
@@ -20187,8 +20382,8 @@
       "gdp_eur": 2800000000000,
       "eea": true,
       "registered_casps": 36,
-      "passported_casps": 178,
-      "total_casps": 214
+      "passported_casps": 179,
+      "total_casps": 215
     },
     "DE": {
       "name": "Germany",
@@ -20196,9 +20391,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 106,
-      "passported_casps": 298,
-      "total_casps": 404
+      "registered_casps": 119,
+      "passported_casps": 311,
+      "total_casps": 430
     },
     "GR": {
       "name": "Greece",
@@ -20207,8 +20402,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 4,
-      "passported_casps": 185,
-      "total_casps": 189
+      "passported_casps": 186,
+      "total_casps": 190
     },
     "HU": {
       "name": "Hungary",
@@ -20217,8 +20412,8 @@
       "gdp_eur": 180000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 177,
-      "total_casps": 177
+      "passported_casps": 178,
+      "total_casps": 178
     },
     "IS": {
       "name": "Iceland",
@@ -20227,8 +20422,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 158,
-      "total_casps": 159
+      "passported_casps": 159,
+      "total_casps": 160
     },
     "IE": {
       "name": "Ireland",
@@ -20237,8 +20432,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 189,
-      "total_casps": 201
+      "passported_casps": 190,
+      "total_casps": 202
     },
     "IT": {
       "name": "Italy",
@@ -20247,8 +20442,8 @@
       "gdp_eur": 2000000000000,
       "eea": true,
       "registered_casps": 10,
-      "passported_casps": 209,
-      "total_casps": 219
+      "passported_casps": 210,
+      "total_casps": 220
     },
     "LV": {
       "name": "Latvia",
@@ -20257,8 +20452,8 @@
       "gdp_eur": 40000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 179,
-      "total_casps": 191
+      "passported_casps": 180,
+      "total_casps": 192
     },
     "LI": {
       "name": "Liechtenstein",
@@ -20267,8 +20462,8 @@
       "gdp_eur": 7000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 169,
-      "total_casps": 181
+      "passported_casps": 170,
+      "total_casps": 182
     },
     "LT": {
       "name": "Lithuania",
@@ -20277,8 +20472,8 @@
       "gdp_eur": 67000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 180,
-      "total_casps": 186
+      "passported_casps": 181,
+      "total_casps": 187
     },
     "LU": {
       "name": "Luxembourg",
@@ -20287,8 +20482,8 @@
       "gdp_eur": 80000000000,
       "eea": true,
       "registered_casps": 13,
-      "passported_casps": 191,
-      "total_casps": 204
+      "passported_casps": 192,
+      "total_casps": 205
     },
     "MT": {
       "name": "Malta",
@@ -20297,8 +20492,8 @@
       "gdp_eur": 18000000000,
       "eea": true,
       "registered_casps": 23,
-      "passported_casps": 167,
-      "total_casps": 190
+      "passported_casps": 168,
+      "total_casps": 191
     },
     "NL": {
       "name": "Netherlands",
@@ -20307,8 +20502,8 @@
       "gdp_eur": 1010000000000,
       "eea": true,
       "registered_casps": 29,
-      "passported_casps": 208,
-      "total_casps": 237
+      "passported_casps": 209,
+      "total_casps": 238
     },
     "NO": {
       "name": "Norway",
@@ -20317,8 +20512,8 @@
       "gdp_eur": 480000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 167,
-      "total_casps": 173
+      "passported_casps": 168,
+      "total_casps": 174
     },
     "PL": {
       "name": "Poland",
@@ -20327,8 +20522,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 185,
-      "total_casps": 185
+      "passported_casps": 186,
+      "total_casps": 186
     },
     "PT": {
       "name": "Portugal",
@@ -20337,8 +20532,8 @@
       "gdp_eur": 260000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 192,
-      "total_casps": 193
+      "passported_casps": 193,
+      "total_casps": 194
     },
     "RO": {
       "name": "Romania",
@@ -20347,8 +20542,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 178,
-      "total_casps": 178
+      "passported_casps": 179,
+      "total_casps": 179
     },
     "SK": {
       "name": "Slovakia",
@@ -20357,8 +20552,8 @@
       "gdp_eur": 115000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 182,
-      "total_casps": 188
+      "passported_casps": 183,
+      "total_casps": 189
     },
     "SI": {
       "name": "Slovenia",
@@ -20367,8 +20562,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 182,
-      "total_casps": 187
+      "passported_casps": 185,
+      "total_casps": 190
     },
     "ES": {
       "name": "Spain",
@@ -20377,8 +20572,8 @@
       "gdp_eur": 1400000000000,
       "eea": true,
       "registered_casps": 16,
-      "passported_casps": 210,
-      "total_casps": 226
+      "passported_casps": 212,
+      "total_casps": 228
     },
     "SE": {
       "name": "Sweden",
@@ -20387,8 +20582,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 186,
-      "total_casps": 187
+      "passported_casps": 187,
+      "total_casps": 188
     },
     "CH": {
       "name": "Switzerland",
