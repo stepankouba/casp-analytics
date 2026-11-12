@@ -1,24 +1,104 @@
 {
   "metadata": {
-    "generated_at": "2026-11-01T11:59:38.742Z",
+    "generated_at": "2026-11-12T09:46:25.851Z",
     "source": "ESMA MiCA Interim Register",
-    "total_casps": 389,
+    "total_casps": 404,
     "scrape_success_rate": 0.88,
     "llm_classification_rate": 1
   },
   "changes": {
-    "previous_generated_at": "2026-10-19T14:37:10.834Z",
-    "previous_total": 376,
-    "current_total": 389,
+    "previous_generated_at": "2026-11-01T11:59:38.742Z",
+    "previous_total": 389,
+    "current_total": 404,
     "added": [
       {
-        "id": "7a8c22be",
-        "lei": "529900V5E7HEA1LD8V54",
-        "legal_name": "Raiffeisen-Volksbank Ebersberg eG",
-        "commercial_name": "Raiffeisen-Volksbank Ebersberg eG",
+        "id": "eda4e1ab",
+        "lei": "529900EEGMA1G5Y2DT85",
+        "legal_name": "Transak GmbH",
+        "commercial_name": "Transak",
+        "home_country": "AT",
+        "competent_authority": "Austrian Financial Market Authority (FMA)",
+        "auth_date": "2026-11-10",
+        "services": [
+          "c"
+        ],
+        "passporting_countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "id": "0b4fc89a",
+        "lei": "213800HP6KZ9XS1D1U57",
+        "legal_name": "VSMARKETS LTD",
+        "commercial_name": null,
+        "home_country": "CY",
+        "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+        "auth_date": "2026-11-02",
+        "services": [
+          "a",
+          "c",
+          "d",
+          "e",
+          "g",
+          "j"
+        ],
+        "passporting_countries": [
+          "CY"
+        ]
+      },
+      {
+        "id": "556d11a3",
+        "lei": "529900V2CC4NGZDBFK67",
+        "legal_name": "Capricorn Capital GmbH & Co. KG",
+        "commercial_name": "Capricorn Capital GmbH & Co. KG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-03",
+        "auth_date": "2026-02-23",
+        "services": [
+          "h",
+          "i"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "0515a169",
+        "lei": "529900S90ZQ3HED40876",
+        "legal_name": "Raiffeisenbank Aresing-Gerolsbach eG",
+        "commercial_name": "Raiffeisenbank Aresing-Gerolsbach eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-11-10",
         "services": [
           "e"
         ],
@@ -27,13 +107,13 @@
         ]
       },
       {
-        "id": "5b346b47",
-        "lei": "5299007Y7UJE5QV9QD03",
-        "legal_name": "Raiffeisenbank Eifel eG",
-        "commercial_name": "Raiffeisenbank Eifel eG",
+        "id": "9fce7a1a",
+        "lei": "5299008B0QO7XEHUSF18",
+        "legal_name": "Raiffeisenbank Landshuter Land eG",
+        "commercial_name": "Raiffeisenbank Landshuter Land eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-19",
+        "auth_date": "2026-12-03",
         "services": [
           "e"
         ],
@@ -42,160 +122,10 @@
         ]
       },
       {
-        "id": "d7cbb02a",
-        "lei": "529900MNNP2L0BZKDM04",
-        "legal_name": "Raiffeisenbank Kirchweihtal eG",
-        "commercial_name": "Raiffeisenbank Kirchweihtal eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-25",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "d9256cd5",
-        "lei": "529900LF81A0TME61753",
-        "legal_name": "Raiffeisenbank Wittelsbacher Land eG",
-        "commercial_name": "Raiffeisenbank Wittelsbacher Land eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-03",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "ccd0655a",
-        "lei": "5299004HBAECUACNWN98",
-        "legal_name": "Sparda-Bank Baden-Württemberg eG",
-        "commercial_name": "Sparda-Bank Baden-Württemberg eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-19",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "235f6366",
-        "lei": "529900NK7TIIGQEJ6L07",
-        "legal_name": "Volksbank in der Hohen Mark eG",
-        "commercial_name": "Volksbank in der Hohen Mark eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-30",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "3d6ea06e",
-        "lei": "5299006E6UGNN6YEPU72",
-        "legal_name": "Volksbank in der Region eG",
-        "commercial_name": "Volksbank in der Region eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-08-27",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "c7e0bde5",
-        "lei": "529900PUK9IU39VCWK54",
-        "legal_name": "Volksbank in Ostwestfalen eG",
-        "commercial_name": "Volksbank in Ostwestfalen eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-18",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "6641aec1",
-        "lei": "529900HHCMGEXXJAGA76",
-        "legal_name": "Volksbank Mittlerer Neckar eG",
-        "commercial_name": "Volksbank Mittlerer Neckar eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-08-27",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "2a2559b3",
-        "lei": "529900SH7SAVJN3TFQ06",
-        "legal_name": "Volksbank Niederrhein eG",
-        "commercial_name": "Volksbank Niederrhein eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-10-22",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "03dc2d19",
-        "lei": "529900OSV01JOCMF4Z23",
-        "legal_name": "Volksbank Oberberg eG",
-        "commercial_name": "Volksbank Oberberg eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-19",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "79537e04",
-        "lei": "5299004D2UMCDTD9JG58",
-        "legal_name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
-        "commercial_name": "Volksbank Raiffeisenbank Regensburg-Schwandorf eG",
-        "home_country": "DE",
-        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
-        "auth_date": "2026-11-05",
-        "services": [
-          "e"
-        ],
-        "passporting_countries": [
-          "DE"
-        ]
-      },
-      {
-        "id": "9c380db2",
-        "lei": "529900IWU96YBZ2JG374",
-        "legal_name": "VR Bank Neuburg-Rain eG",
-        "commercial_name": "VR Bank Neuburg-Rain eG",
+        "id": "9264cbd7",
+        "lei": "529900U7HFGPGXW9JB86",
+        "legal_name": "Volksbank Erft eG",
+        "commercial_name": "Volksbank Erft eG",
         "home_country": "DE",
         "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
         "auth_date": "2026-11-12",
@@ -205,238 +135,189 @@
         "passporting_countries": [
           "DE"
         ]
+      },
+      {
+        "id": "d0fd495d",
+        "lei": "529900AOT7DX392W5U75",
+        "legal_name": "Volksbank Ettlingen eG",
+        "commercial_name": "Volksbank Ettlingen eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-11-09",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "d49d7d37",
+        "lei": "529900LZDW2COOVSK824",
+        "legal_name": "VR Bank Amberg-Sulzbach eG",
+        "commercial_name": "VR Bank Amberg-Sulzbach eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-10-02",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "ea5bfc28",
+        "lei": "5299009EELDZG8AZOX61",
+        "legal_name": "VR-Bank Ostalb eG",
+        "commercial_name": "VR-Bank Ostalb eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-11-02",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "8eaffb3a",
+        "lei": "529900C850VGJ80C6E84",
+        "legal_name": "VR-Bank Passau eG",
+        "commercial_name": "VR-Bank Passau eG",
+        "home_country": "DE",
+        "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+        "auth_date": "2026-12-07",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "DE"
+        ]
+      },
+      {
+        "id": "efd96afe",
+        "lei": "54930056IRBXK0Q1FP96",
+        "legal_name": "ABANCA CORPORACION BANCARIA, S.A.",
+        "commercial_name": "ABANCA",
+        "home_country": "ES",
+        "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
+        "auth_date": "2026-11-06",
+        "services": [
+          "a",
+          "g",
+          "j"
+        ],
+        "passporting_countries": [
+          "ES"
+        ]
+      },
+      {
+        "id": "cfaeeb53",
+        "lei": "984500B702FE8F637752",
+        "legal_name": "Tiwala Solutions Korlátolt Felelősségű Társaság",
+        "commercial_name": "CoinCash",
+        "home_country": "HU",
+        "competent_authority": "Central Bank of Hungary (MNB)",
+        "auth_date": "2026-07-20",
+        "services": [
+          "a",
+          "c",
+          "d",
+          "h",
+          "i",
+          "j"
+        ],
+        "passporting_countries": [
+          "HU"
+        ]
+      },
+      {
+        "id": "57b1e80e",
+        "lei": "894500HTR904ROVYPH84",
+        "legal_name": "UAB DriveWealth Europe",
+        "commercial_name": "DriveWealth",
+        "home_country": "LT",
+        "competent_authority": "Bank of Lithuania (LSC)",
+        "auth_date": "2026-11-09",
+        "services": [
+          "a",
+          "e",
+          "g"
+        ],
+        "passporting_countries": [
+          "AT",
+          "BE",
+          "BG",
+          "CY",
+          "CZ",
+          "DE",
+          "DK",
+          "EE",
+          "ES",
+          "FI",
+          "FR",
+          "GR",
+          "HR",
+          "HU",
+          "IE",
+          "IS",
+          "IT",
+          "LI",
+          "LU",
+          "LV",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE",
+          "SI",
+          "SK"
+        ]
+      },
+      {
+        "id": "40f6bc63",
+        "lei": "21380099RT73NFBYS559",
+        "legal_name": "Sparkasse Bank Malta Plc",
+        "commercial_name": "Sparkasse Bank Malta Plc",
+        "home_country": "MT",
+        "competent_authority": "Malta Financial Services Authority (MFSA)",
+        "auth_date": "2026-10-02",
+        "services": [
+          "a",
+          "e",
+          "g"
+        ],
+        "passporting_countries": [
+          "MT"
+        ]
+      },
+      {
+        "id": "34c9dd59",
+        "lei": "3157002JBFAI478MD587",
+        "legal_name": "Tatra banka, a.s.",
+        "commercial_name": "Tatra banka",
+        "home_country": "SK",
+        "competent_authority": "National Bank of Slovakia (NBS)",
+        "auth_date": "2026-08-31",
+        "services": [
+          "e"
+        ],
+        "passporting_countries": [
+          "SK"
+        ]
       }
     ],
     "removed": [],
     "modified": [
       {
-        "id": "f47a653f",
-        "lei": "529900HMYYJR2NHVZ124",
-        "legal_name": "FIOR Digital GmbH",
-        "commercial_name": "21bitcoin",
-        "home_country": "AT",
-        "fields": [
-          {
-            "field": "passporting_countries",
-            "from": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SK"
-            ],
-            "to": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "4139f096",
-        "lei": "5299005I4LYIFW7GKB54",
-        "legal_name": "AMINA (Austria) AG",
-        "commercial_name": "AMINA EU",
-        "home_country": "AT",
-        "fields": [
-          {
-            "field": "passporting_countries",
-            "from": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SK"
-            ],
-            "to": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "MT",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "3d6b8e01",
-        "lei": "984500G149054BADD925",
-        "legal_name": "MEGE zweite GmbH",
-        "commercial_name": "BingX EU",
-        "home_country": "AT",
-        "fields": [
-          {
-            "field": "passporting_countries",
-            "from": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
-            ],
-            "to": [
-              "AT",
-              "BE",
-              "BG",
-              "CY",
-              "CZ",
-              "DE",
-              "DK",
-              "EE",
-              "ES",
-              "FI",
-              "FR",
-              "GR",
-              "HR",
-              "HU",
-              "IE",
-              "IS",
-              "IT",
-              "LI",
-              "LT",
-              "LU",
-              "LV",
-              "NL",
-              "NO",
-              "PL",
-              "PT",
-              "RO",
-              "SE",
-              "SI",
-              "SK"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "5c9d4ff5",
-        "lei": "7LTWFZYICNSX8D621K86",
-        "legal_name": "Deutsche Bank Aktiengesellschaft",
-        "commercial_name": "Deutsche Bank Aktiengesellschaft",
+        "id": "c4acda17",
+        "lei": "894500C1QM5XBU31PT95",
+        "legal_name": "DonauCapital Wertpapier GmbH",
+        "commercial_name": "DonauCapital Wertpapier GmbH",
         "home_country": "DE",
         "fields": [
           {
@@ -445,6 +326,28 @@
               "DE"
             ],
             "to": [
+              "BE",
+              "DE",
+              "ES",
+              "FR",
+              "NL"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "fbe0fec2",
+        "lei": "9598005WW6HZ4V82BZ26",
+        "legal_name": "BASQUE PAY S.L.",
+        "commercial_name": "FAZIL CRYPTO",
+        "home_country": "ES",
+        "fields": [
+          {
+            "field": "passporting_countries",
+            "from": [
+              "ES"
+            ],
+            "to": [
               "AT",
               "BE",
               "BG",
@@ -480,41 +383,45 @@
         ]
       },
       {
-        "id": "c22073fa",
-        "lei": "5299007QRBQF1SF24853",
-        "legal_name": "KSW Vermögensverwaltung AG",
-        "commercial_name": "KSW Vermögensverwaltung AG",
-        "home_country": "DE",
+        "id": "8c15c273",
+        "lei": "894500R6HJP62BZX4M89",
+        "legal_name": "UAB Micar assets",
+        "commercial_name": "Micar Assets",
+        "home_country": "LT",
         "fields": [
           {
-            "field": "services",
-            "from": [
-              "g"
-            ],
+            "field": "passporting_countries",
+            "from": [],
             "to": [
-              "g",
-              "i"
-            ]
-          }
-        ]
-      },
-      {
-        "id": "f3268841",
-        "lei": "969500FX8K40ZDW4F377",
-        "legal_name": "SOCIETE GENERALE - FORGE",
-        "commercial_name": "SOCIETE GENERALE - FORGE",
-        "home_country": "FR",
-        "fields": [
-          {
-            "field": "services",
-            "from": [
-              "a",
-              "j"
-            ],
-            "to": [
-              "a",
-              "e",
-              "j"
+              "AT",
+              "BE",
+              "BG",
+              "CY",
+              "CZ",
+              "DE",
+              "DK",
+              "EE",
+              "ES",
+              "FI",
+              "FR",
+              "GR",
+              "HR",
+              "HU",
+              "IE",
+              "IS",
+              "IT",
+              "LI",
+              "LU",
+              "LV",
+              "MT",
+              "NL",
+              "NO",
+              "PL",
+              "PT",
+              "RO",
+              "SE",
+              "SI",
+              "SK"
             ]
           }
         ]
@@ -869,7 +776,7 @@
       "commercial_name": "KuCoin EU",
       "home_country": "AT",
       "competent_authority": "Austrian Financial Market Authority (FMA)",
-      "address": "Am Grünen Prater 2/3. Stock, 1020 Vienna, Austria",
+      "address": "Stella-Klein-Löw-Weg 13/4.02, 1020 Vienna, Austria",
       "website": "https://www.kucoin.eu",
       "website_platform": null,
       "auth_date": "2025-11-27",
@@ -912,7 +819,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2025-11-27",
+      "last_update": "2026-11-11",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -1238,6 +1145,70 @@
       "confidence": "high",
       "brief_description": "BingX EU (MEGE zweite GmbH) is the European MiCA-regulated entity of the global BingX crypto exchange, offering custody, crypto-to-fiat and crypto-to-crypto exchange, and transfer services across the EEA.",
       "classification_date": "2026-10-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "eda4e1ab",
+      "lei": "529900EEGMA1G5Y2DT85",
+      "legal_name": "Transak GmbH",
+      "commercial_name": "Transak",
+      "home_country": "AT",
+      "competent_authority": "Austrian Financial Market Authority (FMA)",
+      "address": "Kärntner Ring 5-7/771, 1010 Vienna, Austria",
+      "website": "https://eu.transak.com",
+      "website_platform": null,
+      "auth_date": "2026-11-10",
+      "auth_end_date": null,
+      "services": [
+        "c"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-11-11",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "payment_services",
+        "infrastructure"
+      ],
+      "confidence": "medium",
+      "brief_description": "Transak is a crypto-native company registered in Austria under MiCA, offering crypto-to-fiat exchange services and B2B on-ramp/off-ramp infrastructure solutions across the EU/EEA.",
+      "classification_date": "2026-11-12",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -2047,7 +2018,7 @@
       "commercial_name": "capital.com",
       "home_country": "CY",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
-      "address": "Vasileiou Makedonos 8, KINNIS BUSINESS CENTER, 3rd floor, 3040 Limassol, Cyprus",
+      "address": "Christaki Kranou 66, City Tower, Floor 1, 4042 Germasogeia, Limassol, Cyprus",
       "website": "https://www.capital.com",
       "website_platform": null,
       "auth_date": "2025-12-01",
@@ -2091,7 +2062,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-07-17",
+      "last_update": "2026-11-10",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -3187,7 +3158,7 @@
       "commercial_name": "Cloverum",
       "home_country": "CY",
       "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
-      "address": "Kypranoros 13, Evi Building, Floor 2, Office 201, 1061 Nicosia, Cyprus",
+      "address": "Themistokli Dervi 48, Athienitis Centennial Building, Flat/Office 402, 1066 Nicosia, Cyprus",
       "website": "https://www.cloverum.com",
       "website_platform": null,
       "auth_date": "2026-07-06",
@@ -3232,7 +3203,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-07-24",
+      "last_update": "2026-11-10",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -3248,6 +3219,48 @@
       "confidence": "low",
       "brief_description": "Cloverum Finance (CY) Limited is a Cyprus-based MiCA-registered crypto-asset service provider offering a broad suite of services including custody, crypto exchange, order execution and transmission, and transfer services, with passporting rights across the full EEA.",
       "classification_date": "2026-09-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "0b4fc89a",
+      "lei": "213800HP6KZ9XS1D1U57",
+      "legal_name": "VSMARKETS LTD",
+      "commercial_name": null,
+      "home_country": "CY",
+      "competent_authority": "Cyprus Securities and Exchange Commission (CySEC)",
+      "address": "11 Riga Fereou Street, Ground Floor, 3095 Limassol, Cyprus",
+      "website": "https://www.vsmarkets.com",
+      "website_platform": null,
+      "auth_date": "2026-11-02",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "e",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "CY"
+      ],
+      "last_update": "2026-11-10",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "derivatives",
+        "custody",
+        "portfolio_management"
+      ],
+      "confidence": "high",
+      "brief_description": "VS Markets is a Cyprus-based multi-asset online brokerage and CASP offering CFD trading, spot crypto exchange, and custody services across 300+ financial instruments including cryptocurrencies, forex, indices, stocks, commodities, and ETFs, targeting retail, professional, and institutional clients.",
+      "classification_date": "2026-11-12",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -4048,7 +4061,7 @@
         "SK"
       ],
       "last_update": "2026-04-01",
-      "comments": null,
+      "comments": "Please note the notification date corresponds to when EUWAX AG commenced the provision of exchange services (of crypto-assets for funds or for other crypto-assets).  These exchange services are also provided cross-border in other Member States.",
       "entity_type": "investment_firm",
       "target_segments": [
         "retail",
@@ -4907,7 +4920,11 @@
         "g"
       ],
       "passporting_countries": [
-        "DE"
+        "BE",
+        "DE",
+        "ES",
+        "FR",
+        "NL"
       ],
       "last_update": "2025-10-27",
       "comments": null,
@@ -5092,7 +5109,7 @@
         "DE"
       ],
       "last_update": "2026-07-30",
-      "comments": null,
+      "comments": "This is not a duplicate record; please note the notification date corresponds to when Deutsche WertpapierService Bank AG (dwpbank) commenced the provision of custody and administration as well as transfer services after a subsequent Article 60 notification to Bafin.",
       "entity_type": "bank",
       "target_segments": [
         "institutional"
@@ -5128,7 +5145,7 @@
         "DE"
       ],
       "last_update": "2025-12-01",
-      "comments": null,
+      "comments": "Please note the notification date corresponds to when DekaBank Deutsche Girozentrale commenced the provision of custody and administration, execution as well as transfer services.",
       "entity_type": "bank",
       "target_segments": [
         "retail",
@@ -7609,6 +7626,39 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "d49d7d37",
+      "lei": "529900LZDW2COOVSK824",
+      "legal_name": "VR Bank Amberg-Sulzbach eG",
+      "commercial_name": "VR Bank Amberg-Sulzbach eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Neustadt 17, 92237 Sulzbach-Rosenberg",
+      "website": "https://www.vr-as.de",
+      "website_platform": null,
+      "auth_date": "2026-10-02",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-10-02",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "VR Bank Amberg-Sulzbach eG is a traditional German cooperative bank serving retail and professional clients in the Amberg-Sulzbach region, now MiCA-registered to offer crypto-asset order execution services as an extension of its conventional banking offerings.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "e975f895",
       "lei": "529900JONLIJEZUYT574",
       "legal_name": "Raiffeisenbank Rehling eG",
@@ -8303,6 +8353,244 @@
       "confidence": "medium",
       "brief_description": "VR Bank Neuburg-Rain eG is a German cooperative retail bank offering traditional banking products such as savings accounts, fixed deposits, and investment plans, with MiCA registration enabling execution of crypto-asset orders on behalf of clients.",
       "classification_date": "2026-11-01",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "ea5bfc28",
+      "lei": "5299009EELDZG8AZOX61",
+      "legal_name": "VR-Bank Ostalb eG",
+      "commercial_name": "VR-Bank Ostalb eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Wilhelm-Zapf-Straße 2, 73430 Aalen",
+      "website": "https://www.vrbank-ostalb.de",
+      "website_platform": null,
+      "auth_date": "2026-11-02",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-11-02",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "VR-Bank Ostalb eG is a traditional German cooperative bank offering a broad range of retail and business banking services, now registered under MiCA to execute crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "556d11a3",
+      "lei": "529900V2CC4NGZDBFK67",
+      "legal_name": "Capricorn Capital GmbH & Co. KG",
+      "commercial_name": "Capricorn Capital GmbH & Co. KG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Poststraße 37, 20354 Hamburg",
+      "website": "https://www.capricorn-capital.de",
+      "website_platform": null,
+      "auth_date": "2026-02-23",
+      "auth_end_date": null,
+      "services": [
+        "h",
+        "i"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-02-23",
+      "comments": null,
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "professional",
+        "institutional",
+        "retail"
+      ],
+      "primary_products": [
+        "portfolio_management",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Capricorn Capital GmbH & Co. KG is a German investment firm registered under MiCA to provide crypto-asset advisory and portfolio management services.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "9fce7a1a",
+      "lei": "5299008B0QO7XEHUSF18",
+      "legal_name": "Raiffeisenbank Landshuter Land eG",
+      "commercial_name": "Raiffeisenbank Landshuter Land eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Lindenstraße 53, 84030 Ergolding",
+      "website": "https://www.rb-lala.de",
+      "website_platform": null,
+      "auth_date": "2026-12-03",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-11-05",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisenbank Landshuter Land eG is a traditional German cooperative bank offering a broad range of retail and business banking services, now registered under MiCA to execute crypto-asset orders on behalf of clients, likely via its existing online brokerage platform.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "8eaffb3a",
+      "lei": "529900C850VGJ80C6E84",
+      "legal_name": "VR-Bank Passau eG",
+      "commercial_name": "VR-Bank Passau eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Ludwigsplatz 1, 94032 Passau",
+      "website": "https://www.vr-bank-passau.de",
+      "website_platform": null,
+      "auth_date": "2026-12-07",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-11-09",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "VR-Bank Passau eG is a German cooperative bank (Genossenschaftsbank) offering a broad range of traditional banking services alongside MiCA-registered crypto-asset order execution for its retail and professional clients.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "9264cbd7",
+      "lei": "529900U7HFGPGXW9JB86",
+      "legal_name": "Volksbank Erft eG",
+      "commercial_name": "Volksbank Erft eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Gladbacher Straße 78, 50189 Elsdorf",
+      "website": "https://www.volksbank-erft.de",
+      "website_platform": null,
+      "auth_date": "2026-11-12",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-11-05",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Erft eG is a German cooperative bank offering traditional banking products and services to retail and business clients, with MiCA registration for execution of crypto-asset orders on behalf of clients, likely as an extension of its existing online brokerage offering.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "d0fd495d",
+      "lei": "529900AOT7DX392W5U75",
+      "legal_name": "Volksbank Ettlingen eG",
+      "commercial_name": "Volksbank Ettlingen eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Wilhelmstraße 3-7, 76275 Ettlingen",
+      "website": "https://www.volksbank-ettlingen.de",
+      "website_platform": null,
+      "auth_date": "2026-11-09",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-11-09",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "high",
+      "brief_description": "Volksbank Ettlingen eG is a traditional German cooperative bank offering a broad range of financial services to retail and professional clients, with MiCA registration enabling execution of crypto-asset orders on behalf of clients.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "0515a169",
+      "lei": "529900S90ZQ3HED40876",
+      "legal_name": "Raiffeisenbank Aresing-Gerolsbach eG",
+      "commercial_name": "Raiffeisenbank Aresing-Gerolsbach eG",
+      "home_country": "DE",
+      "competent_authority": "Federal Financial Supervisory Authority (BaFin)",
+      "address": "Schrobenhausener Str. 2, 85302 Gerolsbach",
+      "website": "https://www.rb-arge.de",
+      "website_platform": null,
+      "auth_date": "2026-11-10",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "DE"
+      ],
+      "last_update": "2026-11-09",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "medium",
+      "brief_description": "Raiffeisenbank Aresing-Gerolsbach eG is a traditional German cooperative retail bank that has registered as a CASP under MiCA to offer crypto-asset order execution services alongside its conventional banking and investment products.",
+      "classification_date": "2026-11-12",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -9154,7 +9442,7 @@
       "commercial_name": "CAIXABANK",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Pintor Sorolla 2-4. 46002 Valencia",
+      "address": "Pintor Sorolla 2-4. 46002 Valencia.",
       "website": "https://caixabank.es",
       "website_platform": null,
       "auth_date": "2026-03-27",
@@ -9193,7 +9481,7 @@
       "commercial_name": "DUE",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Paseo de la Castellana 257 Torre Sur 1.  28046  Madrid",
+      "address": "Paseo de la Castellana 257 Torre Sur 1.  28046  Madrid.",
       "website": "https://www.opendue.com",
       "website_platform": null,
       "auth_date": "2026-06-12",
@@ -9257,7 +9545,7 @@
       "commercial_name": "CROSSMINT",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Calle Villalar 7. Bajo Izda 28001 Madrid",
+      "address": "Calle Villalar 7. Bajo Izda 28001 Madrid.",
       "website": "https://www.crossmint.com",
       "website_platform": null,
       "auth_date": "2026-06-26",
@@ -9320,7 +9608,7 @@
       "commercial_name": "CRIPTAN",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Calle Almirante Cadarso 26 46005 Valencia",
+      "address": "Calle Almirante Cadarso 26 46005 Valencia.",
       "website": "https://www.criptan.com",
       "website_platform": null,
       "auth_date": "2026-06-26",
@@ -9384,7 +9672,7 @@
       "commercial_name": "MINOS GLOBAL",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Calle Maudes 51 planta 8 28003 Madrid",
+      "address": "Calle Maudes 51 planta 8 28003 Madrid.",
       "website": "https://minos.global",
       "website_platform": null,
       "auth_date": "2026-06-30",
@@ -9425,7 +9713,7 @@
       "commercial_name": "PROSEGUR CRYPTO",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Calle Herberto Gut 12 Madrid 28007",
+      "address": "Calle Herberto Gut 12 Madrid 28007.",
       "website": "https://www.prosegurcrypto.com",
       "website_platform": null,
       "auth_date": "2026-06-30",
@@ -9506,9 +9794,38 @@
         "g"
       ],
       "passporting_countries": [
-        "ES"
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
       ],
-      "last_update": "2026-08-17",
+      "last_update": "2026-11-03",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -9530,7 +9847,7 @@
       "commercial_name": "CRYPTOPOCKET",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Calle San Juan de Ortega num. 10 esc 1 puerta B local Correoslabs. 28050 Madrid",
+      "address": "Calle San Juan de Ortega num. 10 esc 1 puerta B local Correoslabs. 28050 Madrid.",
       "website": "https://cryptopocket.io",
       "website_platform": null,
       "auth_date": "2026-07-31",
@@ -9589,7 +9906,7 @@
       "commercial_name": "GOIN CRYPTO",
       "home_country": "ES",
       "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
-      "address": "Carrer de Joan d Austria 126  5º 2ª. 08018 Barcelona",
+      "address": "Carrer de Joan d Austria 126  5º 2ª. 08018 Barcelona.",
       "website": "https://www.goin.app",
       "website_platform": null,
       "auth_date": "2026-10-09",
@@ -9619,6 +9936,44 @@
       "confidence": "high",
       "brief_description": "Goin is a Spanish consumer-facing app combining crypto buying/custody and cashback rewards, targeting retail users across Europe to help them save, invest, and spend smarter.",
       "classification_date": "2026-10-19",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "efd96afe",
+      "lei": "54930056IRBXK0Q1FP96",
+      "legal_name": "ABANCA CORPORACION BANCARIA, S.A.",
+      "commercial_name": "ABANCA",
+      "home_country": "ES",
+      "competent_authority": "Comision Nacional del Mercado de Valores (CNMV)",
+      "address": "Calle Canton Claudino Pita 2. 15300 Betanzos (A Coruña).",
+      "website": "https://www.abanca.com/es",
+      "website_platform": null,
+      "auth_date": "2026-11-06",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "g",
+        "j"
+      ],
+      "passporting_countries": [
+        "ES"
+      ],
+      "last_update": "2026-11-10",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "payment_services",
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "ABANCA is a traditional Spanish retail and commercial bank that has expanded into MiCA-regulated crypto-asset services, offering custody, order transmission, and transfer services for crypto-assets alongside its core banking products.",
+      "classification_date": "2026-11-12",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -9905,7 +10260,7 @@
         "SK"
       ],
       "last_update": "2025-05-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -9971,7 +10326,7 @@
         "SK"
       ],
       "last_update": "2025-06-19",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10016,7 +10371,7 @@
         "NL"
       ],
       "last_update": "2025-06-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "bank",
       "target_segments": [
         "institutional",
@@ -10080,7 +10435,7 @@
         "SK"
       ],
       "last_update": "2025-06-30",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -10143,7 +10498,7 @@
         "SK"
       ],
       "last_update": "2025-07-04",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -10185,7 +10540,7 @@
         "NL"
       ],
       "last_update": "2025-07-17",
-      "comments": "0",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "retail",
@@ -10233,7 +10588,7 @@
         "PT"
       ],
       "last_update": "2025-09-11",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10293,7 +10648,7 @@
         "SK"
       ],
       "last_update": "2025-10-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -10356,8 +10711,8 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-10-29",
-      "comments": "0",
+      "last_update": "2025-10-23",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "institutional",
@@ -10427,7 +10782,7 @@
         "SK"
       ],
       "last_update": "2025-10-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "bank",
       "target_segments": [
         "retail",
@@ -10486,7 +10841,7 @@
         "SK"
       ],
       "last_update": "2025-12-04",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -10555,7 +10910,7 @@
         "SK"
       ],
       "last_update": "2026-01-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "payment_institution",
       "target_segments": [
         "institutional"
@@ -10595,7 +10950,7 @@
         "PT"
       ],
       "last_update": "2026-02-05",
-      "comments": "0",
+      "comments": null,
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -10662,7 +11017,7 @@
         "SK"
       ],
       "last_update": "2026-03-05",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10728,7 +11083,7 @@
         "SK"
       ],
       "last_update": "2026-04-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -10776,7 +11131,7 @@
         "PT"
       ],
       "last_update": "2026-04-28",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10821,7 +11176,7 @@
         "LU"
       ],
       "last_update": "2026-05-07",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -10864,7 +11219,7 @@
         "FR"
       ],
       "last_update": "2026-05-21",
-      "comments": "0",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "professional",
@@ -10932,7 +11287,7 @@
         "SK"
       ],
       "last_update": "2026-05-21",
-      "comments": "0",
+      "comments": null,
       "entity_type": "payment_institution",
       "target_segments": [
         "institutional",
@@ -10979,7 +11334,7 @@
         "PT"
       ],
       "last_update": "2026-06-12",
-      "comments": "0",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "retail"
@@ -11046,7 +11401,7 @@
         "SK"
       ],
       "last_update": "2026-06-12",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "professional",
@@ -11083,7 +11438,7 @@
         "FR"
       ],
       "last_update": "2026-06-18",
-      "comments": "0",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "professional",
@@ -11122,7 +11477,7 @@
         "NL"
       ],
       "last_update": "2026-06-18",
-      "comments": "0",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "professional",
@@ -11189,7 +11544,7 @@
         "SK"
       ],
       "last_update": "2026-06-22",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11254,7 +11609,7 @@
         "SK"
       ],
       "last_update": "2026-06-22",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -11299,7 +11654,7 @@
         "PT"
       ],
       "last_update": "2026-06-22",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11339,7 +11694,7 @@
         "FR"
       ],
       "last_update": "2026-06-25",
-      "comments": "0",
+      "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
         "retail",
@@ -11389,7 +11744,7 @@
         "SE"
       ],
       "last_update": "2026-06-25",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -11436,7 +11791,7 @@
         "NL"
       ],
       "last_update": "2026-06-30",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -11474,7 +11829,7 @@
         "FR"
       ],
       "last_update": "2026-06-30",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11515,7 +11870,7 @@
         "NL"
       ],
       "last_update": "2026-06-30",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -11577,7 +11932,7 @@
         "SK"
       ],
       "last_update": "2026-07-06",
-      "comments": "0",
+      "comments": null,
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -11638,7 +11993,7 @@
         "SK"
       ],
       "last_update": "2026-07-23",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "institutional",
@@ -11678,7 +12033,7 @@
         "BE"
       ],
       "last_update": "2026-07-24",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail"
@@ -11729,7 +12084,7 @@
         "SI"
       ],
       "last_update": "2026-07-28",
-      "comments": "0",
+      "comments": null,
       "entity_type": "hybrid",
       "target_segments": [
         "retail",
@@ -11799,7 +12154,7 @@
         "SK"
       ],
       "last_update": "2026-09-11",
-      "comments": "0",
+      "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -12250,6 +12605,48 @@
       "confidence": "high",
       "brief_description": "Hrvatska poštanska banka (HPB) is Croatia's largest domestically-owned traditional bank that has registered under MiCA to offer crypto-asset custody and administration services alongside its core banking products.",
       "classification_date": "2026-09-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "cfaeeb53",
+      "lei": "984500B702FE8F637752",
+      "legal_name": "Tiwala Solutions Korlátolt Felelősségű Társaság",
+      "commercial_name": "CoinCash",
+      "home_country": "HU",
+      "competent_authority": "Central Bank of Hungary (MNB)",
+      "address": "1131 Budapest, Mosoly utca 40/A 1. em. 3.",
+      "website": "https://coincash.eu",
+      "website_platform": null,
+      "auth_date": "2026-07-20",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "c",
+        "d",
+        "h",
+        "i",
+        "j"
+      ],
+      "passporting_countries": [
+        "HU"
+      ],
+      "last_update": "2026-07-20",
+      "comments": null,
+      "entity_type": "crypto_native",
+      "target_segments": [
+        "retail",
+        "professional"
+      ],
+      "primary_products": [
+        "spot_exchange",
+        "custody",
+        "portfolio_management",
+        "advisory",
+        "otc_trading"
+      ],
+      "confidence": "high",
+      "brief_description": "CoinCash (Tiwala Solutions Kft.) is a Hungarian crypto-native exchange and custody provider founded in 2017, offering simple buy/sell services via bank transfer or cash for retail users, alongside VIP portfolio management and advisory services for high-net-worth clients investing above €100,000.",
+      "classification_date": "2026-11-12",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -14203,11 +14600,11 @@
     {
       "id": "2a1f8fd8",
       "lei": "254900GTP4UXQO1UMI36",
-      "legal_name": "Robinhood Europe UAB",
+      "legal_name": "Robinhood Europe, UAB",
       "commercial_name": "Robinhood",
       "home_country": "LT",
       "competent_authority": "Bank of Lithuania (LSC)",
-      "address": "Konstitucijos st. 21A, 08130, Vilnius, Lithuania",
+      "address": "Konstitucijos pr. 21A, 08130, Vilnius, Lithuania",
       "website": "https://www.robinhood.com",
       "website_platform": null,
       "auth_date": "2025-05-29",
@@ -14250,7 +14647,7 @@
         "SK"
       ],
       "last_update": "2025-06-16",
-      "comments": null,
+      "comments": "Entity has MiFID II, CASP and PSD2 licences (only for operations with EMTs)",
       "entity_type": "hybrid",
       "target_segments": [
         "retail"
@@ -14270,11 +14667,11 @@
     {
       "id": "7cd494e3",
       "lei": "6488907MV9XAA08E4E40",
-      "legal_name": "UAB Decentralized",
+      "legal_name": "UAB \"Decentralized\"",
       "commercial_name": "Coingate",
       "home_country": "LT",
       "competent_authority": "Bank of Lithuania (LSC)",
-      "address": "Lvivo g. 37, Vilnius, 09307, Lithuania",
+      "address": "Lvivo g. 37, 09307, Vilnius, Lithuania",
       "website": "https://coingate.com",
       "website_platform": null,
       "auth_date": "2025-12-16",
@@ -14317,7 +14714,7 @@
         "SK"
       ],
       "last_update": "2026-03-02",
-      "comments": null,
+      "comments": "Entity has CASP and PSD2 licences (only for operations with EMTs)",
       "entity_type": "crypto_native",
       "target_segments": [
         "retail",
@@ -14338,10 +14735,10 @@
       "id": "f9627eed",
       "lei": "894500IY99QLL9M0SR28",
       "legal_name": "Nuvei Liquidity UAB",
-      "commercial_name": "Simplex",
+      "commercial_name": "Simplex / Nuvei",
       "home_country": "LT",
       "competent_authority": "Bank of Lithuania (LSC)",
-      "address": "Lvivo g. 37, Vilnius, 09307, Lithuania",
+      "address": "Lvivo g. 37, 09307, Vilnius, Lithuania",
       "website": "https://simplex.com",
       "website_platform": null,
       "auth_date": "2025-12-16",
@@ -14384,7 +14781,7 @@
         "SK"
       ],
       "last_update": "2026-03-02",
-      "comments": null,
+      "comments": "Entity has CASP and PSD2 licences (only for operations with EMTs)",
       "entity_type": "payment_institution",
       "target_segments": [
         "retail",
@@ -14405,11 +14802,11 @@
       "id": "8c15c273",
       "lei": "894500R6HJP62BZX4M89",
       "legal_name": "UAB Micar assets",
-      "commercial_name": "Myriad Capital",
+      "commercial_name": "Micar Assets",
       "home_country": "LT",
       "competent_authority": "Bank of Lithuania (LSC)",
-      "address": "J. Savickio g. 4-7, Vilnius, 01108, Lithuania",
-      "website": "https://myriadcapital.lt",
+      "address": "J. Savickio g. 4-7,  01108, Vilnius, Lithuania",
+      "website": "https://micarassets.com",
       "website_platform": null,
       "auth_date": "2026-02-26",
       "auth_end_date": null,
@@ -14421,8 +14818,38 @@
         "g",
         "j"
       ],
-      "passporting_countries": [],
-      "last_update": null,
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-11-10",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -14509,7 +14936,7 @@
       "id": "413509dd",
       "lei": "254900XFMACGD0L7AI73",
       "legal_name": "UAB BLUE EMI LT",
-      "commercial_name": "BLUE EMI",
+      "commercial_name": "BLUE EMI / Checkout.com",
       "home_country": "LT",
       "competent_authority": "Bank of Lithuania (LSC)",
       "address": "Antano Tumėno g. 4, 01110, Vilnius, Lithuania",
@@ -14521,7 +14948,7 @@
         "a"
       ],
       "passporting_countries": [],
-      "last_update": "2026-03-26",
+      "last_update": "2026-11-10",
       "comments": "CASP services are provided under Article 60(4) of MiCA, in relation to own issued EMT called BLUEUR",
       "entity_type": "hybrid",
       "target_segments": [
@@ -14536,6 +14963,72 @@
       "confidence": "high",
       "brief_description": "Blue EMI is a Lithuanian e-money institution and MiCA-registered CASP offering card payments, open banking, a MiCAR-compliant euro-backed stablecoin (e-money token), and crypto custody services, primarily targeting e-commerce merchants and crowdfunding platforms.",
       "classification_date": "2026-09-26",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "57b1e80e",
+      "lei": "894500HTR904ROVYPH84",
+      "legal_name": "UAB DriveWealth Europe",
+      "commercial_name": "DriveWealth",
+      "home_country": "LT",
+      "competent_authority": "Bank of Lithuania (LSC)",
+      "address": "Konstitucijos pr. 18b, Vilnius, 09308, Lithuania",
+      "website": "https://www.drivewealth.com",
+      "website_platform": null,
+      "auth_date": "2026-11-09",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "g"
+      ],
+      "passporting_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IS",
+        "IT",
+        "LI",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "NO",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ],
+      "last_update": "2026-11-10",
+      "comments": "Entity was licensed as a MiFID II entity in 2024",
+      "entity_type": "investment_firm",
+      "target_segments": [
+        "institutional",
+        "professional"
+      ],
+      "primary_products": [
+        "infrastructure",
+        "custody",
+        "spot_exchange",
+        "savings_investment"
+      ],
+      "confidence": "medium",
+      "brief_description": "DriveWealth is a B2B Brokerage-as-a-Service infrastructure provider offering API-based trading and investment technology to fintechs, brokers, and financial institutions globally, now registered as a MiCA CASP in Lithuania to extend crypto custody and order execution services across the EU/EEA.",
+      "classification_date": "2026-11-12",
       "llm_model": "claude-sonnet-4-6"
     },
     {
@@ -17592,6 +18085,44 @@
       "llm_model": "claude-sonnet-4-6"
     },
     {
+      "id": "40f6bc63",
+      "lei": "21380099RT73NFBYS559",
+      "legal_name": "Sparkasse Bank Malta Plc",
+      "commercial_name": "Sparkasse Bank Malta Plc",
+      "home_country": "MT",
+      "competent_authority": "Malta Financial Services Authority (MFSA)",
+      "address": "101 Townsquare Ix-Xatt ta’ Qui-si-Sana, Sliema, SLM3112",
+      "website": "https://sbm.bank",
+      "website_platform": null,
+      "auth_date": "2026-10-02",
+      "auth_end_date": null,
+      "services": [
+        "a",
+        "e",
+        "g"
+      ],
+      "passporting_countries": [
+        "MT"
+      ],
+      "last_update": "2026-10-02",
+      "comments": "The acknowledgment for the MiCA Notification letter by the MFSA was sent to Sparaksse Bank on 02/10/2026 . MFSA Banking Supervision is currently awaiting a reply from the bank in terms of the post-commencment of business conditions.",
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "custody",
+        "spot_exchange",
+        "advisory"
+      ],
+      "confidence": "high",
+      "brief_description": "Sparkasse Bank Malta plc is a traditional Maltese bank offering depositary and custody services, investment services, and corporate banking, now extending its offering to crypto-asset custody and order execution under MiCA registration.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
+    },
+    {
       "id": "89d7583b",
       "lei": "254900KXWAZ3B1340G26",
       "legal_name": "MoonPay Europe B.V.",
@@ -18199,7 +18730,7 @@
       "id": "2fc45b01",
       "lei": "724500T7PFN30PF3ZQ87",
       "legal_name": "Amdax B.V.",
-      "commercial_name": "Amdax B.V.|Amdax Group|Novelist",
+      "commercial_name": "Amdax B.V.|Amdax Group",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "address": "Gustav Mahlerplein 45 - 1082MS Amsterdam - The Netherlands",
@@ -18245,7 +18776,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2025-06-30",
+      "last_update": "2026-11-02",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -18530,7 +19061,7 @@
       "id": "7681375a",
       "lei": "69940000HAL9ODW3IMO22",
       "legal_name": "EU Internet Ventures B.V.",
-      "commercial_name": "EU Internet Ventures |EUIV|BNXA | OSL Pay | WisPay",
+      "commercial_name": "EU Internet Ventures |OSL Pay | WisPay",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "address": "Piet Heinkade 93B - 1019 GM Amsterdam - The Netherlands",
@@ -18575,7 +19106,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2026-07-17",
+      "last_update": "2026-11-02",
       "comments": null,
       "entity_type": "payment_institution",
       "target_segments": [
@@ -18879,7 +19410,7 @@
       "id": "3a265ef6",
       "lei": "724500BUG93MDFGYQG03",
       "legal_name": "Monflo B.V.",
-      "commercial_name": "Monflo",
+      "commercial_name": "Monflo, Monflow B.V.",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "address": "Prins Willem-Alexandarlaan 301 - 7311SW Apeldoorn - The Netherlands",
@@ -18898,7 +19429,7 @@
         "LU",
         "NL"
       ],
-      "last_update": "2025-12-04",
+      "last_update": "2026-11-02",
       "comments": null,
       "entity_type": "hybrid",
       "target_segments": [
@@ -18985,7 +19516,7 @@
       "id": "78574e81",
       "lei": "7245002DD3GNFXPGPP93",
       "legal_name": "D2X Group N.V.",
-      "commercial_name": "D2X",
+      "commercial_name": "D2X Group N.V.",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "address": "Ijsbaanpad 2 - 1076CV Amsterdam - The Netherlands",
@@ -18999,7 +19530,7 @@
       "passporting_countries": [
         "NL"
       ],
-      "last_update": "2026-03-26",
+      "last_update": "2026-11-02",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -19081,7 +19612,7 @@
       "commercial_name": "Change | Change Invest | getchange.com | ChangePro | changeinvest.com | AgenaTrader | agenatrader.com| TradersYard | tradersyard.com",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
-      "address": "Westeinde 89 - 2211XS Noordwijkerhout - The Netherlands",
+      "address": "Barbara Strozzilaan 101 - 1083 HN Amsterdam - The Netherlands",
       "website": "https://www.changeinvest.com",
       "website_platform": null,
       "auth_date": "2026-04-20",
@@ -19094,7 +19625,7 @@
       "passporting_countries": [
         "NL"
       ],
-      "last_update": "2026-04-20",
+      "last_update": "2026-11-02",
       "comments": null,
       "entity_type": "investment_firm",
       "target_segments": [
@@ -19116,7 +19647,7 @@
       "id": "4e8d774d",
       "lei": "724500QZRWKCU8D2L569",
       "legal_name": "Digital Currency Services B.V.",
-      "commercial_name": "DCS | HappyCoins",
+      "commercial_name": "Digital Currency Services | HappyCoins",
       "home_country": "NL",
       "competent_authority": "Netherlands Authority for the Financial Markets (AFM)",
       "address": "Europalaan 100 - 3526 KS Utrecht - The Netherlands",
@@ -19955,7 +20486,7 @@
       "commercial_name": "BITCOINMAT",
       "home_country": "SK",
       "competent_authority": "National Bank of Slovakia (NBS)",
-      "address": "Gen. Svobodu 1, 911 08 Trenčín, Slovakia",
+      "address": "Cez ohrady 738/33 911 05 Trenčín, Slovakia",
       "website": "https://bitcoinmat.sk",
       "website_platform": null,
       "auth_date": "2025-12-19",
@@ -19996,7 +20527,7 @@
         "SI",
         "SK"
       ],
-      "last_update": "2025-12-19",
+      "last_update": "2026-11-09",
       "comments": null,
       "entity_type": "crypto_native",
       "target_segments": [
@@ -20150,7 +20681,7 @@
     {
       "id": "0e0b461d",
       "lei": "9845004E55FCFA069549",
-      "legal_name": "Firefish Europe s.r.o",
+      "legal_name": "Firefish Europe s.r.o.",
       "commercial_name": "Firefish",
       "home_country": "SK",
       "competent_authority": "National Bank of Slovakia (NBS)",
@@ -20282,6 +20813,40 @@
       "brief_description": "Okazio is a Slovak MiCA-licensed crypto asset manager targeting retail investors with ready-made investment solutions including digital lending portfolios and crypto asset management, promising approximately 10% APY through digital loans and liquidity provision.",
       "classification_date": "2026-09-26",
       "llm_model": "claude-sonnet-4-6"
+    },
+    {
+      "id": "34c9dd59",
+      "lei": "3157002JBFAI478MD587",
+      "legal_name": "Tatra banka, a.s.",
+      "commercial_name": "Tatra banka",
+      "home_country": "SK",
+      "competent_authority": "National Bank of Slovakia (NBS)",
+      "address": "Hodžovo námestie 3, 81106 Bratislava, Slovakia",
+      "website": "https://www.tatrabanka.sk",
+      "website_platform": null,
+      "auth_date": "2026-08-31",
+      "auth_end_date": null,
+      "services": [
+        "e"
+      ],
+      "passporting_countries": [
+        "SK"
+      ],
+      "last_update": "2026-11-03",
+      "comments": null,
+      "entity_type": "bank",
+      "target_segments": [
+        "retail",
+        "professional",
+        "institutional"
+      ],
+      "primary_products": [
+        "spot_exchange"
+      ],
+      "confidence": "high",
+      "brief_description": "Tatra banka is a well-established Slovak commercial bank that has registered under MiCA to offer crypto-asset order execution services to its existing client base.",
+      "classification_date": "2026-11-12",
+      "llm_model": "claude-sonnet-4-6"
     }
   ],
   "countries": {
@@ -20291,9 +20856,9 @@
       "population": 9100000,
       "gdp_eur": 447000000000,
       "eea": true,
-      "registered_casps": 12,
-      "passported_casps": 191,
-      "total_casps": 203
+      "registered_casps": 13,
+      "passported_casps": 195,
+      "total_casps": 208
     },
     "BE": {
       "name": "Belgium",
@@ -20302,8 +20867,8 @@
       "gdp_eur": 554000000000,
       "eea": true,
       "registered_casps": 2,
-      "passported_casps": 201,
-      "total_casps": 203
+      "passported_casps": 206,
+      "total_casps": 208
     },
     "BG": {
       "name": "Bulgaria",
@@ -20312,8 +20877,8 @@
       "gdp_eur": 95000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 180,
-      "total_casps": 185
+      "passported_casps": 184,
+      "total_casps": 189
     },
     "HR": {
       "name": "Croatia",
@@ -20322,8 +20887,8 @@
       "gdp_eur": 68000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 185,
-      "total_casps": 191
+      "passported_casps": 189,
+      "total_casps": 195
     },
     "CY": {
       "name": "Cyprus",
@@ -20331,9 +20896,9 @@
       "population": 920000,
       "gdp_eur": 28000000000,
       "eea": true,
-      "registered_casps": 25,
-      "passported_casps": 187,
-      "total_casps": 212
+      "registered_casps": 26,
+      "passported_casps": 192,
+      "total_casps": 218
     },
     "CZ": {
       "name": "Czech Republic",
@@ -20342,8 +20907,8 @@
       "gdp_eur": 290000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 187,
-      "total_casps": 199
+      "passported_casps": 191,
+      "total_casps": 203
     },
     "DK": {
       "name": "Denmark",
@@ -20352,8 +20917,8 @@
       "gdp_eur": 380000000000,
       "eea": true,
       "registered_casps": 7,
-      "passported_casps": 184,
-      "total_casps": 191
+      "passported_casps": 188,
+      "total_casps": 195
     },
     "EE": {
       "name": "Estonia",
@@ -20362,8 +20927,8 @@
       "gdp_eur": 38000000000,
       "eea": true,
       "registered_casps": 3,
-      "passported_casps": 183,
-      "total_casps": 186
+      "passported_casps": 187,
+      "total_casps": 190
     },
     "FI": {
       "name": "Finland",
@@ -20372,8 +20937,8 @@
       "gdp_eur": 275000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 185,
-      "total_casps": 190
+      "passported_casps": 189,
+      "total_casps": 194
     },
     "FR": {
       "name": "France",
@@ -20382,8 +20947,8 @@
       "gdp_eur": 2800000000000,
       "eea": true,
       "registered_casps": 36,
-      "passported_casps": 179,
-      "total_casps": 215
+      "passported_casps": 184,
+      "total_casps": 220
     },
     "DE": {
       "name": "Germany",
@@ -20391,9 +20956,9 @@
       "population": 84000000,
       "gdp_eur": 4100000000000,
       "eea": true,
-      "registered_casps": 119,
-      "passported_casps": 311,
-      "total_casps": 430
+      "registered_casps": 127,
+      "passported_casps": 323,
+      "total_casps": 450
     },
     "GR": {
       "name": "Greece",
@@ -20402,8 +20967,8 @@
       "gdp_eur": 220000000000,
       "eea": true,
       "registered_casps": 4,
-      "passported_casps": 186,
-      "total_casps": 190
+      "passported_casps": 190,
+      "total_casps": 194
     },
     "HU": {
       "name": "Hungary",
@@ -20411,9 +20976,9 @@
       "population": 9700000,
       "gdp_eur": 180000000000,
       "eea": true,
-      "registered_casps": 0,
-      "passported_casps": 178,
-      "total_casps": 178
+      "registered_casps": 1,
+      "passported_casps": 183,
+      "total_casps": 184
     },
     "IS": {
       "name": "Iceland",
@@ -20422,8 +20987,8 @@
       "gdp_eur": 25000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 159,
-      "total_casps": 160
+      "passported_casps": 163,
+      "total_casps": 164
     },
     "IE": {
       "name": "Ireland",
@@ -20432,8 +20997,8 @@
       "gdp_eur": 500000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 190,
-      "total_casps": 202
+      "passported_casps": 194,
+      "total_casps": 206
     },
     "IT": {
       "name": "Italy",
@@ -20442,8 +21007,8 @@
       "gdp_eur": 2000000000000,
       "eea": true,
       "registered_casps": 10,
-      "passported_casps": 210,
-      "total_casps": 220
+      "passported_casps": 214,
+      "total_casps": 224
     },
     "LV": {
       "name": "Latvia",
@@ -20452,8 +21017,8 @@
       "gdp_eur": 40000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 180,
-      "total_casps": 192
+      "passported_casps": 184,
+      "total_casps": 196
     },
     "LI": {
       "name": "Liechtenstein",
@@ -20462,8 +21027,8 @@
       "gdp_eur": 7000000000,
       "eea": true,
       "registered_casps": 12,
-      "passported_casps": 170,
-      "total_casps": 182
+      "passported_casps": 174,
+      "total_casps": 186
     },
     "LT": {
       "name": "Lithuania",
@@ -20471,9 +21036,9 @@
       "population": 2900000,
       "gdp_eur": 67000000000,
       "eea": true,
-      "registered_casps": 6,
-      "passported_casps": 181,
-      "total_casps": 187
+      "registered_casps": 7,
+      "passported_casps": 183,
+      "total_casps": 190
     },
     "LU": {
       "name": "Luxembourg",
@@ -20482,8 +21047,8 @@
       "gdp_eur": 80000000000,
       "eea": true,
       "registered_casps": 13,
-      "passported_casps": 192,
-      "total_casps": 205
+      "passported_casps": 196,
+      "total_casps": 209
     },
     "MT": {
       "name": "Malta",
@@ -20491,9 +21056,9 @@
       "population": 540000,
       "gdp_eur": 18000000000,
       "eea": true,
-      "registered_casps": 23,
-      "passported_casps": 168,
-      "total_casps": 191
+      "registered_casps": 24,
+      "passported_casps": 173,
+      "total_casps": 197
     },
     "NL": {
       "name": "Netherlands",
@@ -20502,8 +21067,8 @@
       "gdp_eur": 1010000000000,
       "eea": true,
       "registered_casps": 29,
-      "passported_casps": 209,
-      "total_casps": 238
+      "passported_casps": 214,
+      "total_casps": 243
     },
     "NO": {
       "name": "Norway",
@@ -20512,8 +21077,8 @@
       "gdp_eur": 480000000000,
       "eea": true,
       "registered_casps": 6,
-      "passported_casps": 168,
-      "total_casps": 174
+      "passported_casps": 172,
+      "total_casps": 178
     },
     "PL": {
       "name": "Poland",
@@ -20522,8 +21087,8 @@
       "gdp_eur": 680000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 186,
-      "total_casps": 186
+      "passported_casps": 190,
+      "total_casps": 190
     },
     "PT": {
       "name": "Portugal",
@@ -20532,8 +21097,8 @@
       "gdp_eur": 260000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 193,
-      "total_casps": 194
+      "passported_casps": 197,
+      "total_casps": 198
     },
     "RO": {
       "name": "Romania",
@@ -20542,8 +21107,8 @@
       "gdp_eur": 300000000000,
       "eea": true,
       "registered_casps": 0,
-      "passported_casps": 179,
-      "total_casps": 179
+      "passported_casps": 183,
+      "total_casps": 183
     },
     "SK": {
       "name": "Slovakia",
@@ -20551,9 +21116,9 @@
       "population": 5400000,
       "gdp_eur": 115000000000,
       "eea": true,
-      "registered_casps": 6,
-      "passported_casps": 183,
-      "total_casps": 189
+      "registered_casps": 7,
+      "passported_casps": 188,
+      "total_casps": 195
     },
     "SI": {
       "name": "Slovenia",
@@ -20562,8 +21127,8 @@
       "gdp_eur": 62000000000,
       "eea": true,
       "registered_casps": 5,
-      "passported_casps": 185,
-      "total_casps": 190
+      "passported_casps": 189,
+      "total_casps": 194
     },
     "ES": {
       "name": "Spain",
@@ -20571,9 +21136,9 @@
       "population": 48000000,
       "gdp_eur": 1400000000000,
       "eea": true,
-      "registered_casps": 16,
-      "passported_casps": 212,
-      "total_casps": 228
+      "registered_casps": 17,
+      "passported_casps": 217,
+      "total_casps": 234
     },
     "SE": {
       "name": "Sweden",
@@ -20582,8 +21147,8 @@
       "gdp_eur": 560000000000,
       "eea": true,
       "registered_casps": 1,
-      "passported_casps": 187,
-      "total_casps": 188
+      "passported_casps": 191,
+      "total_casps": 192
     },
     "CH": {
       "name": "Switzerland",
